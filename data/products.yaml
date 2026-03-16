@@ -1,0 +1,187 @@
+version: 1
+products:
+  - id: psmdb
+    name: Percona Server for MongoDB
+    shortName: Percona Server for MongoDB
+    category: database
+    description: "Percona Server for MongoDB is a free, open source drop-in replacement for MongoDB that adds enterprise-grade features — including enhanced security, auditing, hot backups, and performance diagnostics — without requiring a commercial license."
+    docsUrl: "https://docs.percona.com/percona-server-for-mongodb/"
+    forumUrl: "https://forums.percona.com/c/mongodb/percona-server-for-mongodb/17"
+    github:
+      repo: "percona/percona-server-mongodb"
+      releasesUrl: ""
+    position: { x: 3.0, y: 0, z: -1.3 }
+
+  - id: psmdb-operator
+    name: Percona Operator for MongoDB
+    shortName: Percona Operator for MongoDB
+    category: operator
+    description: "The Percona Operator for MongoDB automates the full lifecycle of Percona Server for MongoDB clusters on Kubernetes — handling provisioning, replication, backups, failover, and upgrades through a simple declarative API."
+    docsUrl: "https://docs.percona.com/percona-operator-for-mongodb/"
+    forumUrl: "https://forums.percona.com/c/mongodb/percona-kubernetes-operator-for-mongodb/29"
+    github:
+      repo: "percona/percona-server-mongodb-operator"
+      releasesUrl: ""
+    position: { x: 3.9, y: 0, z: -3.4 }
+
+  - id: ppg
+    name: Percona Distribution for PostgreSQL
+    shortName: Percona Distribution for PostgreSQL
+    category: database
+    description: "Percona Distribution for PostgreSQL bundles the community PostgreSQL engine with a curated set of proven open source extensions for connection pooling, high availability, backup, and monitoring — all tested together as a single, production-ready distribution."
+    docsUrl: "https://docs.percona.com/postgresql/"
+    forumUrl: "https://forums.percona.com/c/postgresql/percona-distribution-for-postgresql/21"
+    github:
+      repo: "percona/postgres"
+      releasesUrl: ""
+    position: { x: 1, y: 0, z: 2.5 }
+
+  - id: pg-operator
+    name: Percona Operator for PostgreSQL
+    shortName: Percona Operator for PostgreSQL
+    category: operator
+    description: "The Percona Operator for PostgreSQL simplifies running production-grade PostgreSQL on Kubernetes by automating provisioning, high availability, point-in-time recovery, and rolling upgrades through a fully Kubernetes-native declarative interface."
+    docsUrl: "https://docs.percona.com/percona-operator-for-postgresql/"
+    forumUrl: "https://forums.percona.com/c/postgresql/percona-kubernetes-operator-for-postgresql/68"
+    github:
+      repo: "percona/percona-postgresql-operator"
+      releasesUrl: ""
+    position: { x: 1.6, y: 0, z: 4.3 }
+
+  - id: psmysql
+    name: Percona Server for MySQL
+    shortName: Percona Server for MySQL
+    category: database
+    description: "Percona Server for MySQL is a freely available, fully compatible enhanced drop-in replacement for MySQL, delivering improved performance, scalability, and observability while maintaining complete upstream compatibility."
+    docsUrl: "https://docs.percona.com/percona-server/"
+    forumUrl: "https://forums.percona.com/c/mysql-mariadb/36"
+    github:
+      repo: "percona/percona-server"
+      releasesUrl: ""
+    position: { x: -3, y: 0, z: 1 }
+
+  - id: mysql-operator
+    name: Percona Operator for MySQL based on Percona Server for MySQL
+    shortName: Percona Operator for MySQL based on Percona Server for MySQL
+    category: operator
+    description: "The Percona Operator for MySQL based on Percona Server for MySQL manages the complete lifecycle of async and group replication MySQL topologies on Kubernetes, automating provisioning, scaling, backups, and seamless version upgrades."
+    docsUrl: "https://docs.percona.com/percona-operator-for-mysql/ps/"
+    forumUrl: "https://forums.percona.com/c/mysql-mariadb/percona-kubernetes-operator-for-mysql/28"
+    github:
+      repo: "percona/percona-server-mysql-operator"
+      releasesUrl: ""
+    position: { x: -5.4, y: 0, z: 1.9 }
+
+  - id: pxc
+    name: Percona XtraDB Cluster
+    shortName: Percona XtraDB Cluster
+    category: database
+    description: "Percona XtraDB Cluster is a high-availability MySQL solution built on Galera replication, delivering synchronous multi-master clustering that keeps every node consistent and enables zero-downtime maintenance and true horizontal write scaling."
+    docsUrl: "https://docs.percona.com/percona-xtradb-cluster/"
+    forumUrl: "https://forums.percona.com/c/mysql-mariadb/percona-xtradb-cluster-8-x/37"
+    github:
+      repo: "percona/percona-xtradb-cluster"
+      releasesUrl: ""
+    position: { x: -2.5, y: 0, z: -1.8 }
+
+  - id: pxc-operator
+    name: Percona Operator for MySQL based on Percona XtraDB Cluster
+    shortName: Percona Operator for MySQL based on Percona XtraDB Cluster
+    category: operator
+    description: "The Percona Operator for MySQL based on Percona XtraDB Cluster automates deployment and management of highly available PXC topologies on Kubernetes, with built-in support for synchronous replication, backups, scaling, and rolling upgrades."
+    docsUrl: "https://docs.percona.com/percona-operator-for-mysql/pxc/"
+    forumUrl: "https://forums.percona.com/c/mysql-mariadb/percona-kubernetes-operator-for-mysql/28"
+    github:
+      repo: "percona/percona-xtradb-cluster-operator"
+      releasesUrl: ""
+    position: { x: -2.2, y: 0, z: -4.2 }
+
+  - id: pmm
+    name: Percona Monitoring and Management
+    shortName: Percona Monitoring and Management
+    category: observability
+    description: "Percona Monitoring and Management is an open source observability platform for MySQL, PostgreSQL, MongoDB, and ProxySQL that provides deep query analytics, real-time metrics, alerting, and advisor checks to help teams identify and resolve database performance issues quickly."
+    docsUrl: "https://docs.percona.com/percona-monitoring-and-management/"
+    forumUrl: "https://forums.percona.com/c/percona-monitoring-and-management-pmm/30"
+    github:
+      repo: "percona/pmm"
+      releasesUrl: ""
+    position: { x: 1, y: 0, z: -6.4 }
+
+  - id: toolkit
+    name: Percona Toolkit
+    shortName: Percona Toolkit
+    category: tools
+    description: "Percona Toolkit is a collection of advanced command-line utilities for MySQL and PostgreSQL database administration, providing tools for online schema changes, query analysis, data comparison, table checksums, and replication health checks to help DBAs automate complex operational tasks safely."
+    docsUrl: "https://docs.percona.com/percona-toolkit/"
+    forumUrl: "https://forums.percona.com/c/polyglot-projects/percona-toolkit/13"
+    github:
+      repo: "percona/percona-toolkit"
+      releasesUrl: ""
+    position: { x: -10, y: 0, z: -2.5 }
+
+edges:
+  - from: pmm
+    to: psmdb
+    type: monitors
+    label: "PMM monitors MongoDB"
+
+  - from: pmm
+    to: psmysql
+    type: monitors
+    label: "PMM monitors MySQL"
+
+  - from: pmm
+    to: ppg
+    type: monitors
+    label: "PMM monitors PostgreSQL"
+
+  - from: pmm
+    to: pg-operator
+    type: monitors
+    label: "PMM observes PostgreSQL Operator"
+
+  - from: pmm
+    to: mysql-operator
+    type: monitors
+    label: "PMM observes MySQL PS Operator"
+
+  - from: pmm
+    to: psmdb-operator
+    type: monitors
+    label: "PMM observes MongoDB Operator"
+
+  - from: pmm
+    to: pxc
+    type: monitors
+    label: "PMM monitors PXC"
+
+  - from: pg-operator
+    to: ppg
+    type: manages
+    label: "PostgreSQL Operator manages PostgreSQL"
+
+  - from: mysql-operator
+    to: psmysql
+    type: manages
+    label: "PS MySQL Operator manages Percona Server for MySQL"
+
+  - from: psmdb-operator
+    to: psmdb
+    type: manages
+    label: "MongoDB Operator manages MongoDB"
+
+  - from: pxc-operator
+    to: pxc
+    type: manages
+    label: "PXC MySQL Operator manages Percona XtraDB Cluster"
+
+  - from: toolkit
+    to: psmysql
+    type: toolsFor
+    label: "Toolkit supports MySQL workflows"
+
+  - from: toolkit
+    to: ppg
+    type: toolsFor
+    label: "Toolkit supports PostgreSQL workflows"
