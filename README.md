@@ -2,84 +2,11 @@
 
 An interactive **3D galaxy map** of Percona's open source database ecosystem.
 Navigate a star field, click planets to explore product releases, and see how
-tools relate to each other — all driven by live GitHub release data.
+tools relate to each other, all driven by live GitHub release data.
 
-![screenshot placeholder](docs/screenshot.png)
+> Website: **[percona-stack-galaxy.vercel.app](https://percona-stack-galaxy.vercel.app/)**
 
-## Live Demo
-
-> Coming soon — deploy to Vercel in one click (button below once the repo is public).
-
----
-
-## Deploy to Vercel
-
-### 1. Push the repo to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/YOUR_ORG/percona-stack-galaxy.git
-git push -u origin main
-```
-
-### 2. Import to Vercel
-
-1. Go to [vercel.com/new](https://vercel.com/new) and click **Import Git Repository**
-2. Select your repo
-3. Framework will be auto-detected as **Next.js** — no changes needed
-4. Under **Environment Variables**, add:
-
-| Name | Value |
-|---|---|
-| `GITHUB_TOKEN` | A GitHub PAT with no scopes (read-only public repos) |
-| `AI_SUMMARIZE` | `false` (or `true` to enable Claude summaries) |
-| `ANTHROPIC_API_KEY` | Your Anthropic key (only needed if `AI_SUMMARIZE=true`) |
-
-5. Click **Deploy**
-
-### 3. Enable the auto-update pipeline
-
-The GitHub Action (`.github/workflows/update-galaxy-data.yml`) runs daily, refreshes the data, and pushes the result — Vercel auto-redeploys on every push.
-
-Add these secrets to your GitHub repo (**Settings → Secrets → Actions**):
-
-| Secret | Value |
-|---|---|
-| `GITHUB_TOKEN` | Auto-provided by GitHub Actions — no action needed |
-| `ANTHROPIC_API_KEY` | Only if AI summarisation is enabled |
-
-### Auto-update flow
-
-```
-Every day at 02:00 UTC
-        │
-        ▼
-GitHub Actions: npm run build:data
-        │  fetches latest releases from GitHub API
-        │  generates public/galaxy-data.json
-        ▼
-git commit "chore: update galaxy data [skip ci]"
-        │  [skip ci] prevents an infinite Actions loop
-        ▼
-git push → GitHub repo updated
-        │
-        ▼
-Vercel detects new commit → redeploys in ~30 s
-        │
-        ▼
-Live site shows fresh release data
-```
-
-To trigger a manual refresh:
-
-```bash
-# Locally
-npm run build:data && git add public/galaxy-data.json && git commit -m "chore: refresh data" && git push
-
-# Or via GitHub UI: Actions → "Update Galaxy Data" → Run workflow
-```
+ ![screenshot placeholder](public/intro.png)
 
 ---
 
@@ -111,7 +38,7 @@ The app ships a seeded `public/galaxy-data.json` so it works immediately.
 To pull fresh data from GitHub:
 
 ```bash
-# Optional: set a GitHub token (increases rate limit 60 → 5 000 req/h)
+# Optional: set a GitHub token
 cp .env.example .env
 # edit .env and add GITHUB_TOKEN=ghp_...
 
@@ -148,52 +75,10 @@ AI is **disabled by default** and never required to run the app.
 
 ---
 
-## Project Structure
-
-```
-percona-stack-galaxy/
-├── data/
-│   └── products.yaml          # Source of truth for products & edges
-├── public/
-│   └── galaxy-data.json       # Generated dataset (committed)
-├── scripts/
-│   └── build-galaxy-data.ts   # Data pipeline
-├── src/
-│   ├── app/                   # Next.js App Router
-│   ├── components/
-│   │   ├── galaxy/            # Three.js / R3F components
-│   │   │   ├── GalaxyCanvas.tsx
-│   │   │   ├── GalaxyScene.tsx
-│   │   │   ├── Planet.tsx
-│   │   │   ├── EdgeLine.tsx
-│   │   │   ├── StarField.tsx   # 7 800+ stars, clusters, dark/light theme
-│   │   │   ├── CometField.tsx  # 2 animated comets with nucleus + tail
-│   │   │   ├── Sun.tsx
-│   │   │   ├── OrbitPath.tsx
-│   │   │   ├── EcosystemZone.tsx
-│   │   │   └── CameraRig.tsx
-│   │   ├── panels/            # UI overlays
-│   │   │   ├── IntroScreen.tsx
-│   │   │   ├── FilterToolbar.tsx
-│   │   │   ├── ProductPanel.tsx
-│   │   │   └── ReleaseCard.tsx
-│   │   └── GalaxyApp.tsx      # Root client component
-│   ├── hooks/
-│   │   ├── useGalaxyData.ts
-│   │   └── useFilters.ts
-│   ├── lib/utils.ts
-│   └── types/galaxy.ts
-├── .github/
-│   └── workflows/
-│       └── update-galaxy-data.yml
-└── .env.example
-```
-
----
 
 ## Adding a New Product
 
-1. **Edit `data/products.yaml`** — add an entry following the existing schema:
+1. **Edit `data/products.yaml`**, add an entry following the existing schema:
 
 ```yaml
 - id: my-product
@@ -258,4 +143,4 @@ Short version:
 
 ## License
 
-[Apache 2.0](LICENSE) — Percona open source community project.
+[Apache 2.0](LICENSE), Percona open source community project.

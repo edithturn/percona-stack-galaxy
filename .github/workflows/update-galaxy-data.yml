@@ -35,10 +35,7 @@ jobs:
       - name: Build galaxy data
         run: npm run build:data
         env:
-          # Uncomment when ready to add tokens:
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # raises rate limit 60→5000 req/h
-          # GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # needed for AI summaries
-          # AI_SUMMARIZE: ${{ inputs.ai_summarize || 'true' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AI_SUMMARIZE: "false"
 
       - name: Commit updated galaxy data
