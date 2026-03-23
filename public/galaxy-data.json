@@ -1302,13 +1302,8 @@
         "stars": 992,
         "forks": 197,
         "openIssues": 95,
-<<<<<<< HEAD
         "openPRs": 72,
         "lastCommit": "2026-03-23T17:14:38Z"
-=======
-        "openPRs": 74,
-        "lastCommit": "2026-03-23T02:17:28Z"
->>>>>>> f7fd865ae90fa7ebc9563507e8fda9a19e386b2c
       },
       "blogPosts": [
         {
@@ -1542,11 +1537,7 @@
         }
       ],
       "vitals": {
-<<<<<<< HEAD
         "stars": 25224,
-=======
-        "stars": 25217,
->>>>>>> f7fd865ae90fa7ebc9563507e8fda9a19e386b2c
         "forks": 1069,
         "openIssues": 418,
         "openPRs": 200,
@@ -1728,11 +1719,7 @@
         "forks": 50,
         "openIssues": 125,
         "openPRs": 56,
-<<<<<<< HEAD
         "lastCommit": "2026-03-23T16:56:54Z"
-=======
-        "lastCommit": "2026-03-23T02:08:07Z"
->>>>>>> f7fd865ae90fa7ebc9563507e8fda9a19e386b2c
       },
       "blogPosts": []
     }
