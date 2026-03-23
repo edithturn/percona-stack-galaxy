@@ -184,6 +184,7 @@ export default function GalaxyApp() {
         {selectedContribution && (
           <EcosystemPanel
             contribution={selectedContribution}
+            products={data.products}
             onClose={() => setSelectedContribution(null)}
           />
         )}

@@ -13,6 +13,7 @@ export interface Release {
   version: string;
   date: string;
   url: string;
+  docsUrl: string;
   tags: ReleaseTag[];
   highlights: string[];
   notesSnippet: string;

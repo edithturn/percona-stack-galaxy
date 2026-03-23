@@ -24,18 +24,34 @@ export function ReleaseCard({ release }: ReleaseCardProps) {
             {formatDate(release.date)} · {relativeTime(release.date)}
           </span>
         </div>
-        {release.url && (
-          <a
-            href={release.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 text-xs transition-colors shrink-0"
-            style={{ color: "var(--text-muted)" }}
-          >
-            <ExternalLink size={12} />
-            <span className="hidden sm:inline">Notes</span>
-          </a>
-        )}
+        <div className="flex items-center gap-2 shrink-0">
+          {release.docsUrl && (
+            <a
+              href={release.docsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 text-xs transition-colors"
+              style={{ color: "var(--text-muted)" }}
+              title="Release notes"
+            >
+              <ExternalLink size={12} />
+              <span className="hidden sm:inline">Docs</span>
+            </a>
+          )}
+          {release.url && (
+            <a
+              href={release.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 text-xs transition-colors"
+              style={{ color: "var(--text-muted)" }}
+              title="View on GitHub"
+            >
+              <ExternalLink size={12} />
+              <span className="hidden sm:inline">GitHub</span>
+            </a>
+          )}
+        </div>
       </div>
 
       {/* Breaking change banner */}

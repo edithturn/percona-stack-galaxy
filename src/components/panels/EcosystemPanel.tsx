@@ -3,10 +3,12 @@
 import { useEffect } from "react";
 import { X, ExternalLink, Rss, Activity, Star, GitFork, CircleDot, GitBranch, Clock } from "lucide-react";
 import type { EcosystemContribution } from "@/components/galaxy/EcosystemZone";
-import { relativeTime } from "@/lib/utils";
+import type { Product } from "@/types/galaxy";
+import { relativeTime, formatDate } from "@/lib/utils";
 
 interface EcosystemPanelProps {
   contribution: EcosystemContribution;
+  products?: Product[];
   onClose: () => void;
 }
 
@@ -64,7 +66,7 @@ const EVEREST_CONTENT = {
   ],
 };
 
-export function EcosystemPanel({ contribution, onClose }: EcosystemPanelProps) {
+export function EcosystemPanel({ contribution, products, onClose }: EcosystemPanelProps) {
   useEffect(() => {
     const handle = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
     window.addEventListener("keydown", handle);
@@ -72,9 +74,14 @@ export function EcosystemPanel({ contribution, onClose }: EcosystemPanelProps) {
   }, [onClose]);
 
   const isValkey = contribution.id === "valkey";
-  const isEverest = contribution.id === "everest";
+  const isEverest = contribution.id === "openeverest";
   const c = contribution.color;
-  const vitals = isValkey ? VALKEY_VITALS : isEverest ? EVEREST_VITALS : null;
+
+  // Use real data from galaxy-data.json, fall back to hardcoded
+  const product = products?.find((p) => p.id === contribution.id) ?? null;
+  const vitals = product?.vitals ?? (isValkey ? VALKEY_VITALS : isEverest ? EVEREST_VITALS : null);
+  const blogPosts = product?.blogPosts?.length ? product.blogPosts : (isValkey ? VALKEY_BLOG : EVEREST_BLOG);
+  const releases = product?.releases?.slice(0, 3) ?? [];
 
   return (
     <div className="absolute top-[50px] right-0 h-[calc(100%-50px)] w-full sm:w-[380px] lg:w-[420px] z-30 flex flex-col animate-slide-in">
@@ -174,7 +181,7 @@ export function EcosystemPanel({ contribution, onClose }: EcosystemPanelProps) {
                 <span className="text-[10px] font-semibold uppercase tracking-widest" style={{ color: "var(--text-muted)" }}>
                   Vital Signs
                 </span>
-                <a href={vitals.repoUrl} target="_blank" rel="noopener noreferrer" className="ml-auto flex items-center gap-1 text-[10px]" style={{ color: "var(--text-faint)" }}>
+                <a href={product?.repoUrl ?? (isValkey ? VALKEY_VITALS.repoUrl : EVEREST_VITALS.repoUrl)} target="_blank" rel="noopener noreferrer" className="ml-auto flex items-center gap-1 text-[10px]" style={{ color: "var(--text-faint)" }}>
                   <GitBranch size={10} /> GitHub
                 </a>
               </div>
@@ -218,6 +225,59 @@ export function EcosystemPanel({ contribution, onClose }: EcosystemPanelProps) {
             </div>
           )}
 
+          {/* Percona's role */}
+          <div
+            className="p-4 rounded-xl flex flex-col gap-2"
+            style={{ background: `${c}10`, border: `1px solid ${c}28` }}
+          >
+            <div className="flex items-center gap-2">
+              <div className="w-1.5 h-1.5 rounded-full" style={{ background: c }} />
+              <span className="text-[11px] font-semibold uppercase tracking-wider" style={{ color: c }}>
+                Percona&apos;s Role
+              </span>
+            </div>
+            <p className="text-xs leading-relaxed" style={{ color: "var(--text-muted)" }}>
+              {isValkey ? VALKEY_CONTENT.perconaRole : EVEREST_CONTENT.perconaRole}
+            </p>
+            {isValkey && (
+              <>
+                <div className="mt-1" style={{ borderTop: `1px solid ${c}20` }} />
+                <p className="text-xs leading-relaxed italic" style={{ color: "var(--text-muted)" }}>
+                  &ldquo;{VALKEY_CONTENT.quote.text}&rdquo;
+                </p>
+                <p className="text-[10px] font-semibold" style={{ color: "var(--text-faint)" }}>
+                  — {VALKEY_CONTENT.quote.author}
+                </p>
+              </>
+            )}
+          </div>
+
+          {/* Recent Releases */}
+          {releases.length > 0 && (
+            <div className="flex flex-col gap-2">
+              <span className="text-xs font-semibold uppercase tracking-wider" style={{ color: "var(--text-muted)" }}>
+                Recent Releases
+              </span>
+              {releases.map((r, i) => (
+                <div
+                  key={i}
+                  className="flex items-center justify-between gap-2 px-3 py-2 rounded-lg"
+                  style={{ background: "var(--surface)", border: "1px solid var(--border)" }}
+                >
+                  <span className="font-mono text-xs font-semibold" style={{ color: "var(--text)" }}>{r.version}</span>
+                  <div className="flex items-center gap-2">
+                    <span className="text-[10px]" style={{ color: "var(--text-faint)" }}>{formatDate(r.date)}</span>
+                    {r.url && (
+                      <a href={r.url} target="_blank" rel="noopener noreferrer" style={{ color: "var(--text-faint)" }}>
+                        <ExternalLink size={11} />
+                      </a>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+
           {/* Highlights / Services */}
           {isValkey && (
             <div className="flex flex-col gap-2">
@@ -252,35 +312,8 @@ export function EcosystemPanel({ contribution, onClose }: EcosystemPanelProps) {
             </div>
           )}
 
-          {/* Percona's role */}
-          <div
-            className="p-4 rounded-xl flex flex-col gap-2"
-            style={{ background: `${c}10`, border: `1px solid ${c}28` }}
-          >
-            <div className="flex items-center gap-2">
-              <div className="w-1.5 h-1.5 rounded-full" style={{ background: c }} />
-              <span className="text-[11px] font-semibold uppercase tracking-wider" style={{ color: c }}>
-                Percona&apos;s Role
-              </span>
-            </div>
-            <p className="text-xs leading-relaxed" style={{ color: "var(--text-muted)" }}>
-              {isValkey ? VALKEY_CONTENT.perconaRole : EVEREST_CONTENT.perconaRole}
-            </p>
-            {isValkey && (
-              <>
-                <div className="mt-1" style={{ borderTop: `1px solid ${c}20` }} />
-                <p className="text-xs leading-relaxed italic" style={{ color: "var(--text-muted)" }}>
-                  &ldquo;{VALKEY_CONTENT.quote.text}&rdquo;
-                </p>
-                <p className="text-[10px] font-semibold" style={{ color: "var(--text-faint)" }}>
-                  — {VALKEY_CONTENT.quote.author}
-                </p>
-              </>
-            )}
-          </div>
-
           {/* From the Blog */}
-          {(isValkey ? VALKEY_BLOG : EVEREST_BLOG).length > 0 && (
+          {blogPosts.length > 0 && (
             <div className="flex flex-col gap-2">
               <div className="flex items-center gap-1.5">
                 <Rss size={11} style={{ color: c }} />
@@ -288,7 +321,7 @@ export function EcosystemPanel({ contribution, onClose }: EcosystemPanelProps) {
                   From the Blog
                 </span>
               </div>
-              {(isValkey ? VALKEY_BLOG : EVEREST_BLOG).map((post, i) => (
+              {blogPosts.map((post, i) => (
                 <a
                   key={i}
                   href={post.url}

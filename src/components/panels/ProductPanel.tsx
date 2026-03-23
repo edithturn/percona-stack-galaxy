@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { X, BookOpen, GitBranch, Activity, Star, GitFork, CircleDot, Clock, MessageSquare, Rss, ExternalLink } from "lucide-react";
 import type { Product, Release } from "@/types/galaxy";
-import { CATEGORY_COLORS, CATEGORY_BG, CATEGORY_LABELS, getActivityScore, relativeTime } from "@/lib/utils";
+import { CATEGORY_COLORS, CATEGORY_BG, CATEGORY_LABELS, relativeTime } from "@/lib/utils";
 import { ReleaseCard } from "./ReleaseCard";
 
 function fmtNum(n: number): string {
@@ -21,7 +21,6 @@ interface ProductPanelProps {
 export function ProductPanel({ product, filteredReleases, onClose }: ProductPanelProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const color = CATEGORY_COLORS[product.category];
-  const activityScore = getActivityScore(product.releases);
   const DEFAULT_SHOWN = 3;
   const [showAll, setShowAll] = useState(false);
 
@@ -180,24 +179,6 @@ export function ProductPanel({ product, filteredReleases, onClose }: ProductPane
             </div>
           </div>
         )}
-
-        {/* Activity indicator bar */}
-        <div className="px-5 pb-4 shrink-0">
-          <div className="flex items-center justify-between mb-1.5">
-            <span className="text-[10px] uppercase tracking-wider" style={{ color: "var(--text-muted)" }}>
-              Release Activity
-            </span>
-            <span className="text-[10px]" style={{ color: "var(--text-muted)" }}>
-              {product.releases.length} total · {filteredReleases.length} visible
-            </span>
-          </div>
-          <div className="h-1 w-full rounded-full" style={{ background: "var(--border)" }}>
-            <div
-              className="h-full rounded-full transition-all duration-500"
-              style={{ width: `${activityScore * 100}%`, background: color }}
-            />
-          </div>
-        </div>
 
         {/* Separator */}
         <div className="mx-5 mb-3 shrink-0" style={{ borderTop: "1px solid var(--border)" }} />

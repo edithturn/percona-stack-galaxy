@@ -33,7 +33,7 @@ export const ECOSYSTEM_CONTRIBUTIONS: EcosystemContribution[] = [
     url: "https://valkey.io",
   },
   {
-    id: "everest",
+    id: "openeverest",
     name: "OpenEverest",
     tagline: "Cloud-native open source database platform for Kubernetes",
     description:
@@ -48,8 +48,8 @@ export const ECOSYSTEM_CONTRIBUTIONS: EcosystemContribution[] = [
 ];
 
 const ANGLES: Record<string, number> = {
-  valkey: 0.4,
-  everest: Math.PI + 0.6,
+  valkey: Math.PI - 0.168,
+  openeverest: Math.PI + 0.6,
 };
 
 // ─── Jupiter-style banded texture (purple tones for Valkey) ──────────────────
@@ -222,8 +222,8 @@ function EcosystemNode({
 
   // Generate canvas texture per planet type
   const texture = useMemo(() => {
-    if (id === "valkey")  return makeValkeyTexture();
-    if (id === "everest") return makeEverestTexture();
+    if (id === "valkey")       return makeValkeyTexture();
+    if (id === "openeverest")  return makeEverestTexture();
     return null;
   }, [id]);
 

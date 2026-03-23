@@ -86,8 +86,8 @@ export function GalaxyScene({
         );
       })}
 
-      {/* Planets */}
-      {data.products.map((product) => {
+      {/* Planets — exclude ecosystem contributions rendered by EcosystemZone */}
+      {data.products.filter((p) => p.id !== "valkey" && p.id !== "openeverest").map((product) => {
         const isVisible = visibleProductIds.has(product.id);
         return (
           <Planet

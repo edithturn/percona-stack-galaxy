@@ -35,7 +35,7 @@ jobs:
       - name: Build galaxy data
         run: npm run build:data
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_DATA_TOKEN }}
           AI_SUMMARIZE: "false"
 
       - name: Commit updated galaxy data

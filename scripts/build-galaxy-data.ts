@@ -44,6 +44,9 @@ interface ProductYaml {
   github: {
     repo: string;
     releasesUrl?: string;
+    useTagsAsReleases?: boolean;
+    useReleaseBranchesAsReleases?: boolean;
+    docsReleaseNotesPattern?: string;
   };
   position: { x: number; y: number; z: number };
 }
@@ -71,6 +74,7 @@ interface Release {
   version: string;
   date: string;
   url: string;
+  docsUrl: string;
   tags: string[];
   highlights: string[];
   notesSnippet: string;
@@ -195,7 +199,7 @@ function extractSnippet(body: string, maxLen = 280): string {
 
 // ─── GitHub API ───────────────────────────────────────────────────────────────
 
-async function fetchGitHubReleases(repo: string): Promise<Release[]> {
+async function fetchGitHubReleases(repo: string, docsPattern?: string): Promise<Release[]> {
   const url = `https://api.github.com/repos/${repo}/releases?per_page=${MAX_RELEASES_PER_PRODUCT}`;
 
   let response: Response;
@@ -231,15 +235,176 @@ async function fetchGitHubReleases(repo: string): Promise<Release[]> {
     .map((r) => {
       const body = r.body ?? "";
       const title = r.name ?? r.tag_name;
+      const version = r.tag_name.replace(/^v/, "");
       return {
-        version: r.tag_name.replace(/^v/, ""),
+        version,
         date: r.published_at,
         url: r.html_url,
+        docsUrl: buildDocsUrl(version, docsPattern),
         tags: extractTags(title, body),
         highlights: extractHighlights(body),
         notesSnippet: extractSnippet(body),
       };
     });
+}
+
+// ─── Docs URL builder ─────────────────────────────────────────────────────────
+
+function buildDocsUrl(version: string, pattern?: string): string {
+  if (!pattern) return "";
+  // Extract major version: "8.0.19-7" → "8.0"
+  const major = version.match(/^(\d+\.\d+)/)?.[1] ?? "";
+  return pattern.replace("{major}", major).replace("{version}", version);
+}
+
+// ─── GitHub tags (fallback for repos that don't use GitHub Releases) ─────────
+
+interface GitHubTag {
+  name: string;
+  commit: { sha: string; url: string };
+}
+
+const SEMVER_RE = /\d+\.\d+/;
+const NOISE_RE = /jenkins|upstream|build|test|snapshot|nightly/i;
+
+function normalizeTagVersion(tag: string): string {
+  // Strip leading 'v', then strip any non-numeric prefix (e.g. "Percona-Server-")
+  return tag.replace(/^v/, "").replace(/^[a-zA-Z][\w-]*?(?=\d)/, "").trim();
+}
+
+async function fetchGitHubTags(repo: string, docsPattern?: string): Promise<Release[]> {
+  let response: Response;
+  try {
+    response = await fetch(`https://api.github.com/repos/${repo}/tags?per_page=30`, { headers });
+  } catch (err) {
+    console.warn(`  [warn] Network error fetching tags for ${repo}: ${err}`);
+    return [];
+  }
+
+  if (!response.ok) {
+    console.warn(`  [warn] HTTP ${response.status} fetching tags for ${repo}`);
+    return [];
+  }
+
+  const tags = (await response.json()) as GitHubTag[];
+
+  const candidates = tags
+    .filter((t) => SEMVER_RE.test(t.name) && !NOISE_RE.test(t.name))
+    .slice(0, 30); // fetch more so we can date-filter
+
+  const TWO_YEARS_AGO = Date.now() - 2 * 365 * 24 * 60 * 60 * 1000;
+
+  const withDates = await Promise.all(
+    candidates.map(async (tag): Promise<Release | null> => {
+      let date = "";
+      try {
+        const commitResp = await fetch(tag.commit.url, { headers });
+        if (commitResp.ok) {
+          const data = (await commitResp.json()) as { commit: { committer: { date: string } } };
+          date = data.commit?.committer?.date ?? "";
+        }
+      } catch { /* skip date */ }
+
+      // Drop tags older than 2 years
+      if (date && new Date(date).getTime() < TWO_YEARS_AGO) return null;
+
+      const version = normalizeTagVersion(tag.name);
+      if (!version) return null;
+
+      return {
+        version,
+        date,
+        url: `https://github.com/${repo}/releases/tag/${tag.name}`,
+        docsUrl: buildDocsUrl(version, docsPattern),
+        tags: [],
+        highlights: [],
+        notesSnippet: "",
+      };
+    })
+  );
+
+  return withDates.filter((r): r is Release => r !== null).slice(0, 10);
+}
+
+// ─── GitHub branches (for repos that use release-x.y.z-n branch naming) ──────
+
+interface GitHubBranch {
+  name: string;
+  commit: { sha: string; url: string };
+}
+
+const RELEASE_BRANCH_RE = /^release-(\d+\.\d+.*)/;
+
+async function fetchGitHubBranches(repo: string, docsPattern?: string): Promise<Release[]> {
+  // Fetch up to 2 pages of branches to cover all release-* branches
+  const allBranches: GitHubBranch[] = [];
+  for (let page = 1; page <= 2; page++) {
+    let resp: Response;
+    try {
+      resp = await fetch(
+        `https://api.github.com/repos/${repo}/branches?per_page=100&page=${page}`,
+        { headers }
+      );
+    } catch (err) {
+      console.warn(`  [warn] Network error fetching branches for ${repo}: ${err}`);
+      break;
+    }
+    if (!resp.ok) {
+      console.warn(`  [warn] HTTP ${resp.status} fetching branches for ${repo}`);
+      break;
+    }
+    const page_data = (await resp.json()) as GitHubBranch[];
+    allBranches.push(...page_data);
+    if (page_data.length < 100) break;
+  }
+
+  // Sort release branches by version descending so we fetch dates for the newest ones first
+  const releaseBranches = allBranches
+    .filter((b) => RELEASE_BRANCH_RE.test(b.name))
+    .sort((a, b) => {
+      // Compare version strings numerically (e.g. "release-9.6.0-1" > "release-8.0.45-36")
+      const av = a.name.replace(/^release-/, "").split(/[.\-]/).map(Number);
+      const bv = b.name.replace(/^release-/, "").split(/[.\-]/).map(Number);
+      for (let i = 0; i < Math.max(av.length, bv.length); i++) {
+        const diff = (bv[i] ?? 0) - (av[i] ?? 0);
+        if (diff !== 0) return diff;
+      }
+      return 0;
+    })
+    .slice(0, 30);
+
+  const TWO_YEARS_AGO = Date.now() - 2 * 365 * 24 * 60 * 60 * 1000;
+
+  const withDates = await Promise.all(
+    releaseBranches.map(async (branch): Promise<Release | null> => {
+      let date = "";
+      try {
+        const commitResp = await fetch(branch.commit.url, { headers });
+        if (commitResp.ok) {
+          const data = (await commitResp.json()) as { commit: { committer: { date: string } } };
+          date = data.commit?.committer?.date ?? "";
+        }
+      } catch { /* skip date */ }
+
+      if (date && new Date(date).getTime() < TWO_YEARS_AGO) return null;
+
+      const version = branch.name.replace(/^release-/, "");
+      return {
+        version,
+        date,
+        url: `https://github.com/${repo}/tree/${branch.name}`,
+        docsUrl: buildDocsUrl(version, docsPattern),
+        tags: [],
+        highlights: [],
+        notesSnippet: "",
+      };
+    })
+  );
+
+  return withDates
+    .filter((r): r is Release => r !== null)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 10);
 }
 
 // ─── GitHub repo vitals ───────────────────────────────────────────────────────
@@ -298,6 +463,8 @@ const BLOG_TAG: Record<string, string> = {
   "pxc-operator":   "mysql",
   pmm:              "pmm",
   toolkit:          "mysql",
+  valkey:           "valkey",
+  openeverest:      "everest",
 };
 
 function extractCdata(raw: string): string {
@@ -416,6 +583,7 @@ function seedReleasesForProduct(id: string): Release[] {
     version,
     date: new Date(base - daysAgo * day).toISOString(),
     url: `https://github.com/percona/${id}/releases/tag/v${version}`,
+    docsUrl: "",
     tags,
     highlights: [
       "Stability and performance improvements",
@@ -470,18 +638,27 @@ async function main() {
 
     if (p.github.repo && !p.github.repo.includes("placeholder")) {
       [releases, vitals, blogPosts] = await Promise.all([
-        fetchGitHubReleases(p.github.repo),
+        p.github.useReleaseBranchesAsReleases
+          ? fetchGitHubBranches(p.github.repo, p.github.docsReleaseNotesPattern)
+          : p.github.useTagsAsReleases
+            ? fetchGitHubTags(p.github.repo, p.github.docsReleaseNotesPattern)
+            : fetchGitHubReleases(p.github.repo, p.github.docsReleaseNotesPattern),
         fetchGitHubRepoStats(p.github.repo),
         fetchBlogPosts(p.id),
       ]);
     }
 
-    // Fall back to seed data if no releases fetched
     if (releases.length === 0) {
-      console.log("(seeded)");
-      releases = seedReleasesForProduct(p.id);
+      if (p.github.useTagsAsReleases) {
+        // No recent tags found — vitals are still real, just no release history
+        console.log(`(no recent tags)  ⭐${vitals?.stars ?? "?"}`);
+      } else {
+        console.log("(seeded)");
+        releases = seedReleasesForProduct(p.id);
+      }
     } else {
-      console.log(`${releases.length} releases  ⭐${vitals?.stars ?? "?"}`);
+      const source = p.github.useTagsAsReleases ? "tags" : "releases";
+      console.log(`${releases.length} ${source}  ⭐${vitals?.stars ?? "?"}`);
     }
 
     if (!vitals) vitals = seedVitals(p.id);

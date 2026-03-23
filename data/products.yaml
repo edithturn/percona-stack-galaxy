@@ -4,19 +4,21 @@ products:
     name: Percona Server for MongoDB
     shortName: Percona Server for MongoDB
     category: database
-    description: "Percona Server for MongoDB is a free, open source drop-in replacement for MongoDB that adds enterprise-grade features — including enhanced security, auditing, hot backups, and performance diagnostics — without requiring a commercial license."
+    description: "Percona Server for MongoDB is a free, open source drop-in replacement for MongoDB that adds enterprise-grade features,including enhanced security, auditing, hot backups, and performance diagnostics, without requiring a commercial license."
     docsUrl: "https://docs.percona.com/percona-server-for-mongodb/"
     forumUrl: "https://forums.percona.com/c/mongodb/percona-server-for-mongodb/17"
     github:
       repo: "percona/percona-server-mongodb"
       releasesUrl: ""
+      useTagsAsReleases: true
+      docsReleaseNotesPattern: "https://docs.percona.com/percona-server-for-mongodb/{major}/release_notes/{version}.html"
     position: { x: 3.0, y: 0, z: -1.3 }
 
   - id: psmdb-operator
     name: Percona Operator for MongoDB
     shortName: Percona Operator for MongoDB
     category: operator
-    description: "The Percona Operator for MongoDB automates the full lifecycle of Percona Server for MongoDB clusters on Kubernetes — handling provisioning, replication, backups, failover, and upgrades through a simple declarative API."
+    description: "The Percona Operator for MongoDB automates the full lifecycle of Percona Server for MongoDB clusters on Kubernetes,handling provisioning, replication, backups, failover, and upgrades through a simple declarative API."
     docsUrl: "https://docs.percona.com/percona-operator-for-mongodb/"
     forumUrl: "https://forums.percona.com/c/mongodb/percona-kubernetes-operator-for-mongodb/29"
     github:
@@ -28,7 +30,7 @@ products:
     name: Percona Distribution for PostgreSQL
     shortName: Percona Distribution for PostgreSQL
     category: database
-    description: "Percona Distribution for PostgreSQL bundles the community PostgreSQL engine with a curated set of proven open source extensions for connection pooling, high availability, backup, and monitoring — all tested together as a single, production-ready distribution."
+    description: "Percona Distribution for PostgreSQL bundles the community PostgreSQL engine with a curated set of proven open source extensions for connection pooling, high availability, backup, and monitoring,all tested together as a single, production-ready distribution."
     docsUrl: "https://docs.percona.com/postgresql/"
     forumUrl: "https://forums.percona.com/c/postgresql/percona-distribution-for-postgresql/21"
     github:
@@ -58,6 +60,7 @@ products:
     github:
       repo: "percona/percona-server"
       releasesUrl: ""
+      useReleaseBranchesAsReleases: true
     position: { x: -3, y: 0, z: 1 }
 
   - id: mysql-operator
@@ -82,6 +85,7 @@ products:
     github:
       repo: "percona/percona-xtradb-cluster"
       releasesUrl: ""
+      useTagsAsReleases: true
     position: { x: -2.5, y: 0, z: -1.8 }
 
   - id: pxc-operator
@@ -118,7 +122,32 @@ products:
     github:
       repo: "percona/percona-toolkit"
       releasesUrl: ""
+      useTagsAsReleases: true
     position: { x: -10, y: 0, z: -2.5 }
+
+  - id: valkey
+    name: Valkey
+    shortName: Valkey
+    category: database
+    description: "Valkey is an open source, flexible distributed key-value database optimized for caching and real-time workloads, forked from Redis after its license change. Percona provides enterprise support, managed services, and expert consulting for Valkey deployments in production environments."
+    docsUrl: "https://valkey.io/docs/"
+    forumUrl: ""
+    github:
+      repo: "valkey-io/valkey"
+      releasesUrl: ""
+    position: { x: 6.5, y: 0, z: 0 }
+
+  - id: openeverest
+    name: OpenEverest
+    shortName: OpenEverest
+    category: tools
+    description: "OpenEverest is an open source platform for automated database provisioning and management on Kubernetes, supporting multiple database technologies in cloud or on-premises environments. Percona actively contributes to OpenEverest and provides enterprise support and professional services for organizations running it in production."
+    docsUrl: "https://docs.openeverest.io/"
+    forumUrl: ""
+    github:
+      repo: "openeverest/openeverest"
+      releasesUrl: ""
+    position: { x: -1, y: 0, z: -9.5 }
 
 edges:
   - from: pmm
