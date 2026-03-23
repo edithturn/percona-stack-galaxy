@@ -85,7 +85,8 @@ products:
     github:
       repo: "percona/percona-xtradb-cluster"
       releasesUrl: ""
-      useTagsAsReleases: true
+      useReleaseBranchesAsReleases: true
+      docsReleaseNotesPattern: "https://docs.percona.com/percona-xtradb-cluster/{major}/release-notes/release-notes_index.html"
     position: { x: -2.5, y: 0, z: -1.8 }
 
   - id: pxc-operator

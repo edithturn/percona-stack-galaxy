@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T02:01:08.929Z",
+  "generatedAt": "2026-03-23T23:27:25.635Z",
   "products": [
     {
       "id": "psmdb",
@@ -111,8 +111,8 @@
         "stars": 243,
         "forks": 68,
         "openIssues": 0,
-        "openPRs": 3,
-        "lastCommit": "2026-03-20T16:56:35Z"
+        "openPRs": 6,
+        "lastCommit": "2026-03-23T21:56:15Z"
       },
       "blogPosts": [
         {
@@ -304,11 +304,11 @@
         }
       ],
       "vitals": {
-        "stars": 437,
+        "stars": 438,
         "forks": 176,
         "openIssues": 66,
-        "openPRs": 27,
-        "lastCommit": "2026-03-20T14:59:21Z"
+        "openPRs": 26,
+        "lastCommit": "2026-03-23T19:09:11Z"
       },
       "blogPosts": [
         {
@@ -396,7 +396,7 @@
         }
       ],
       "vitals": {
-        "stars": 23,
+        "stars": 24,
         "forks": 16,
         "openIssues": 3,
         "openPRs": 0,
@@ -545,10 +545,10 @@
       ],
       "vitals": {
         "stars": 358,
-        "forks": 72,
+        "forks": 73,
         "openIssues": 18,
-        "openPRs": 11,
-        "lastCommit": "2026-03-20T18:46:57Z"
+        "openPRs": 12,
+        "lastCommit": "2026-03-23T19:44:33Z"
       },
       "blogPosts": [
         {
@@ -809,8 +809,8 @@
         "stars": 217,
         "forks": 36,
         "openIssues": 10,
-        "openPRs": 19,
-        "lastCommit": "2026-03-22T15:58:40Z"
+        "openPRs": 16,
+        "lastCommit": "2026-03-23T21:40:53Z"
       },
       "blogPosts": [
         {
@@ -841,13 +841,104 @@
         "y": 0,
         "z": -1.8
       },
-      "releases": [],
+      "releases": [
+        {
+          "version": "9.6.0",
+          "date": "2026-03-23T14:09:29Z",
+          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-9.6.0",
+          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/9.6/release-notes/release-notes_index.html",
+          "tags": [],
+          "highlights": [],
+          "notesSnippet": ""
+        },
+        {
+          "version": "8.4.8",
+          "date": "2026-03-23T10:23:59Z",
+          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-8.4.8",
+          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/8.4/release-notes/release-notes_index.html",
+          "tags": [],
+          "highlights": [],
+          "notesSnippet": ""
+        },
+        {
+          "version": "9.5.0-1",
+          "date": "2026-02-23T15:24:29Z",
+          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-9.5.0-1",
+          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/9.5/release-notes/release-notes_index.html",
+          "tags": [],
+          "highlights": [],
+          "notesSnippet": ""
+        },
+        {
+          "version": "8.0.45",
+          "date": "2026-02-20T11:08:24Z",
+          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-8.0.45",
+          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/8.0/release-notes/release-notes_index.html",
+          "tags": [],
+          "highlights": [],
+          "notesSnippet": ""
+        },
+        {
+          "version": "8.4.7",
+          "date": "2026-01-09T17:02:16Z",
+          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-8.4.7",
+          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/8.4/release-notes/release-notes_index.html",
+          "tags": [],
+          "highlights": [],
+          "notesSnippet": ""
+        },
+        {
+          "version": "8.0.44",
+          "date": "2025-12-05T09:28:46Z",
+          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-8.0.44",
+          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/8.0/release-notes/release-notes_index.html",
+          "tags": [],
+          "highlights": [],
+          "notesSnippet": ""
+        },
+        {
+          "version": "8.4.6",
+          "date": "2025-09-29T07:00:38Z",
+          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-8.4.6",
+          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/8.4/release-notes/release-notes_index.html",
+          "tags": [],
+          "highlights": [],
+          "notesSnippet": ""
+        },
+        {
+          "version": "8.0.43",
+          "date": "2025-09-19T07:56:51Z",
+          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-8.0.43",
+          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/8.0/release-notes/release-notes_index.html",
+          "tags": [],
+          "highlights": [],
+          "notesSnippet": ""
+        },
+        {
+          "version": "9.4.0",
+          "date": "2025-09-18T12:12:04Z",
+          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-9.4.0",
+          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/9.4/release-notes/release-notes_index.html",
+          "tags": [],
+          "highlights": [],
+          "notesSnippet": ""
+        },
+        {
+          "version": "9.2.0",
+          "date": "2025-07-01T07:25:11Z",
+          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-9.2.0",
+          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/9.2/release-notes/release-notes_index.html",
+          "tags": [],
+          "highlights": [],
+          "notesSnippet": ""
+        }
+      ],
       "vitals": {
         "stars": 378,
-        "forks": 151,
+        "forks": 152,
         "openIssues": 0,
-        "openPRs": 15,
-        "lastCommit": "2026-03-20T10:16:44Z"
+        "openPRs": 13,
+        "lastCommit": "2026-03-23T22:49:23Z"
       },
       "blogPosts": [
         {
@@ -1011,7 +1102,7 @@
         "forks": 209,
         "openIssues": 36,
         "openPRs": 30,
-        "lastCommit": "2026-03-21T06:03:07Z"
+        "lastCommit": "2026-03-23T19:11:42Z"
       },
       "blogPosts": [
         {
@@ -1212,7 +1303,7 @@
         "forks": 197,
         "openIssues": 95,
         "openPRs": 72,
-        "lastCommit": "2026-03-22T23:12:00Z"
+        "lastCommit": "2026-03-23T17:14:38Z"
       },
       "blogPosts": [
         {
@@ -1285,8 +1376,8 @@
         "stars": 1460,
         "forks": 369,
         "openIssues": 0,
-        "openPRs": 21,
-        "lastCommit": "2026-03-20T18:20:37Z"
+        "openPRs": 23,
+        "lastCommit": "2026-03-23T09:03:11Z"
       },
       "blogPosts": [
         {
@@ -1446,11 +1537,11 @@
         }
       ],
       "vitals": {
-        "stars": 25216,
+        "stars": 25224,
         "forks": 1069,
-        "openIssues": 416,
-        "openPRs": 197,
-        "lastCommit": "2026-03-20T22:21:15Z"
+        "openIssues": 418,
+        "openPRs": 200,
+        "lastCommit": "2026-03-23T10:18:35Z"
       },
       "blogPosts": [
         {
@@ -1624,11 +1715,11 @@
         }
       ],
       "vitals": {
-        "stars": 708,
-        "forks": 47,
+        "stars": 709,
+        "forks": 50,
         "openIssues": 125,
         "openPRs": 56,
-        "lastCommit": "2026-03-23T01:57:34Z"
+        "lastCommit": "2026-03-23T16:56:54Z"
       },
       "blogPosts": []
     }
