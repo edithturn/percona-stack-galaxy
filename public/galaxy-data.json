@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T23:27:25.635Z",
+  "generatedAt": "2026-03-24T02:55:07.540Z",
   "products": [
     {
       "id": "psmdb",
@@ -111,8 +111,8 @@
         "stars": 243,
         "forks": 68,
         "openIssues": 0,
-        "openPRs": 6,
-        "lastCommit": "2026-03-23T21:56:15Z"
+        "openPRs": 5,
+        "lastCommit": "2026-03-24T00:17:13Z"
       },
       "blogPosts": [
         {
@@ -547,8 +547,8 @@
         "stars": 358,
         "forks": 73,
         "openIssues": 18,
-        "openPRs": 12,
-        "lastCommit": "2026-03-23T19:44:33Z"
+        "openPRs": 17,
+        "lastCommit": "2026-03-24T01:04:02Z"
       },
       "blogPosts": [
         {
@@ -1373,7 +1373,7 @@
         }
       ],
       "vitals": {
-        "stars": 1460,
+        "stars": 1461,
         "forks": 369,
         "openIssues": 0,
         "openPRs": 23,
@@ -1540,7 +1540,7 @@
         "stars": 25224,
         "forks": 1069,
         "openIssues": 418,
-        "openPRs": 200,
+        "openPRs": 201,
         "lastCommit": "2026-03-23T10:18:35Z"
       },
       "blogPosts": [
@@ -1718,8 +1718,8 @@
         "stars": 709,
         "forks": 50,
         "openIssues": 125,
-        "openPRs": 56,
-        "lastCommit": "2026-03-23T16:56:54Z"
+        "openPRs": 57,
+        "lastCommit": "2026-03-24T01:58:46Z"
       },
       "blogPosts": []
     }
