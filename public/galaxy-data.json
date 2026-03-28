@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T02:58:56.891Z",
+  "generatedAt": "2026-03-28T02:56:52.765Z",
   "products": [
     {
       "id": "psmdb",
@@ -112,7 +112,7 @@
         "forks": 68,
         "openIssues": 0,
         "openPRs": 4,
-        "lastCommit": "2026-03-27T02:51:23Z"
+        "lastCommit": "2026-03-28T02:32:03Z"
       },
       "blogPosts": [
         {
@@ -404,16 +404,16 @@
       },
       "blogPosts": [
         {
+          "title": "PostgreSQL: Bye-Bye MD5 Authentication. What’s Next?",
+          "url": "https://www.percona.com/blog/postgresql-bye-bye-md5-authentication-whats-next/",
+          "date": "2026-03-27T13:10:52.000Z",
+          "author": "Ninad Shah"
+        },
+        {
           "title": "Importance of Tuning Checkpoint in PostgreSQL",
           "url": "https://www.percona.com/blog/importance-of-tuning-checkpoint-in-postgresql/",
           "date": "2026-02-02T15:04:30.000Z",
           "author": "Jobin Augustine"
-        },
-        {
-          "title": "Databases, Data Lakes, And Encryption",
-          "url": "https://www.percona.com/blog/databases-data-lakes-and-encryption/",
-          "date": "2026-01-28T16:15:52.000Z",
-          "author": "Robert Bernier"
         }
       ]
     },
@@ -547,21 +547,21 @@
         "stars": 358,
         "forks": 73,
         "openIssues": 18,
-        "openPRs": 8,
-        "lastCommit": "2026-03-26T23:56:25Z"
+        "openPRs": 7,
+        "lastCommit": "2026-03-27T22:47:46Z"
       },
       "blogPosts": [
+        {
+          "title": "PostgreSQL: Bye-Bye MD5 Authentication. What’s Next?",
+          "url": "https://www.percona.com/blog/postgresql-bye-bye-md5-authentication-whats-next/",
+          "date": "2026-03-27T13:10:52.000Z",
+          "author": "Ninad Shah"
+        },
         {
           "title": "Importance of Tuning Checkpoint in PostgreSQL",
           "url": "https://www.percona.com/blog/importance-of-tuning-checkpoint-in-postgresql/",
           "date": "2026-02-02T15:04:30.000Z",
           "author": "Jobin Augustine"
-        },
-        {
-          "title": "Databases, Data Lakes, And Encryption",
-          "url": "https://www.percona.com/blog/databases-data-lakes-and-encryption/",
-          "date": "2026-01-28T16:15:52.000Z",
-          "author": "Robert Bernier"
         }
       ]
     },
@@ -675,8 +675,8 @@
         "stars": 1255,
         "forks": 508,
         "openIssues": 0,
-        "openPRs": 64,
-        "lastCommit": "2026-03-26T19:57:49Z"
+        "openPRs": 62,
+        "lastCommit": "2026-03-27T16:01:22Z"
       },
       "blogPosts": [
         {
@@ -810,7 +810,7 @@
         "forks": 36,
         "openIssues": 10,
         "openPRs": 14,
-        "lastCommit": "2026-03-26T16:36:54Z"
+        "lastCommit": "2026-03-27T19:41:10Z"
       },
       "blogPosts": [
         {
@@ -937,7 +937,7 @@
         "stars": 378,
         "forks": 152,
         "openIssues": 0,
-        "openPRs": 10,
+        "openPRs": 12,
         "lastCommit": "2026-03-26T09:21:18Z"
       },
       "blogPosts": [
@@ -1102,7 +1102,7 @@
         "forks": 209,
         "openIssues": 36,
         "openPRs": 30,
-        "lastCommit": "2026-03-26T11:31:52Z"
+        "lastCommit": "2026-03-27T12:08:27Z"
       },
       "blogPosts": [
         {
@@ -1299,11 +1299,11 @@
         }
       ],
       "vitals": {
-        "stars": 993,
+        "stars": 994,
         "forks": 198,
         "openIssues": 95,
         "openPRs": 81,
-        "lastCommit": "2026-03-27T02:14:00Z"
+        "lastCommit": "2026-03-27T14:04:19Z"
       },
       "blogPosts": [
         {
@@ -1373,11 +1373,11 @@
         }
       ],
       "vitals": {
-        "stars": 1461,
+        "stars": 1462,
         "forks": 368,
         "openIssues": 0,
-        "openPRs": 21,
-        "lastCommit": "2026-03-26T12:11:44Z"
+        "openPRs": 20,
+        "lastCommit": "2026-03-27T19:59:47Z"
       },
       "blogPosts": [
         {
@@ -1537,11 +1537,11 @@
         }
       ],
       "vitals": {
-        "stars": 25260,
-        "forks": 1069,
-        "openIssues": 422,
-        "openPRs": 196,
-        "lastCommit": "2026-03-26T22:22:54Z"
+        "stars": 25272,
+        "forks": 1071,
+        "openIssues": 421,
+        "openPRs": 199,
+        "lastCommit": "2026-03-27T17:40:14Z"
       },
       "blogPosts": [
         {
@@ -1715,11 +1715,11 @@
         }
       ],
       "vitals": {
-        "stars": 712,
+        "stars": 714,
         "forks": 50,
-        "openIssues": 128,
-        "openPRs": 62,
-        "lastCommit": "2026-03-26T15:56:08Z"
+        "openIssues": 129,
+        "openPRs": 64,
+        "lastCommit": "2026-03-27T08:22:09Z"
       },
       "blogPosts": []
     }
