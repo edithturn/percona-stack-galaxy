@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T02:56:12.176Z",
+  "generatedAt": "2026-04-05T02:58:50.183Z",
   "products": [
     {
       "id": "psmdb",
@@ -691,7 +691,7 @@
         "stars": 1255,
         "forks": 510,
         "openIssues": 0,
-        "openPRs": 62,
+        "openPRs": 63,
         "lastCommit": "2026-04-03T07:02:16Z"
       },
       "blogPosts": [
@@ -826,7 +826,7 @@
         "forks": 36,
         "openIssues": 9,
         "openPRs": 19,
-        "lastCommit": "2026-04-03T17:06:39Z"
+        "lastCommit": "2026-04-04T04:10:25Z"
       },
       "blogPosts": [
         {
@@ -1115,10 +1115,10 @@
       ],
       "vitals": {
         "stars": 616,
-        "forks": 209,
+        "forks": 210,
         "openIssues": 39,
         "openPRs": 30,
-        "lastCommit": "2026-04-03T15:18:53Z"
+        "lastCommit": "2026-04-04T10:53:55Z"
       },
       "blogPosts": [
         {
@@ -1317,8 +1317,8 @@
         "stars": 1003,
         "forks": 200,
         "openIssues": 96,
-        "openPRs": 72,
-        "lastCommit": "2026-04-03T20:29:45Z"
+        "openPRs": 73,
+        "lastCommit": "2026-04-04T23:09:35Z"
       },
       "blogPosts": [
         {
@@ -1552,10 +1552,10 @@
         }
       ],
       "vitals": {
-        "stars": 25350,
-        "forks": 1083,
+        "stars": 25358,
+        "forks": 1084,
         "openIssues": 424,
-        "openPRs": 201,
+        "openPRs": 203,
         "lastCommit": "2026-04-03T20:40:06Z"
       },
       "blogPosts": [
