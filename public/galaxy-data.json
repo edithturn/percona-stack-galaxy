@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-07T02:58:53.049Z",
+  "generatedAt": "2026-04-08T02:59:13.855Z",
   "products": [
     {
       "id": "psmdb",
@@ -111,21 +111,21 @@
         "stars": 243,
         "forks": 68,
         "openIssues": 0,
-        "openPRs": 10,
-        "lastCommit": "2026-04-06T15:07:51Z"
+        "openPRs": 4,
+        "lastCommit": "2026-04-07T15:53:53Z"
       },
       "blogPosts": [
+        {
+          "title": "Percona ClusterSync for MongoDB 0.8.0: Up to 18x Faster Change Replication",
+          "url": "https://www.percona.com/blog/percona-clustersync-for-mongodb-0-8-0-up-to-18x-faster-change-replication/",
+          "date": "2026-04-07T14:48:39.000Z",
+          "author": "Inel Pandzic"
+        },
         {
           "title": "MongoDB Query Plan Cache Explained: Performance, Pitfalls, and Re-Planning",
           "url": "https://www.percona.com/blog/mongodb-query-plan-cache-explained-performance-pitfalls-and-re-planning/",
           "date": "2026-03-20T13:26:25.000Z",
           "author": "Corrado Pandiani"
-        },
-        {
-          "title": "From Feature Request to Release: How Community Feedback Shaped PBM’s Alibaba Cloud Integration",
-          "url": "https://www.percona.com/blog/from-feature-request-to-release-how-community-feedback-shaped-pbms-alibaba-cloud-integration/",
-          "date": "2026-01-22T13:10:47.000Z",
-          "author": "Radoslaw Szulgo"
         }
       ]
     },
@@ -312,16 +312,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona ClusterSync for MongoDB 0.8.0: Up to 18x Faster Change Replication",
+          "url": "https://www.percona.com/blog/percona-clustersync-for-mongodb-0-8-0-up-to-18x-faster-change-replication/",
+          "date": "2026-04-07T14:48:39.000Z",
+          "author": "Inel Pandzic"
+        },
+        {
           "title": "MongoDB Query Plan Cache Explained: Performance, Pitfalls, and Re-Planning",
           "url": "https://www.percona.com/blog/mongodb-query-plan-cache-explained-performance-pitfalls-and-re-planning/",
           "date": "2026-03-20T13:26:25.000Z",
           "author": "Corrado Pandiani"
-        },
-        {
-          "title": "From Feature Request to Release: How Community Feedback Shaped PBM’s Alibaba Cloud Integration",
-          "url": "https://www.percona.com/blog/from-feature-request-to-release-how-community-feedback-shaped-pbms-alibaba-cloud-integration/",
-          "date": "2026-01-22T13:10:47.000Z",
-          "author": "Radoslaw Szulgo"
         }
       ]
     },
@@ -563,8 +563,8 @@
         "stars": 360,
         "forks": 73,
         "openIssues": 16,
-        "openPRs": 19,
-        "lastCommit": "2026-04-07T01:04:02Z"
+        "openPRs": 13,
+        "lastCommit": "2026-04-08T00:16:23Z"
       },
       "blogPosts": [
         {
@@ -689,10 +689,10 @@
       ],
       "vitals": {
         "stars": 1255,
-        "forks": 510,
+        "forks": 511,
         "openIssues": 0,
-        "openPRs": 63,
-        "lastCommit": "2026-04-03T07:02:16Z"
+        "openPRs": 66,
+        "lastCommit": "2026-04-07T11:47:12Z"
       },
       "blogPosts": [
         {
@@ -824,9 +824,9 @@
       "vitals": {
         "stars": 217,
         "forks": 36,
-        "openIssues": 9,
-        "openPRs": 19,
-        "lastCommit": "2026-04-06T19:02:26Z"
+        "openIssues": 8,
+        "openPRs": 21,
+        "lastCommit": "2026-04-08T01:03:34Z"
       },
       "blogPosts": [
         {
@@ -1118,7 +1118,7 @@
         "forks": 210,
         "openIssues": 39,
         "openPRs": 30,
-        "lastCommit": "2026-04-06T08:57:22Z"
+        "lastCommit": "2026-04-07T12:53:49Z"
       },
       "blogPosts": [
         {
@@ -1315,10 +1315,10 @@
       ],
       "vitals": {
         "stars": 1003,
-        "forks": 200,
+        "forks": 201,
         "openIssues": 96,
-        "openPRs": 75,
-        "lastCommit": "2026-04-06T22:16:12Z"
+        "openPRs": 79,
+        "lastCommit": "2026-04-08T02:25:01Z"
       },
       "blogPosts": [
         {
@@ -1389,7 +1389,7 @@
       ],
       "vitals": {
         "stars": 1464,
-        "forks": 368,
+        "forks": 370,
         "openIssues": 0,
         "openPRs": 27,
         "lastCommit": "2026-04-06T09:03:08Z"
@@ -1552,11 +1552,11 @@
         }
       ],
       "vitals": {
-        "stars": 25372,
-        "forks": 1084,
-        "openIssues": 424,
-        "openPRs": 203,
-        "lastCommit": "2026-04-06T21:42:47Z"
+        "stars": 25387,
+        "forks": 1085,
+        "openIssues": 427,
+        "openPRs": 204,
+        "lastCommit": "2026-04-08T02:27:49Z"
       },
       "blogPosts": [
         {
@@ -1732,9 +1732,9 @@
       "vitals": {
         "stars": 716,
         "forks": 50,
-        "openIssues": 130,
-        "openPRs": 67,
-        "lastCommit": "2026-04-06T22:23:25Z"
+        "openIssues": 131,
+        "openPRs": 69,
+        "lastCommit": "2026-04-08T01:48:26Z"
       },
       "blogPosts": []
     }
