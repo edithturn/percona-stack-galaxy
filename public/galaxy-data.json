@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T02:59:05.450Z",
+  "generatedAt": "2026-04-13T02:59:34.154Z",
   "products": [
     {
       "id": "psmdb",
@@ -689,7 +689,7 @@
       ],
       "vitals": {
         "stars": 1252,
-        "forks": 511,
+        "forks": 510,
         "openIssues": 0,
         "openPRs": 64,
         "lastCommit": "2026-04-10T12:35:11Z"
@@ -826,7 +826,7 @@
         "forks": 36,
         "openIssues": 8,
         "openPRs": 18,
-        "lastCommit": "2026-04-11T17:44:28Z"
+        "lastCommit": "2026-04-12T18:27:58Z"
       },
       "blogPosts": [
         {
@@ -1318,7 +1318,7 @@
         "forks": 201,
         "openIssues": 94,
         "openPRs": 81,
-        "lastCommit": "2026-04-12T00:26:59Z"
+        "lastCommit": "2026-04-13T02:20:42Z"
       },
       "blogPosts": [
         {
@@ -1388,8 +1388,8 @@
         }
       ],
       "vitals": {
-        "stars": 1466,
-        "forks": 369,
+        "stars": 1468,
+        "forks": 368,
         "openIssues": 0,
         "openPRs": 29,
         "lastCommit": "2026-04-08T14:31:43Z"
@@ -1552,10 +1552,10 @@
         }
       ],
       "vitals": {
-        "stars": 25418,
-        "forks": 1086,
-        "openIssues": 428,
-        "openPRs": 206,
+        "stars": 25437,
+        "forks": 1090,
+        "openIssues": 429,
+        "openPRs": 209,
         "lastCommit": "2026-04-10T15:56:00Z"
       },
       "blogPosts": [
@@ -1731,10 +1731,10 @@
       ],
       "vitals": {
         "stars": 720,
-        "forks": 51,
+        "forks": 52,
         "openIssues": 133,
         "openPRs": 71,
-        "lastCommit": "2026-04-10T17:56:31Z"
+        "lastCommit": "2026-04-13T02:46:58Z"
       },
       "blogPosts": []
     }
