@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T02:59:34.154Z",
+  "generatedAt": "2026-04-14T02:59:11.981Z",
   "products": [
     {
       "id": "psmdb",
@@ -112,7 +112,7 @@
         "forks": 67,
         "openIssues": 0,
         "openPRs": 5,
-        "lastCommit": "2026-04-10T14:53:20Z"
+        "lastCommit": "2026-04-13T06:45:20Z"
       },
       "blogPosts": [
         {
@@ -563,8 +563,8 @@
         "stars": 360,
         "forks": 73,
         "openIssues": 16,
-        "openPRs": 9,
-        "lastCommit": "2026-04-10T11:58:31Z"
+        "openPRs": 13,
+        "lastCommit": "2026-04-14T01:03:58Z"
       },
       "blogPosts": [
         {
@@ -825,8 +825,8 @@
         "stars": 218,
         "forks": 36,
         "openIssues": 8,
-        "openPRs": 18,
-        "lastCommit": "2026-04-12T18:27:58Z"
+        "openPRs": 19,
+        "lastCommit": "2026-04-13T22:36:43Z"
       },
       "blogPosts": [
         {
@@ -1118,7 +1118,7 @@
         "forks": 210,
         "openIssues": 39,
         "openPRs": 38,
-        "lastCommit": "2026-04-11T20:50:27Z"
+        "lastCommit": "2026-04-13T14:27:51Z"
       },
       "blogPosts": [
         {
@@ -1315,10 +1315,10 @@
       ],
       "vitals": {
         "stars": 1001,
-        "forks": 201,
+        "forks": 202,
         "openIssues": 94,
-        "openPRs": 81,
-        "lastCommit": "2026-04-13T02:20:42Z"
+        "openPRs": 83,
+        "lastCommit": "2026-04-14T02:14:47Z"
       },
       "blogPosts": [
         {
@@ -1391,8 +1391,8 @@
         "stars": 1468,
         "forks": 368,
         "openIssues": 0,
-        "openPRs": 29,
-        "lastCommit": "2026-04-08T14:31:43Z"
+        "openPRs": 30,
+        "lastCommit": "2026-04-13T09:14:51Z"
       },
       "blogPosts": [
         {
@@ -1552,11 +1552,11 @@
         }
       ],
       "vitals": {
-        "stars": 25437,
+        "stars": 25450,
         "forks": 1090,
         "openIssues": 429,
-        "openPRs": 209,
-        "lastCommit": "2026-04-10T15:56:00Z"
+        "openPRs": 208,
+        "lastCommit": "2026-04-14T02:23:14Z"
       },
       "blogPosts": [
         {
@@ -1730,11 +1730,11 @@
         }
       ],
       "vitals": {
-        "stars": 720,
+        "stars": 722,
         "forks": 52,
-        "openIssues": 133,
-        "openPRs": 71,
-        "lastCommit": "2026-04-13T02:46:58Z"
+        "openIssues": 135,
+        "openPRs": 72,
+        "lastCommit": "2026-04-14T02:12:36Z"
       },
       "blogPosts": []
     }
