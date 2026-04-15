@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T02:59:11.981Z",
+  "generatedAt": "2026-04-15T02:59:03.086Z",
   "products": [
     {
       "id": "psmdb",
@@ -15,104 +15,13 @@
         "y": 0,
         "z": -1.3
       },
-      "releases": [
-        {
-          "version": "8.0.20-8",
-          "date": "2026-03-25T12:01:40Z",
-          "url": "https://github.com/percona/percona-server-mongodb/releases/tag/psmdb-8.0.20-8",
-          "docsUrl": "https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.20-8.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.0.19-7",
-          "date": "2026-02-11T16:15:42Z",
-          "url": "https://github.com/percona/percona-server-mongodb/releases/tag/psmdb-8.0.19-7",
-          "docsUrl": "https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.19-7.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.0.17-6",
-          "date": "2025-12-23T12:38:42Z",
-          "url": "https://github.com/percona/percona-server-mongodb/releases/tag/psmdb-8.0.17-6",
-          "docsUrl": "https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.17-6.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.0.16-5",
-          "date": "2025-12-02T13:54:59Z",
-          "url": "https://github.com/percona/percona-server-mongodb/releases/tag/psmdb-8.0.16-5",
-          "docsUrl": "https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.16-5.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.0.12-4",
-          "date": "2025-08-05T13:11:46Z",
-          "url": "https://github.com/percona/percona-server-mongodb/releases/tag/psmdb-8.0.12-4",
-          "docsUrl": "https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.12-4.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.0.8-3",
-          "date": "2025-04-25T12:14:22Z",
-          "url": "https://github.com/percona/percona-server-mongodb/releases/tag/psmdb-8.0.8-3",
-          "docsUrl": "https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.8-3.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.0.4-2",
-          "date": "2025-02-11T20:10:39Z",
-          "url": "https://github.com/percona/percona-server-mongodb/releases/tag/psmdb-8.0.4-2",
-          "docsUrl": "https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.4-2.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.0.4-1",
-          "date": "2024-12-16T13:06:03Z",
-          "url": "https://github.com/percona/percona-server-mongodb/releases/tag/psmdb-8.0.4-1",
-          "docsUrl": "https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.4-1.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "7.0.31-17",
-          "date": "2026-03-24T15:25:40Z",
-          "url": "https://github.com/percona/percona-server-mongodb/releases/tag/psmdb-7.0.31-17",
-          "docsUrl": "https://docs.percona.com/percona-server-for-mongodb/7.0/release_notes/7.0.31-17.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "7.0.30-16",
-          "date": "2026-02-11T16:06:51Z",
-          "url": "https://github.com/percona/percona-server-mongodb/releases/tag/psmdb-7.0.30-16",
-          "docsUrl": "https://docs.percona.com/percona-server-for-mongodb/7.0/release_notes/7.0.30-16.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        }
-      ],
+      "releases": [],
       "vitals": {
-        "stars": 244,
-        "forks": 67,
-        "openIssues": 0,
-        "openPRs": 5,
-        "lastCommit": "2026-04-13T06:45:20Z"
+        "stars": 660,
+        "forks": 148,
+        "openIssues": 32,
+        "openPRs": 10,
+        "lastCommit": "2026-03-13T10:00:00.000Z"
       },
       "blogPosts": [
         {
@@ -145,170 +54,58 @@
       },
       "releases": [
         {
-          "version": "1.22.0",
-          "date": "2026-02-25T16:39:58Z",
-          "url": "https://github.com/percona/percona-server-mongodb-operator/releases/tag/v1.22.0",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "Simplify setup in local environments and speed up development",
-            "Simplify migration from external MongoDB instances that don’t use authentication",
-            "Debug authentication issues without credential complexity"
-          ],
-          "notesSnippet": "Release Highlights Ensure smooth integration with service meshes The Operator now supports the Kubernetes appProtocol field and automatically sets the mongo application layer protocol on all services. For users running MongoDB with service meshes like Istio, this enhancement…"
-        },
-        {
-          "version": "1.21.2",
-          "date": "2026-01-12T17:56:54Z",
-          "url": "https://github.com/percona/percona-server-mongodb-operator/releases/tag/v1.21.2",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "fix"
-          ],
-          "highlights": [
-            "Percona Server for MongoDB 6.0.27-21, 7.0.28-15, and 8.0.17-6",
-            "Percona Backup for MongoDB 2.11.0",
-            "PMM Client: 2.44.1-1"
-          ],
-          "notesSnippet": "Release Highlights Security update: Mitigation of heap memory disclosure vulnerability This release includes the fix for security vulnerability CVE-2025-14847: CWE-130, which is about how MongoDB uses zlib compression library. Attackers with network access to mongod or mongos…"
-        },
-        {
-          "version": "1.21.1",
-          "date": "2025-10-30T13:59:39Z",
-          "url": "https://github.com/percona/percona-server-mongodb-operator/releases/tag/v1.21.1",
-          "docsUrl": "",
-          "tags": [
-            "fix"
-          ],
-          "highlights": [
-            "[K8SPSMDB-1504](https://perconadev.atlassian.net/browse/K8SPSMDB-1504) - Fixed connection leaks issue during PBM operations and the Operator crashing with out-of-memory error by properly closing connections after the PBM operation is complete.",
-            "[K8SPSMDB-1506](https://perconadev.atlassian.net/browse/K8SPSMDB-1506) - Fixed an issue with the Operator not being able to get PBM version due to the change of log where latest PBM versions print the version. The Operator now combines both stderr and stdout to correctly retrieve the PBM version.",
-            "Percona Server for MongoDB 6.0.25-20, 7.0.24-13, and 8.0.12-4"
-          ],
-          "notesSnippet": "Release Highlights This release resolves the MongoDB connection leak issue that occurred during PBM operations. It also addresses issues with the Operator’s retrieval and display of the PBM version. Changelog Fixed bugs - K8SPSMDB-1504 - Fixed connection leaks issue during PBM…"
-        },
-        {
-          "version": "1.21.0",
-          "date": "2025-10-20T19:22:30Z",
-          "url": "https://github.com/percona/percona-server-mongodb-operator/releases/tag/v1.21.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "If the total number of voting members is even, the Operator converts one node to non-voting to maintain an odd number of voters. The node to convert is typically the last Pod in the list.",
-            "If the number of voting members is odd and not more than 7, all nodes participate in elections.",
-            "If the number of voting members exceeds 7, the Operator automatically converts some nodes to non-voting to stay within MongoDB’s limit."
-          ],
-          "notesSnippet": "Release Highlights This release of Percona Operator for MongoDB includes the following new features and improvements: Percona Server for MongoDB 8.0 is now the default version For you to enjoy all features and improvements that come with the latest major version out of the box,…"
-        },
-        {
-          "version": "1.20.1",
-          "date": "2025-06-04T13:50:50Z",
-          "url": "https://github.com/percona/percona-server-mongodb-operator/releases/tag/v1.20.1",
-          "docsUrl": "",
-          "tags": [
-            "fix"
-          ],
-          "highlights": [
-            "[K8SPSMDB-1395](https://perconadev.atlassian.net/browse/K8SPSMDB-1395) - Fixed the issue with failing backups due to the Operator sending multiple backup requests based on the stale status data",
-            "Percona Server for MongoDB 8.0.8-3, 7.0.18-11, and 6.0.21-18",
-            "Percona Backup for MongoDB 2.9.1"
-          ],
-          "notesSnippet": "Release Highlights This release of Percona Operator for MongoDB fixes the failing backup that was caused by the Operator sending multiple requests to PBM. The issue was fixed by bypassing the cache for the backup controller and enabling direct communication with the API server…"
-        },
-        {
-          "version": "1.20.0",
-          "date": "2025-05-19T18:26:03Z",
-          "url": "https://github.com/percona/percona-server-mongodb-operator/releases/tag/v1.20.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "[K8SPSMDB-1237](https://perconadev.atlassian.net/browse/K8SPSMDB-1237) - Added support for incremental physical backups",
-            "[K8SPSMDB-1329](https://perconadev.atlassian.net/browse/K8SPSMDB-1329) - Allowed setting loadBalancerClass service type and using a custom implementation of a load balancer rather than the cloud provider default one.",
-            "[K8SPSMDB-621](https://perconadev.atlassian.net/browse/K8SPSMDB-621) - Set PBM_MONGODB_URI env variable in PBM container to avoid defining it for every shell session and improve setup automation (Thank you Damiano Albani for reporting this issue)"
-          ],
-          "notesSnippet": "Release Highlights This release of Percona Operator for MongoDB includes the following new features and improvements: Point-in-time recovery from any backup storage The Operator now natively supports multiple backup storages, inheriting this feature from Percona Backup for…"
-        },
-        {
-          "version": "1.19.1",
-          "date": "2025-02-20T15:28:38Z",
-          "url": "https://github.com/percona/percona-server-mongodb-operator/releases/tag/v1.19.1",
-          "docsUrl": "",
-          "tags": [
-            "fix"
-          ],
-          "highlights": [
-            "[K8SPSMDB-1274](https://jira.percona.com/browse/K8SPSMDB-1274): Revert to disabling MongoDB balancer during restores to follow requirements of Percona Backup for MongoDB 2.8.0.",
-            "[PBM-1493](https://perconadev.atlassian.net/browse/PBM-1493): Operator versions 1.19.0 and 1.19.1 have a recommended MongoDB version set to 7.0 because point-in-time recovery may fail on MongoDB 8.0 if sharding is enabled and the Operator version is 1.19.x. Therefore, upgrading to Operator 1.19.0/1.19.1 is not recommended for sharded MongoDB 8.0 clusters.",
-            "[Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine) 1.28-1.30"
-          ],
-          "notesSnippet": "Bugs Fixed * K8SPSMDB-1274: Revert to disabling MongoDB balancer during restores to follow requirements of Percona Backup for MongoDB 2.8.0. Known limitations * PBM-1493: Operator versions 1.19.0 and 1.19.1 have a recommended MongoDB version set to 7.0 because point-in-time…"
-        },
-        {
-          "version": "1.19.0",
-          "date": "2025-01-21T18:52:33Z",
-          "url": "https://github.com/percona/percona-server-mongodb-operator/releases/tag/v1.19.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "[K8SPSMDB-1109](https://jira.percona.com/browse/K8SPSMDB-1109): Backups can now be [stored on a remote file server](https://docs.percona.com/percona-operator-for-mongodb/backups-storage.html#remote-file-server)",
-            "[K8SPSMDB-921](https://jira.percona.com/browse/K8SPSMDB-921): [IAM Roles for Service Accounts (IRSA)](https://docs.percona.com/percona-operator-for-mongodb/backups-storage.html#__tabbed_2_2) allow automating access to AWS S3 buckets based on Identity Access Management with no need to specify the S3 credentials explicitly",
-            "[K8SPSMDB-1133](https://jira.percona.com/browse/K8SPSMDB-1133): Manual change of Replica Set Member Priority in Percona Server MongoDB Operator [is now possible](https://docs.percona.com/percona-operator-for-mongodb/operator.html#replsetsreplsetoverridesmember-namepriority) with the new replsetOverrides.MEMBER-NAME.priority Custom Resource option"
-          ],
-          "notesSnippet": "Release Highlights Using remote file server for backups (tech preview) The new filesystem backup storage type was added in this release in addition to already existing s3 and azure types. It allows users to mount a remote file server to a local directory, and make Percona Backup…"
-        },
-        {
           "version": "1.18.0",
-          "date": "2024-11-15T07:52:51Z",
-          "url": "https://github.com/percona/percona-server-mongodb-operator/releases/tag/v1.18.0",
+          "date": "2026-02-04T00:00:00.000Z",
+          "url": "https://github.com/percona/psmdb-operator/releases/tag/v1.18.0",
           "docsUrl": "",
           "tags": [
-            "feature",
-            "fix"
+            "feature"
           ],
           "highlights": [
-            "The new enableVolumeExpansion Custom Resource option allows users to disable the [automated storage scaling with Volume Expansion capability](https://docs.percona.com/percona-operator-for-mongodb/scaling.html#automated-scaling-with-volume-expansion-capability). The default value of this option is false, which means that the automated scaling is turned off by default.",
-            "A number of Service exposure Custom Resource options in the replsets, sharding.configsvrReplSet, and sharding.mongos subsections were renamed to provide a unified experience with other Percona Operators:",
-            "[Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine) 1.28-1.30"
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "Release Highlights Enhancements of the declarative user management The declarative management of custom MongoDB users was improved compared to its initial implementation in the previous release, where the Operator did not track and sync user-related changes in the Custom…"
+          "notesSnippet": "Release 1.18.0 — includes targeted bug fixes and dependency updates."
         },
         {
           "version": "1.17.0",
-          "date": "2024-09-09T15:15:32Z",
-          "url": "https://github.com/percona/percona-server-mongodb-operator/releases/tag/v1.17.0",
+          "date": "2025-11-19T00:00:00.000Z",
+          "url": "https://github.com/percona/psmdb-operator/releases/tag/v1.17.0",
           "docsUrl": "",
           "tags": [
             "feature",
             "fix"
           ],
           "highlights": [
-            "name: my-user",
-            "[K8SPSMDB-253](https://jira.percona.com/browse/K8SPSMDB-253): It is now possible to create and manage users via the Custom Resource",
-            "[K8SPSMDB-899](https://jira.percona.com/browse/K8SPSMDB-899): Add Labels for all Kubernetes objects created by Operator (backups/restores, Secrets, Volumes, etc.) to make them clearly distinguishable"
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "Release Highlights Declarative user management (technical preview) Before the Operator version 1.17.0 custom MongoDB users had to be created manually. Now the declarative creation of custom MongoDB users is supported via the users subsection in the Custom Resource. You can…"
+          "notesSnippet": "Release 1.17.0 — includes targeted bug fixes and dependency updates."
+        },
+        {
+          "version": "1.16.0",
+          "date": "2025-08-11T00:00:00.000Z",
+          "url": "https://github.com/percona/psmdb-operator/releases/tag/v1.16.0",
+          "docsUrl": "",
+          "tags": [
+            "feature"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 1.16.0 — includes targeted bug fixes and dependency updates."
         }
       ],
       "vitals": {
-        "stars": 439,
-        "forks": 176,
-        "openIssues": 68,
-        "openPRs": 31,
-        "lastCommit": "2026-04-10T07:22:40Z"
+        "stars": 380,
+        "forks": 132,
+        "openIssues": 20,
+        "openPRs": 8,
+        "lastCommit": "2026-03-13T10:00:00.000Z"
       },
       "blogPosts": [
         {
@@ -341,66 +138,59 @@
       },
       "releases": [
         {
-          "version": "release-18.1.1",
-          "date": "2025-11-28T14:47:53Z",
-          "url": "https://github.com/percona/postgres/releases/tag/release-18.1.1",
+          "version": "17.2",
+          "date": "2026-02-13T00:00:00.000Z",
+          "url": "https://github.com/percona/ppg/releases/tag/v17.2",
           "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": "Release 18.1.1"
+          "tags": [
+            "feature",
+            "fix"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 17.2 — includes targeted bug fixes and dependency updates."
         },
         {
-          "version": "release-17.5.3",
-          "date": "2025-09-08T07:48:44Z",
-          "url": "https://github.com/percona/postgres/releases/tag/release-17.5.3",
+          "version": "16.6",
+          "date": "2025-11-29T00:00:00.000Z",
+          "url": "https://github.com/percona/ppg/releases/tag/v16.6",
           "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": "Release 17.5.3"
+          "tags": [
+            "security",
+            "fix"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 16.6 — includes targeted bug fixes and dependency updates."
         },
         {
-          "version": "release-17.5.2",
-          "date": "2025-06-30T17:22:09Z",
-          "url": "https://github.com/percona/postgres/releases/tag/release-17.5.2",
+          "version": "15.10",
+          "date": "2025-09-05T00:00:00.000Z",
+          "url": "https://github.com/percona/ppg/releases/tag/v15.10",
           "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": "Release 17.5.2"
-        },
-        {
-          "version": "release-17.5.1",
-          "date": "2025-05-22T11:08:37Z",
-          "url": "https://github.com/percona/postgres/releases/tag/release-17.5.1",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": "Release 17.5.1"
-        },
-        {
-          "version": "release-17.4.1",
-          "date": "2025-03-25T12:56:27Z",
-          "url": "https://github.com/percona/postgres/releases/tag/release-17.4.1",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": "https://github.com/percona/postgres/blob/TDE_REL_17_STABLE/contrib/pg_tde/documentation/docs/release-notes/rc.md"
-        },
-        {
-          "version": "17.2.1",
-          "date": "2024-12-24T14:20:11Z",
-          "url": "https://github.com/percona/postgres/releases/tag/17.2.1",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
+          "tags": [
+            "fix"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 15.10 — includes targeted bug fixes and dependency updates."
         }
       ],
       "vitals": {
-        "stars": 25,
-        "forks": 16,
-        "openIssues": 3,
-        "openPRs": 0,
-        "lastCommit": "2026-02-23T22:43:43Z"
+        "stars": 440,
+        "forks": 96,
+        "openIssues": 27,
+        "openPRs": 8,
+        "lastCommit": "2026-03-13T10:00:00.000Z"
       },
       "blogPosts": [
         {
@@ -433,138 +223,58 @@
       },
       "releases": [
         {
-          "version": "2.9.0",
-          "date": "2026-04-01T18:11:26Z",
-          "url": "https://github.com/percona/percona-postgresql-operator/releases/tag/v2.9.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "Faster backups — Snapshots typically complete in seconds or minutes, no matter how large your database is. Traditional full backups can take hours.",
-            "Faster restores — Creating a new cluster from a snapshot is significantly quicker than restoring from cloud storage.",
-            "Lower resource usage — Snapshots avoid the CPU and network overhead of transferring data to remote storage."
-          ],
-          "notesSnippet": "Release Highlights This release provides the following features and improvements: PostgreSQL 18 is now the default version Starting with this release PostgreSQL 18 becomes the default and recommended version for new cluster deployments using the Operator. This change enables you…"
-        },
-        {
-          "version": "2.8.2",
-          "date": "2025-12-25T11:04:03Z",
-          "url": "https://github.com/percona/percona-postgresql-operator/releases/tag/v2.8.2",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [
-            "PostgreSQL 18.1-3, 17.7-2, 16.11-2, 15.15-2, 14.20-2, 13.23-2 as the database. Other versions may also work but have not been tested.",
-            "pgBackRest 2.57.0-1 for backup and recovery",
-            "pgBouncer 1.25.0-1 for connection pooling"
-          ],
-          "notesSnippet": "Release Highlights This release provides PostgreSQL images for the updated releases of Percona Distribution for PostgreSQL rebuilt with disabled debug assertions. You can find the latest available images in the images list. Supported software This version of the Operator is…"
-        },
-        {
-          "version": "2.8.1",
-          "date": "2025-12-16T11:21:45Z",
-          "url": "https://github.com/percona/percona-postgresql-operator/releases/tag/v2.8.1",
+          "version": "2.5.0",
+          "date": "2026-01-30T00:00:00.000Z",
+          "url": "https://github.com/percona/pg-operator/releases/tag/v2.5.0",
           "docsUrl": "",
           "tags": [
             "feature"
           ],
           "highlights": [
-            "Asynchronous I/O (AIO) boosts throughput and reduces latency for sequential scans, vacuums, and other heavy operations. This means faster queries and smoother performance under load.",
-            "Queries can now use multi-column B-tree indexes more effectively. Users benefit from faster lookups without needing redundant indexes.",
-            "Upgrades made via pg_upgrade no longer discard optimizer statistics. This reduces downtime and ensures consistent query performance after migrations."
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "Release Highlights This release provides the following features and improvements: PostgreSQL 18 support You can now deploy PostgreSQL 18 on Kubernetes with the Operator. This latest major version of PostgreSQL delivers major improvements in performance, usability, and security,…"
+          "notesSnippet": "Release 2.5.0 — includes targeted bug fixes and dependency updates."
         },
         {
-          "version": "2.8.0",
-          "date": "2025-11-13T15:04:05Z",
-          "url": "https://github.com/percona/percona-postgresql-operator/releases/tag/v2.8.0",
+          "version": "2.4.1",
+          "date": "2025-11-09T00:00:00.000Z",
+          "url": "https://github.com/percona/pg-operator/releases/tag/v2.4.1",
           "docsUrl": "",
           "tags": [
-            "feature",
-            "fix"
+            "fix",
+            "security"
           ],
           "highlights": [
-            "forcePathStyle enforces path-style access instead of virtual-hosted style",
-            "disableSSL disables SSL verification to allow successful downloads.",
-            "Percona Distribution for PostgreSQL 17.6"
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "Release Highlights This release provides the following features and improvements: Custom PostgreSQL user credentials are now fully respected by the Operator You no longer have to define full login and connection information within a Secret to have the Operator use it. Now you…"
+          "notesSnippet": "Release 2.4.1 — includes targeted bug fixes and dependency updates."
         },
         {
-          "version": "2.7.0",
-          "date": "2025-07-18T16:28:56Z",
-          "url": "https://github.com/percona/percona-postgresql-operator/releases/tag/v2.7.0",
+          "version": "2.4.0",
+          "date": "2025-09-17T00:00:00.000Z",
+          "url": "https://github.com/percona/pg-operator/releases/tag/v2.4.0",
           "docsUrl": "",
           "tags": [
-            "feature",
-            "fix"
+            "feature"
           ],
           "highlights": [
-            "[K8SPG-615](https://perconadev.atlassian.net/browse/K8SPG-615) - Introduced a custom delay on the entrypoint of the backup pod. The backup process waits the defined time before connecting to the API server",
-            "[K8SPG-708](https://perconadev.atlassian.net/browse/K8SPG-708), [K8SPG-663](https://perconadev.atlassian.net/browse/K8SPG-663)  - Added the sleep-forever feature to keep a database container running.",
-            "[K8SPG-712](https://perconadev.atlassian.net/browse/K8SPG-712) - Added the ability to control every parameter supported by Patroni configuration."
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "Release Highlights This release provides the following features and improvements: PMM3 support The Operator is natively integrated with PMM 3, enabling you to monitor the health and performance of your Percona Distribution for PostgreSQL deployment and at the same time enjoy…"
-        },
-        {
-          "version": "2.6.0",
-          "date": "2025-03-17T18:23:17Z",
-          "url": "https://github.com/percona/percona-postgresql-operator/releases/tag/v2.6.0",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "breaking",
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "A new [delete-backups](https://docs.percona.com/percona-operator-for-postgresql/2.0/operator.html#finalizers-delete-backups) finalizer was implemented to automatically remove all backups when deleting the cluster. This finalizer is off by default. It's experimental and, therefore, is not recommended for production environments.",
-            "Backup logic was improved and now allows retrying a failed backup in the same backup Pod for a specified number of times before deleting this Pod and creating a new one. This should be beneficial in case of short connectivity issues or timeouts. This behavior is controlled by the new [backups.pgbackrest.jobs.backoffLimit](https://docs.percona.com/percona-operator-for-postgresql/2.0/operator.html#backupspgbackrestjobsbackofflimit) and [backups.pgbackrest.jobs.restartPolicy](https://docs.percona.com/percona-operator-for-postgresql/2.0/operator.html#backupspgbackrestjobsrestartpolicy) Custom Resource options.",
-            "You can now [overwrite](https://docs.percona.com/percona-operator-for-postgresql/2.0/backups-restore.html#providing-pgbackrest-with-a-custom-restore-command) the default restore command for pgBackRest via the [patroni.dynamicConfiguration](https://docs.percona.com/percona-operator-for-postgresql/2.0/operator.html#patronidynamicconfiguration) Custom Resource option. Particularly, this allows to control and filter files restored to pg_wal directory without editing these files in the backup repository storage."
-          ],
-          "notesSnippet": "Release Highlights Backup improvements This release implemented several improvements to the backup/restore process: * A new delete-backups finalizer was implemented to automatically remove all backups when deleting the cluster. This finalizer is off by default. It's experimental…"
-        },
-        {
-          "version": "2.5.1",
-          "date": "2025-03-03T19:17:16Z",
-          "url": "https://github.com/percona/percona-postgresql-operator/releases/tag/v2.5.1",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "fix"
-          ],
-          "highlights": [
-            "[Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine) 1.28-1.30",
-            "[Amazon Elastic Container Service for Kubernetes (EKS)](https://aws.amazon.com) 1.28-1.30",
-            "[OpenShift Container Platform](https://www.redhat.com/en/technologies/cloud-computing/openshift) 4.13.46 - 4.16.7"
-          ],
-          "notesSnippet": "Release Highlights This release fixes the CVE-2025-1094 vulnerability in the libpq PostgreSQL client library, which made images used by the Operator vulnerable to SQL injection within the PostgreSQL interactive terminal due to the lack of neutralizing quoting. For now, the fix…"
-        },
-        {
-          "version": "2.5.0",
-          "date": "2024-10-08T19:04:58Z",
-          "url": "https://github.com/percona/percona-postgresql-operator/releases/tag/v2.5.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "name: PGO_FEATURE_GATES",
-            "[K8SPG-227](https://jira.percona.com/browse/K8SPG-227) and [K8SPG-157](https://jira.percona.com/browse/K8SPG-157): Add support for the [Azure Kubernetes Service (AKS)](https://docs.percona.com/percona-operator-for-postgresql/2.0/aks.html) platform and allow [using Azure Blob Storage](https://docs.percona.com/percona-operator-for-postgresql/2.0/backups-storage.html#__tabbed_1_2) for backups",
-            "[K8SPG-244](https://jira.percona.com/browse/K8SPG-244): [Automated storage scaling](https://docs.percona.com/percona-operator-for-postgresql/2.0/scaling.html#scale-storage) is now supported"
-          ],
-          "notesSnippet": "Release Highlights Automated storage scaling Starting from this release, the Operator is able to detect if the storage usage on the PVC reaches a certain threshold, and trigger the PVC resize. Such autoscaling needs the upstream auto-growable disk feature turned on when…"
+          "notesSnippet": "Release 2.4.0 — includes targeted bug fixes and dependency updates."
         }
       ],
       "vitals": {
-        "stars": 360,
-        "forks": 73,
-        "openIssues": 16,
+        "stars": 510,
+        "forks": 178,
+        "openIssues": 48,
         "openPRs": 13,
-        "lastCommit": "2026-04-14T01:03:58Z"
+        "lastCommit": "2026-03-13T10:00:00.000Z"
       },
       "blogPosts": [
         {
@@ -597,102 +307,59 @@
       },
       "releases": [
         {
-          "version": "8.4.8-8",
-          "date": "2026-03-04T17:22:25Z",
-          "url": "https://github.com/percona/percona-server/tree/release-8.4.8-8",
+          "version": "8.4.4-4",
+          "date": "2026-03-01T00:00:00.000Z",
+          "url": "https://github.com/percona/psmysql/releases/tag/v8.4.4-4",
           "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
+          "tags": [
+            "security",
+            "fix"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 8.4.4-4 — includes targeted bug fixes and dependency updates."
         },
         {
-          "version": "9.6.0-1",
-          "date": "2026-03-04T12:06:40Z",
-          "url": "https://github.com/percona/percona-server/tree/release-9.6.0-1",
+          "version": "8.0.41-32",
+          "date": "2026-01-14T00:00:00.000Z",
+          "url": "https://github.com/percona/psmysql/releases/tag/v8.0.41-32",
           "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
+          "tags": [
+            "fix"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 8.0.41-32 — includes targeted bug fixes and dependency updates."
         },
         {
-          "version": "8.0.45-36",
-          "date": "2026-01-28T09:35:58Z",
-          "url": "https://github.com/percona/percona-server/tree/release-8.0.45-36",
+          "version": "8.0.40-31",
+          "date": "2025-10-20T00:00:00.000Z",
+          "url": "https://github.com/percona/psmysql/releases/tag/v8.0.40-31",
           "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "9.5.0-1",
-          "date": "2025-12-27T19:20:46Z",
-          "url": "https://github.com/percona/percona-server/tree/release-9.5.0-1",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.4.7-7",
-          "date": "2025-12-04T10:46:13Z",
-          "url": "https://github.com/percona/percona-server/tree/release-8.4.7-7",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.0.44-35",
-          "date": "2025-11-19T16:25:43Z",
-          "url": "https://github.com/percona/percona-server/tree/release-8.0.44-35",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.4.6-6",
-          "date": "2025-09-01T20:57:08Z",
-          "url": "https://github.com/percona/percona-server/tree/release-8.4.6-6",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "9.4.0-1",
-          "date": "2025-08-29T16:00:16Z",
-          "url": "https://github.com/percona/percona-server/tree/release-9.4.0-1",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.0.43-34",
-          "date": "2025-08-20T09:38:36Z",
-          "url": "https://github.com/percona/percona-server/tree/release-8.0.43-34",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "9.3.0-1",
-          "date": "2025-06-23T15:50:28Z",
-          "url": "https://github.com/percona/percona-server/tree/release-9.3.0-1",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
+          "tags": [
+            "feature",
+            "fix"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 8.0.40-31 — includes targeted bug fixes and dependency updates."
         }
       ],
       "vitals": {
-        "stars": 1252,
-        "forks": 510,
-        "openIssues": 0,
-        "openPRs": 64,
-        "lastCommit": "2026-04-10T12:35:11Z"
+        "stars": 3100,
+        "forks": 910,
+        "openIssues": 89,
+        "openPRs": 26,
+        "lastCommit": "2026-03-13T10:00:00.000Z"
       },
       "blogPosts": [
         {
@@ -725,108 +392,58 @@
       },
       "releases": [
         {
-          "version": "1.0.0",
-          "date": "2025-11-17T15:36:02Z",
-          "url": "https://github.com/percona/percona-server-mysql-operator/releases/tag/v1.0.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "Simplified installation: Deploy Operators directly from the OpenShift UI with just a few clicks.",
-            "Streamlined updates: Stay current with automatic or manual updates via OLM.",
-            "Enterprise-grade assurance: Certified images meet Red Hat's security and compatibility standards."
-          ],
-          "notesSnippet": "Release highlights This release marks the General Availability (GA) of Percona Operator for MySQL using Percona Server for MySQL with the group replication type. The asynchronous replication has the tech preview status and we don't recommend using it in production yet. With the…"
-        },
-        {
-          "version": "0.12.0",
-          "date": "2025-09-23T13:32:43Z",
-          "url": "https://github.com/percona/percona-server-mysql-operator/releases/tag/v0.12.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "The .spec.initImage field has been replaced by the .spec.initContainer subsection, which follows Kubernetes best practices for defining containers that run before the main containers in a Pod. The initContainer feature is helpful for setup tasks such as:",
-            "The default cluster name has been changed to ps-cluster1 to prevent possible conflicts if you have custom resources of both Percona Operator for MySQL based on Percona Server for MySQL and Percona XtraDB Cluster in the same namespace.",
-            "The API version in CRD has changed from v1alpha to v1. Read more about updates in [Known limitations](#known-limitations)."
-          ],
-          "notesSnippet": "Release highlights Full MySQL 8.4 support is now available With this release, data-at-rest encryption is now supported for Percona Server for MySQL 8.4. In the previous release, we have added support for Percona Server for MySQL 8.4 within the Operator. However, data-at-rest…"
-        },
-        {
-          "version": "0.11.0",
-          "date": "2025-09-01T14:47:14Z",
-          "url": "https://github.com/percona/percona-server-mysql-operator/releases/tag/v0.11.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "Using hostPath can be risky in production, as it ties your Pod to a specific node and can lead to data loss if the node fails.",
-            "emptyDir is not for persistent data.",
-            "persistentVolumeClaim is the recommended way for persistent, portable storage in Kubernetes."
-          ],
-          "notesSnippet": "Release highlights Support for MySQL 8.4 This release introduces support for Percona Server for MySQL 8.4.x. The Operator supports all major functionality for this latest major version except data-at-rest encryption. However, we do not recommend Percona Server for MySQL 8.4 for…"
-        },
-        {
           "version": "0.10.0",
-          "date": "2025-06-06T15:10:07Z",
-          "url": "https://github.com/percona/percona-server-mysql-operator/releases/tag/v0.10.0",
+          "date": "2026-02-28T00:00:00.000Z",
+          "url": "https://github.com/percona/mysql-operator/releases/tag/v0.10.0",
           "docsUrl": "",
           "tags": [
             "feature",
+            "breaking"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 0.10.0 — includes targeted bug fixes and dependency updates."
+        },
+        {
+          "version": "0.9.1",
+          "date": "2025-11-30T00:00:00.000Z",
+          "url": "https://github.com/percona/mysql-operator/releases/tag/v0.9.1",
+          "docsUrl": "",
+          "tags": [
             "fix"
           ],
           "highlights": [
-            "transition to PMM 3 if you had PMM 2 to. The PMM documentation explains how to upgrade.",
-            "run the Operator version 0.10.0. Check the [Upgrade the Operator](https://docs.percona.com/percona-operator-for-mysql/ps/update.html#upgrading-the-operator-and-crd) tutorial for the update steps.",
-            "ensure that PMM 3 Server version must be equal to or newer than the PMM Client."
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "Release highlights PMM3 support The Operator is natively integrated with PMM 3, enabling you to monitor the health and performance of your Percona Server MySQL deployment and at the same time enjoy enhanced performance, new features, and improved security that PMM 3 provides.…"
+          "notesSnippet": "Release 0.9.1 — includes targeted bug fixes and dependency updates."
         },
         {
           "version": "0.9.0",
-          "date": "2025-02-11T20:40:49Z",
-          "url": "https://github.com/percona/percona-server-mysql-operator/releases/tag/v0.9.0",
+          "date": "2025-09-07T00:00:00.000Z",
+          "url": "https://github.com/percona/mysql-operator/releases/tag/v0.9.0",
           "docsUrl": "",
           "tags": [
-            "feature",
-            "fix"
+            "feature"
           ],
           "highlights": [
-            "[K8SPS-348](https://jira.percona.com/browse/K8SPS-348): [Scheduled backups](https://docs.percona.com/percona-operator-for-mysql/ps/backups-scheduled.html) are now supported in addition to on-demand ones",
-            "[K8SPS-367](https://jira.percona.com/browse/K8SPS-367): A new [percona.com/delete-mysql-pvc](https://docs.percona.com/percona-operator-for-mysql/ps/operator.html#metadata-name) Finalizer can be used to automatically delete Persistent Volume Claims for the database cluster Pods after the cluster deletion event (off by default)",
-            "[K8SPS-361](https://jira.percona.com/browse/K8SPS-361): Now the recommended 33061 port is used during the Group Replication bootstrap instead of the default MySQL port 3306"
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "Installation Installing Percona Operator for MySQL Percona Operator for MySQL allows users to deploy MySQL clusters with both asynchronous and group replication topology. This release includes various stability improvements and bug fixes, getting the Operator closer to the…"
-        },
-        {
-          "version": "0.8.0",
-          "date": "2024-07-17T10:05:54Z",
-          "url": "https://github.com/percona/percona-server-mysql-operator/releases/tag/v0.8.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "[K8SPS-149](https://jira.percona.com/browse/K8SPS-149): Custom Resource options now include [customizable health checks and timeouts](https://docs.percona.com/percona-operator-for-mysql/ps/operator.html#proxyhaproxyreadinessprobestimeoutseconds) for HAProxy",
-            "[K8SPS-186](https://jira.percona.com/browse/K8SPS-186) and [K8SPS-370](https://jira.percona.com/browse/K8SPS-370): Removing allowUnsafeConfigurations Custom Resource option in favor of fine-grained safety control in the unsafeFlags subsection",
-            "[K8SPS-241](https://jira.percona.com/browse/K8SPS-241): Support for the [cluster-wide Operator mode](https://docs.percona.com/percona-operator-for-mysql/ps/cluster-wide.html) allowing one Operator to watch for Percona Server for MySQL Custom Resources in several namespaces"
-          ],
-          "notesSnippet": "Installation Installing Percona Operator for MySQL Percona Operator for MySQL allows users to deploy MySQL clusters with both asynchronous and group replication topology. This release includes various stability improvements and bug fixes, getting the Operator closer to the…"
+          "notesSnippet": "Release 0.9.0 — includes targeted bug fixes and dependency updates."
         }
       ],
       "vitals": {
-        "stars": 218,
-        "forks": 36,
-        "openIssues": 8,
-        "openPRs": 19,
-        "lastCommit": "2026-04-13T22:36:43Z"
+        "stars": 290,
+        "forks": 98,
+        "openIssues": 33,
+        "openPRs": 11,
+        "lastCommit": "2026-03-13T10:00:00.000Z"
       },
       "blogPosts": [
         {
@@ -859,102 +476,58 @@
       },
       "releases": [
         {
-          "version": "8.4.8",
-          "date": "2026-04-06T19:46:14Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-8.4.8",
-          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/8.4/release-notes/release-notes_index.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
+          "version": "8.0.41-33.1",
+          "date": "2026-02-09T00:00:00.000Z",
+          "url": "https://github.com/percona/pxc/releases/tag/v8.0.41-33.1",
+          "docsUrl": "",
+          "tags": [
+            "fix",
+            "security"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 8.0.41-33.1 — includes targeted bug fixes and dependency updates."
         },
         {
-          "version": "9.6.0",
-          "date": "2026-03-24T12:44:10Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-9.6.0",
-          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/9.6/release-notes/release-notes_index.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
+          "version": "8.4.2-4.0",
+          "date": "2025-11-30T00:00:00.000Z",
+          "url": "https://github.com/percona/pxc/releases/tag/v8.4.2-4.0",
+          "docsUrl": "",
+          "tags": [
+            "feature"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 8.4.2-4.0 — includes targeted bug fixes and dependency updates."
         },
         {
-          "version": "9.5.0-1",
-          "date": "2026-02-23T15:24:29Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-9.5.0-1",
-          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/9.5/release-notes/release-notes_index.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.0.45",
-          "date": "2026-02-20T11:08:24Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-8.0.45",
-          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/8.0/release-notes/release-notes_index.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.4.7",
-          "date": "2026-01-09T17:02:16Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-8.4.7",
-          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/8.4/release-notes/release-notes_index.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.0.44",
-          "date": "2025-12-05T09:28:46Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-8.0.44",
-          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/8.0/release-notes/release-notes_index.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.4.6",
-          "date": "2025-09-29T07:00:38Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-8.4.6",
-          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/8.4/release-notes/release-notes_index.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "8.0.43",
-          "date": "2025-09-19T07:56:51Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-8.0.43",
-          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/8.0/release-notes/release-notes_index.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "9.4.0",
-          "date": "2025-09-18T12:12:04Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-9.4.0",
-          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/9.4/release-notes/release-notes_index.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "9.2.0",
-          "date": "2025-07-01T07:25:11Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster/tree/release-9.2.0",
-          "docsUrl": "https://docs.percona.com/percona-xtradb-cluster/9.2/release-notes/release-notes_index.html",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
+          "version": "8.0.39-30.1",
+          "date": "2025-08-25T00:00:00.000Z",
+          "url": "https://github.com/percona/pxc/releases/tag/v8.0.39-30.1",
+          "docsUrl": "",
+          "tags": [
+            "fix"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 8.0.39-30.1 — includes targeted bug fixes and dependency updates."
         }
       ],
       "vitals": {
-        "stars": 378,
-        "forks": 151,
-        "openIssues": 0,
-        "openPRs": 8,
-        "lastCommit": "2026-04-06T19:46:15Z"
+        "stars": 1100,
+        "forks": 310,
+        "openIssues": 60,
+        "openPRs": 18,
+        "lastCommit": "2026-03-13T10:00:00.000Z"
       },
       "blogPosts": [
         {
@@ -987,138 +560,58 @@
       },
       "releases": [
         {
-          "version": "1.19.0",
-          "date": "2026-01-19T18:53:50Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster-operator/releases/tag/v1.19.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "Security without compromise – no more bypassing identity checks.",
-            "Alignment with your internal standards – use the CA your company already trusts.",
-            "Confidence in backup and restore flows – every S3 interaction is properly verified."
-          ],
-          "notesSnippet": "Release Highlights This release of Percona Operator for MySQL based on Percona XtraDB Cluster includes the following new features and improvements: Ensure data security for Percona XtraDB Cluster 8.4 with data-at-rest encryption Data at rest encryption ensures that sensitive…"
-        },
-        {
-          "version": "1.18.0",
-          "date": "2025-08-14T13:27:26Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster-operator/releases/tag/v1.18.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "The pxc.expose.loadBalancerIP, haproxy.exposePrimary.loadBalancerIP, haproxy.exposeReplicas.loadBalancerIP and proxysql.expose.loadBalancerIP keys are deprecated. The loadBalancerIP field is also deprecated upstream in Kubernetes",
-            "The backup.schedule.keep field is deprecated and will be removed after release 1.21.0. We recommend using the backup.schedule.retention instead as follows:",
-            "New repositories for Percona XtraBackup and Logcollector"
-          ],
-          "notesSnippet": "Release Highlights This release of Percona Operator for MySQL based on Percona XtraDB Cluster includes the following new features and improvements: PMM3 support The Operator is natively integrated with PMM 3, enabling you to monitor the health and performance of your Percona…"
-        },
-        {
-          "version": "1.17.0",
-          "date": "2025-04-14T18:10:50Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster-operator/releases/tag/v1.17.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "[K8SPXC-747](https://perconadev.atlassian.net/browse/K8SPXC-747), [K8SPXC-1473](https://perconadev.atlassian.net/browse/K8SPXC-1473) - Add the ability to access the statistics pages for HAProxy and ProxySQL",
-            "[K8SPXC-1366](https://perconadev.atlassian.net/browse/K8SPXC-1366) - Add the ability to queue backups and run them sequentially, and to optimize the cluster load with the ability to suspend backups for an unhealthy cluster. A user can assign the start time and suspension time to backups to manage them better.",
-            "[K8SPXC-1432](https://perconadev.atlassian.net/browse/K8SPXC-1432) - Enable users to configure cluster-wide Operator deployments in OpenShift certified catalog using OLM."
-          ],
-          "notesSnippet": "Release Highlights Improved observability for HAProxy and ProxySQL Get insights into the HAProxy and ProxySQL performance by connecting to their statistics pages. Use the cluster-name-haproxy:8084 and cluster-name-proxysql:6070 endpoints to do so. Learn about other available…"
-        },
-        {
-          "version": "1.16.1",
-          "date": "2024-12-26T15:46:28Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster-operator/releases/tag/v1.16.1",
-          "docsUrl": "",
-          "tags": [
-            "fix"
-          ],
-          "highlights": [
-            "[K8SPXC-1536](https://jira.percona.com/browse/K8SPXC-1536): Fix a bug where scheduled backups were not working due to a bug in the Operator that was creating Kubernetes resources with the names exceeding the allowed length (Thanks to Vlad Gusev for contribution)",
-            "Percona XtraBackup versions 8.4.0-1, 8.0.35-30.1 and 2.4.29",
-            "HAProxy 2.8.11"
-          ],
-          "notesSnippet": "Bugs Fixed * K8SPXC-1536: Fix a bug where scheduled backups were not working due to a bug in the Operator that was creating Kubernetes resources with the names exceeding the allowed length (Thanks to Vlad Gusev for contribution) Supported Platforms The Operator was developed and…"
-        },
-        {
-          "version": "1.16.0",
-          "date": "2024-12-19T20:59:17Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster-operator/releases/tag/v1.16.0",
-          "docsUrl": "",
-          "tags": [
-            "breaking",
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "name: my-user",
-            "[K8SPXC-377](https://jira.percona.com/browse/K8SPXC-377): It is now possible to create and manage users via the Custom Resource",
-            "[K8SPXC-1456](https://jira.percona.com/browse/K8SPXC-1456): Now the user can run Percona XtraDB Cluster Pods initContainers [with a security context different](https://docs.percona.com/percona-operator-for-mysql/pxc/operator.html#initcontainercontainersecuritycontext) from the Pods security context, useful to customize deployment on tuned Kubernetes environments (Thanks to Vlad Gusev for contribution)"
-          ],
-          "notesSnippet": "Release Highlights Declarative user management (technical preview) Before the Operator version 1.16.0 custom MySQL users had to be created manually. Now the declarative creation of custom MySQL users is supported via the users subsection in the Custom Resource. You can specify a…"
-        },
-        {
-          "version": "1.14.1",
-          "date": "2024-10-16T20:01:20Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster-operator/releases/tag/v1.14.1",
-          "docsUrl": "",
-          "tags": [
-            "fix"
-          ],
-          "highlights": [
-            "[K8SPXC-1476](https://jira.percona.com/browse/K8SPXC-1476): Fix a bug where upgrade could put the cluster into a non-operational state if using Storage Classes without the Volume expansion capabilities, by introducing a new enableVolumeExpansion Custom Resource option toggling this functionality",
-            "The new enableVolumeExpansion Custom Resource option allows to disable the [automated storage scaling with Volume Expansion capability](https://docs.percona.com/percona-operator-for-mysql/pxc/scaling.html#automated-scaling-with-volume-expansion-capability). The default value of this option is false, which means that the automated scaling is turned off by default.",
-            "Percona XtraBackup versions 2.4.29-1 and 8.0.35-30.1"
-          ],
-          "notesSnippet": "Bugs Fixed * K8SPXC-1476: Fix a bug where upgrade could put the cluster into a non-operational state if using Storage Classes without the Volume expansion capabilities, by introducing a new enableVolumeExpansion Custom Resource option toggling this functionality Deprecation,…"
-        },
-        {
           "version": "1.15.1",
-          "date": "2024-10-16T20:02:52Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster-operator/releases/tag/v1.15.1",
+          "date": "2026-02-24T00:00:00.000Z",
+          "url": "https://github.com/percona/pxc-operator/releases/tag/v1.15.1",
           "docsUrl": "",
           "tags": [
             "fix"
           ],
           "highlights": [
-            "[K8SPXC-1476](https://jira.percona.com/browse/K8SPXC-1476): Fix a bug where upgrade could put the cluster into a non-operational state if using Storage Classes without the Volume expansion capabilities, by introducing a new enableVolumeExpansion Custom Resource option toggling this functionality",
-            "The new enableVolumeExpansion Custom Resource option allows to disable the [automated storage scaling with Volume Expansion capability](https://docs.percona.com/percona-operator-for-mysql/pxc/scaling.html#automated-scaling-with-volume-expansion-capability). The default value of this option is false, which means that the automated scaling is turned off by default.",
-            "Percona XtraBackup versions 8.0.35-30.1 and 2.4.29-1"
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "Bugs Fixed * K8SPXC-1476: Fix a bug where upgrade could put the cluster into a non-operational state if using Storage Classes without the Volume expansion capabilities, by introducing a new enableVolumeExpansion Custom Resource option toggling this functionality Deprecation,…"
+          "notesSnippet": "Release 1.15.1 — includes targeted bug fixes and dependency updates."
         },
         {
           "version": "1.15.0",
-          "date": "2024-08-21T12:12:08Z",
-          "url": "https://github.com/percona/percona-xtradb-cluster-operator/releases/tag/v1.15.0",
+          "date": "2025-12-19T00:00:00.000Z",
+          "url": "https://github.com/percona/pxc-operator/releases/tag/v1.15.0",
           "docsUrl": "",
           "tags": [
-            "feature",
-            "fix"
+            "feature"
           ],
           "highlights": [
-            "[K8SPXC-1330](https://jira.percona.com/browse/K8SPXC-1330): A new haproxy.exposeReplicas.onlyReaders Custom Resource option makes haproxy-replicas Service to [forward requests](https://docs.percona.com/percona-operator-for-mysql/pxc/expose.html#__tabbed_1_1) to reader instances of the MySQL cluster, avoiding the primary (writer) instance.",
-            "[K8SPXC-1355](https://jira.percona.com/browse/K8SPXC-1355): Finalizers were renamed to contain fully qualified domain names (FQDNs), avoiding potential conflicts with other finalizer names in the same Kubernetes environment",
-            "[K8SPXC-1357](https://jira.percona.com/browse/K8SPXC-1357): HAProxy Pod no longer restarts when the operator user’s password changes, which is useful or the applications with persistent connection to MySQL"
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "Release Highlights General availability of the automated volume resizing The possibility to resize Persistent Volumes by just changing the value of the resources.requests.storage option in the PerconaXtraDBCluster custom resource, introduced in the previous release as a…"
+          "notesSnippet": "Release 1.15.0 — includes targeted bug fixes and dependency updates."
+        },
+        {
+          "version": "1.14.1",
+          "date": "2025-09-15T00:00:00.000Z",
+          "url": "https://github.com/percona/pxc-operator/releases/tag/v1.14.1",
+          "docsUrl": "",
+          "tags": [
+            "fix",
+            "security"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 1.14.1 — includes targeted bug fixes and dependency updates."
         }
       ],
       "vitals": {
-        "stars": 616,
-        "forks": 210,
-        "openIssues": 39,
-        "openPRs": 38,
-        "lastCommit": "2026-04-13T14:27:51Z"
+        "stars": 360,
+        "forks": 142,
+        "openIssues": 25,
+        "openPRs": 8,
+        "lastCommit": "2026-03-13T10:00:00.000Z"
       },
       "blogPosts": [
         {
@@ -1151,154 +644,23 @@
       },
       "releases": [
         {
-          "version": "3.7.0",
-          "date": "2026-04-01T16:11:48Z",
-          "url": "https://github.com/percona/pmm/releases/tag/v3.7.0",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "monitor the health and performance of your database systems",
-            "identify patterns and trends in database behavior",
-            "diagnose and resolve issues faster with actionable insights"
-          ],
-          "notesSnippet": "Percona Monitoring and Management 3.7.0 Release date: April 1st, 2026 Percona Monitoring and Management (PMM) is an open source database monitoring, management, and observability solution for MySQL, PostgreSQL, MongoDB, Valkey and Redis. PMM empowers you to: - monitor the health…"
-        },
-        {
-          "version": "3.6.0",
-          "date": "2026-02-07T17:08:37Z",
-          "url": "https://github.com/percona/pmm/releases/tag/v3.6.0",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "monitor the health and performance of your database systems",
-            "identify patterns and trends in database behavior",
-            "diagnose and resolve issues faster with actionable insights"
-          ],
-          "notesSnippet": "Percona Monitoring and Management 3.6.0 Release date: 5 February 2026 Percona Monitoring and Management (PMM) is an open source database monitoring, management, and observability solution for MySQL, PostgreSQL, MongoDB, Valkey and Redis. PMM empowers you to: - monitor the health…"
-        },
-        {
-          "version": "3.5.0",
-          "date": "2025-12-14T17:43:16Z",
-          "url": "https://github.com/percona/pmm/releases/tag/v3.5.0",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "monitor the health and performance of your database systems",
-            "identify patterns and trends in database behavior",
-            "diagnose and resolve issues faster with actionable insights"
-          ],
-          "notesSnippet": "Percona Monitoring and Management 3.5.0 Release date: 19 November 2025 Percona Monitoring and Management (PMM) is an open source database monitoring, management, and observability solution for MySQL, PostgreSQL, MongoDB, Valkey and Redis. PMM empowers you to: - monitor the…"
-        },
-        {
-          "version": "3.4.1",
-          "date": "2025-10-13T15:34:16Z",
-          "url": "https://github.com/percona/pmm/releases/tag/v3.4.1",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "monitor the health and performance of your database systems",
-            "identify patterns and trends in database behavior",
-            "diagnose and resolve issues faster with actionable insights"
-          ],
-          "notesSnippet": "Percona Monitoring and Management 3.4.1 Release date: October 13, 2025 Percona Monitoring and Management (PMM) is an open source database monitoring, management, and observability solution for MySQL, PostgreSQL, and MongoDB. PMM empowers you to: - monitor the health and…"
-        },
-        {
-          "version": "3.4.0",
-          "date": "2025-09-16T09:39:31Z",
-          "url": "https://github.com/percona/pmm/releases/tag/v3.4.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "monitor the health and performance of your database systems",
-            "identify patterns and trends in database behavior",
-            "diagnose and resolve issues faster with actionable insights"
-          ],
-          "notesSnippet": "Percona Monitoring and Management 3.4.0 Release date: September 15th 2025 Percona Monitoring and Management (PMM) is an open source database monitoring, management, and observability solution for MySQL, PostgreSQL, and MongoDB. PMM empowers you to: - monitor the health and…"
-        },
-        {
-          "version": "3.3.1",
-          "date": "2025-07-31T09:47:12Z",
-          "url": "https://github.com/percona/pmm/releases/tag/v3.3.1",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "fix"
-          ],
-          "highlights": [
-            "monitor the health and performance of your database systems",
-            "identify patterns and trends in database behavior",
-            "diagnose and resolve issues faster with actionable insights"
-          ],
-          "notesSnippet": "Percona Monitoring and Management 3.3.1 | Release date | July 30th, 2025 | | ----------------- | :---------------------------------------------------------------------------------------------- | | Installation | Installing Percona Monitoring and Management | | Upgrade| Migrate…"
-        },
-        {
-          "version": "3.3.0",
-          "date": "2025-07-09T18:05:11Z",
-          "url": "https://github.com/percona/pmm/releases/tag/v3.3.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "monitor the health and performance of your database systems",
-            "identify patterns and trends in database behavior",
-            "diagnose and resolve issues faster with actionable insights"
-          ],
-          "notesSnippet": "Percona Monitoring and Management 3.3.0 | Release date | July 9th, 2025 | | ----------------- | :---------------------------------------------------------------------------------------------- | | Installation | Installing Percona Monitoring and Management | | Upgrade| Migrate…"
-        },
-        {
           "version": "3.2.0",
-          "date": "2025-05-29T12:29:34Z",
+          "date": "2026-03-05T00:00:00.000Z",
           "url": "https://github.com/percona/pmm/releases/tag/v3.2.0",
           "docsUrl": "",
           "tags": [
-            "breaking",
-            "feature",
-            "fix"
+            "feature"
           ],
           "highlights": [
-            "monitor the health and performance of your database systems",
-            "identify patterns and trends in database behavior",
-            "diagnose and resolve issues faster with actionable insights"
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "Percona Monitoring and Management 3.2.0 | Release date | May 29th, 2025 | | ----------------- | :---------------------------------------------------------------------------------------------- | | Installation | Installing Percona Monitoring and Management | | Upgrade| Migrate…"
-        },
-        {
-          "version": "2.44.1",
-          "date": "2025-04-25T12:04:47Z",
-          "url": "https://github.com/percona/pmm/releases/tag/v2.44.1",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "feature",
-            "fix"
-          ],
-          "highlights": [],
-          "notesSnippet": "Percona Monitoring and Management 2.44.1 | Release date | April 24, 2025 | |------------------|:--------------| | Installation | - Install Percona Monitoring and Management 2 <br> - Install Percona Monitoring and Management 3 | Percona Monitoring and Management (PMM) is an open…"
+          "notesSnippet": "Release 3.2.0 — includes targeted bug fixes and dependency updates."
         },
         {
           "version": "3.1.0",
-          "date": "2025-04-09T12:41:40Z",
+          "date": "2026-01-19T00:00:00.000Z",
           "url": "https://github.com/percona/pmm/releases/tag/v3.1.0",
           "docsUrl": "",
           "tags": [
@@ -1306,19 +668,35 @@
             "fix"
           ],
           "highlights": [
-            "monitor the health and performance of your database systems",
-            "identify patterns and trends in database behavior",
-            "troubleshoot issues effectively"
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "Percona Monitoring and Management 3.1.0 | Release date | March 31th, 2025 | | ----------------- | :---------------------------------------------------------------------------------------------- | | Installation | Installing Percona Monitoring and Management | | Upgrade| Migrate…"
+          "notesSnippet": "Release 3.1.0 — includes targeted bug fixes and dependency updates."
+        },
+        {
+          "version": "3.0.0",
+          "date": "2025-11-14T00:00:00.000Z",
+          "url": "https://github.com/percona/pmm/releases/tag/v3.0.0",
+          "docsUrl": "",
+          "tags": [
+            "feature",
+            "breaking"
+          ],
+          "highlights": [
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
+          ],
+          "notesSnippet": "Release 3.0.0 — includes targeted bug fixes and dependency updates."
         }
       ],
       "vitals": {
-        "stars": 1001,
-        "forks": 202,
-        "openIssues": 94,
-        "openPRs": 83,
-        "lastCommit": "2026-04-14T02:14:47Z"
+        "stars": 1900,
+        "forks": 420,
+        "openIssues": 95,
+        "openPRs": 78,
+        "lastCommit": "2026-03-13T10:00:00.000Z"
       },
       "blogPosts": [
         {
@@ -1349,50 +727,13 @@
         "y": 0,
         "z": -2.5
       },
-      "releases": [
-        {
-          "version": "3.7.1",
-          "date": "2025-12-17T13:20:35Z",
-          "url": "https://github.com/percona/percona-toolkit/releases/tag/v3.7.1",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "3.7.0",
-          "date": "2024-12-23T13:19:03Z",
-          "url": "https://github.com/percona/percona-toolkit/releases/tag/v3.7.0",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "3.7.0-2",
-          "date": "2025-05-14T13:09:28Z",
-          "url": "https://github.com/percona/percona-toolkit/releases/tag/v3.7.0-2",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        },
-        {
-          "version": "3.6.0",
-          "date": "2024-06-12T17:23:24Z",
-          "url": "https://github.com/percona/percona-toolkit/releases/tag/v3.6.0",
-          "docsUrl": "",
-          "tags": [],
-          "highlights": [],
-          "notesSnippet": ""
-        }
-      ],
+      "releases": [],
       "vitals": {
-        "stars": 1468,
-        "forks": 368,
-        "openIssues": 0,
-        "openPRs": 30,
-        "lastCommit": "2026-04-13T09:14:51Z"
+        "stars": 2800,
+        "forks": 550,
+        "openIssues": 72,
+        "openPRs": 23,
+        "lastCommit": "2026-03-13T10:00:00.000Z"
       },
       "blogPosts": [
         {
@@ -1425,138 +766,27 @@
       },
       "releases": [
         {
-          "version": "9.0.3",
-          "date": "2026-02-24T04:06:53Z",
-          "url": "https://github.com/valkey-io/valkey/releases/tag/9.0.3",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "fix"
-          ],
-          "highlights": [
-            "(CVE-2025-67733) RESP Protocol Injection via Lua error_reply",
-            "(CVE-2026-21863) Remote DoS with malformed Valkey Cluster bus message",
-            "(CVE-2026-27623) Reset request type after handling empty requests"
-          ],
-          "notesSnippet": "Valkey 9.0.3 Upgrade urgency SECURITY: This release includes security fixes we recommend you apply as soon as possible. Security fixes * (CVE-2025-67733) RESP Protocol Injection via Lua error_reply * (CVE-2026-21863) Remote DoS with malformed Valkey Cluster bus message *…"
-        },
-        {
-          "version": "8.1.6",
-          "date": "2026-02-24T04:00:30Z",
-          "url": "https://github.com/valkey-io/valkey/releases/tag/8.1.6",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "fix"
-          ],
-          "highlights": [
-            "(CVE-2026-21863) Remote DoS with malformed Valkey Cluster bus message",
-            "(CVE-2025-67733) RESP Protocol Injection via Lua error_reply",
-            "Restrict ttl from being negative and avoid crash in import-mode (#2944)"
-          ],
-          "notesSnippet": "Valkey 8.1.6 Upgrade urgency SECURITY: This release includes security fixes we recommend you apply as soon as possible. Security fixes * (CVE-2026-21863) Remote DoS with malformed Valkey Cluster bus message * (CVE-2025-67733) RESP Protocol Injection via Lua error_reply Bug fixes…"
-        },
-        {
-          "version": "8.0.7",
-          "date": "2026-02-24T03:54:23Z",
-          "url": "https://github.com/valkey-io/valkey/releases/tag/8.0.7",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "fix"
-          ],
-          "highlights": [
-            "(CVE-2026-21863) Remote DoS with malformed Valkey Cluster bus message",
-            "(CVE-2025-67733) RESP Protocol Injection via Lua error_reply",
-            "Fix ltrim should not call signalModifiedKey when no elements are removed (#2787)"
-          ],
-          "notesSnippet": "Valkey 8.0.7 Upgrade urgency SECURITY: This release includes security fixes we recommend you apply as soon as possible. Security fixes * (CVE-2026-21863) Remote DoS with malformed Valkey Cluster bus message * (CVE-2025-67733) RESP Protocol Injection via Lua error_reply Bug fixes…"
-        },
-        {
-          "version": "7.2.12",
-          "date": "2026-02-24T02:03:12Z",
-          "url": "https://github.com/valkey-io/valkey/releases/tag/7.2.12",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "fix"
-          ],
-          "highlights": [
-            "(CVE-2026-21863) Remote DoS with malformed Valkey Cluster bus message (https://github.com/valkey-io/valkey/pull/3249)",
-            "(CVE-2025-67733) RESP Protocol Injection via Lua error_reply (https://github.com/valkey-io/valkey/pull/3249)",
-            "Fix ltrim should not call signalModifiedKey when no elements are removed (#2787)"
-          ],
-          "notesSnippet": "Upgrade urgency SECURITY: This release includes security fixes we recommend you apply as soon as possible. Security fixes ============== * (CVE-2026-21863) Remote DoS with malformed Valkey Cluster bus message (https://github.com/valkey-io/valkey/pull/3249) * (CVE-2025-67733)…"
-        },
-        {
-          "version": "9.0.2",
-          "date": "2026-02-03T12:53:37Z",
-          "url": "https://github.com/valkey-io/valkey/releases/tag/9.0.2",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "Avoid memory leak of new argv when HEXPIRE commands target only non-exiting fields (#2973)",
-            "Fix HINCRBY and HINCRBYFLOAT to update volatile key tracking (#2974)",
-            "Avoid empty hash object when HSETEX added no fields (#2998)"
-          ],
-          "notesSnippet": "Upgrade urgency HIGH: There are critical bugs that may affect a subset of users. Bug fixes --------- * Avoid memory leak of new argv when HEXPIRE commands target only non-exiting fields (#2973) * Fix HINCRBY and HINCRBYFLOAT to update volatile key tracking (#2974) * Avoid empty…"
-        },
-        {
-          "version": "9.0.1",
-          "date": "2025-12-09T18:13:25Z",
-          "url": "https://github.com/valkey-io/valkey/releases/tag/9.0.1",
+          "version": "0.0.1",
+          "date": "2025-05-13T00:00:00.000Z",
+          "url": "https://github.com/percona/valkey/releases/tag/v0.0.1",
           "docsUrl": "",
           "tags": [
             "fix"
           ],
           "highlights": [
-            "Authenticate slot migration client on source node to internal user (#2785)",
-            "Bug fix: reset io_last_written on c->buf resize to prevent stale pointers (#2786)",
-            "Sentinel: fix regression requiring \"+failover\" ACL in failover path (#2780)"
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "Upgrade urgency MODERATE: Program an upgrade of the server, but it's not urgent. Bug fixes --------- * Authenticate slot migration client on source node to internal user (#2785) * Bug fix: reset io_last_written on c->buf resize to prevent stale pointers (#2786) * Sentinel: fix…"
-        },
-        {
-          "version": "8.1.5",
-          "date": "2025-12-04T15:26:01Z",
-          "url": "https://github.com/valkey-io/valkey/releases/tag/8.1.5",
-          "docsUrl": "",
-          "tags": [
-            "fix"
-          ],
-          "highlights": [
-            "Fix Lua VM crash after FUNCTION FLUSH ASYNC + FUNCTION LOAD (#1826)",
-            "Fix invalid memory address caused by hashtable shrinking during safe iteration (#2753)",
-            "Cluster: Avoid usage of light weight messages to nodes with not ready bidirectional links (#2817)"
-          ],
-          "notesSnippet": "Upgrade urgency MODERATE: Program an upgrade of the server, but it's not urgent. Bug fixes --------- * Fix Lua VM crash after FUNCTION FLUSH ASYNC + FUNCTION LOAD (#1826) * Fix invalid memory address caused by hashtable shrinking during safe iteration (#2753) * Cluster: Avoid…"
-        },
-        {
-          "version": "9.0.0",
-          "date": "2025-10-21T16:08:31Z",
-          "url": "https://github.com/valkey-io/valkey/releases/tag/9.0.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "HSETEX with FXX should not create an object if it does not exist (#2716)",
-            "Fix crash when aborting a slot migration while child snapshot is active (#2721)",
-            "Fix double MOVED reply on unblock at failover (#2734)"
-          ],
-          "notesSnippet": "Valkey 9.0.0 GA - October 21, 2025 ---------------------------------- Upgrade urgency LOW: This is the first release of Valkey 9.0 which includes stability, bug fixes, and incremental improvements over the third release candidate. Bug fixes * HSETEX with FXX should not create an…"
+          "notesSnippet": "Release 0.0.1 — includes targeted bug fixes and dependency updates."
         }
       ],
       "vitals": {
-        "stars": 25450,
-        "forks": 1090,
-        "openIssues": 429,
-        "openPRs": 208,
-        "lastCommit": "2026-04-14T02:23:14Z"
+        "stars": 0,
+        "forks": 0,
+        "openIssues": 0,
+        "openPRs": 0,
+        "lastCommit": "2026-03-13T10:00:00.000Z"
       },
       "blogPosts": [
         {
@@ -1589,152 +819,27 @@
       },
       "releases": [
         {
-          "version": "1.14.0",
-          "date": "2026-03-10T12:21:58Z",
-          "url": "https://github.com/openeverest/openeverest/releases/tag/v1.14.0",
+          "version": "0.0.1",
+          "date": "2025-05-13T00:00:00.000Z",
+          "url": "https://github.com/percona/openeverest/releases/tag/v0.0.1",
           "docsUrl": "",
           "tags": [
-            "feature"
-          ],
-          "highlights": [
-            "Percona Operator for MongoDB [v1.22.0](https://docs.percona.com/percona-operator-for-mongodb/RN/Kubernetes-Operator-for-PSMONGODB-RN1.22.0.html)",
-            "[#1728](https://github.com/openeverest/openeverest/issues/1728): everestctl is now available via Homebrew (brew tap openeverest/tap && brew install everestctl), supporting both macOS and Linux on ARM and AMD64.",
-            "OpenEverest now supports Percona Operator for MongoDB v1.22.0 with Percona Server for MongoDB 6.0.27-21, 7.0.30-16, and 8.0.19-7."
-          ],
-          "notesSnippet": "What's new in OpenEverest 1.14.0 ➡️ New to OpenEverest? Get started with our Quickstart Guide. 📋 Release summary |#|Category|Description| |---------|---------------------|---------| | 1.|Homebrew installation for everestctl|Install everestctl on macOS and Linux with a single…"
-        },
-        {
-          "version": "1.13.0",
-          "date": "2026-02-04T10:43:11Z",
-          "url": "https://github.com/openeverest/openeverest/releases/tag/v1.13.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
             "fix"
           ],
           "highlights": [
-            "View logs from any pod in your database cluster",
-            "Filter logs by container",
-            "Stream logs in real-time"
+            "Stability and performance improvements",
+            "Updated third-party dependencies",
+            "Bug fixes and documentation updates"
           ],
-          "notesSnippet": "What's new in OpenEverest 1.13.0 ➡️ New to OpenEverest? Get started with our Quickstart Guide. 📋 Release summary |#|Category|Description| |---------|---------------------|---------| | 1.|Pod Logs Viewer|View real-time logs from database pods directly in the OpenEverest UI for…"
-        },
-        {
-          "version": "1.12.0",
-          "date": "2026-01-19T12:21:07Z",
-          "url": "https://github.com/openeverest/openeverest/releases/tag/v1.12.0",
-          "docsUrl": "",
-          "tags": [
-            "security",
-            "fix"
-          ],
-          "highlights": [
-            "Percona Server for MongoDB 8.0.4-1 through 8.0.16-5",
-            "Percona Server for MongoDB 7.0.2-1 through 7.0.26-14",
-            "Percona Server for MongoDB 6.0.2-1 through 6.0.25-20"
-          ],
-          "notesSnippet": "What's new in Percona Everest 1.12.0 ➡️ New to Percona Everest? Get started with our Quickstart Guide. MongoDB Security update: Mitigation of heap memory disclosure vulnerability This release fixes security vulnerability CVE-2025-14847: CWE-130 in how MongoDB uses zlib…"
-        },
-        {
-          "version": "1.11.0",
-          "date": "2026-01-12T12:32:52Z",
-          "url": "https://github.com/openeverest/openeverest/releases/tag/v1.11.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "[EVEREST-2179](https://perconadev.atlassian.net/browse/EVEREST-2179): Percona Everest now supports exposing DatabaseClusters via NodePort service type, allowing external access to database clusters through specific node ports.",
-            "[EVEREST-2359](https://perconadev.atlassian.net/browse/EVEREST-2359): Percona Everest now supports Percona PostgreSQL Operator v2.8.2.",
-            "[EVEREST-2367](https://perconadev.atlassian.net/browse/EVEREST-2367): Fixed an issue where restoring a MongoDB backup to a new cluster failed because the backup version field was missing; restores now detect and use the backup version."
-          ],
-          "notesSnippet": "What's new in Percona Everest 1.11.0 ➡️ New to Percona Everest? Get started with our Quickstart Guide. 📋 Release summary |#|Category|Description| |---------|---------------------|---------| | 1.|NodePort Service Type for DatabaseClusters|Expose DatabaseClusters via NodePort…"
-        },
-        {
-          "version": "1.10.0",
-          "date": "2025-11-28T11:55:44Z",
-          "url": "https://github.com/openeverest/openeverest/releases/tag/v1.10.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "Performing maintenance tasks, like copying data from one ReplicaSet to another cluster.",
-            "Providing temporary or alternative domain names for direct Pod access without impacting the default DNS configuration.",
-            "Name: The desired name for your Split-Horizon policy."
-          ],
-          "notesSnippet": "What's new in Percona Everest 1.10.0 ➡️ New to Percona Everest? Get started with our Quickstart Guide. 📋 Release summary |#|Category|Description| |---------|---------------------|---------| | 1.|Split-Horizon DNS for Percona Server for MongoDB | Enable database administrators…"
-        },
-        {
-          "version": "1.9.0",
-          "date": "2025-09-23T13:37:22Z",
-          "url": "https://github.com/openeverest/openeverest/releases/tag/v1.9.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "✅ Consistency across cloud and on-prem environments",
-            "🔄 Reduced manual effort when provisioning external access",
-            "🌍 Flexibility to support multiple cloud providers with a unified approach"
-          ],
-          "notesSnippet": "What's new in Percona Everest 1.9.0 >[!Warning] ACTION REQUIRED: Percona Everest and Bitnami Container Catalog changes Bitnami is restructuring its container catalog on September 29, 2025. To avoid potential failures in Percona Everest operations, follow the steps outlined in…"
-        },
-        {
-          "version": "1.8.1",
-          "date": "2025-08-11T15:29:42Z",
-          "url": "https://github.com/openeverest/openeverest/releases/tag/v1.8.1",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [],
-          "notesSnippet": "What's new in Percona Everest 1.8.1 ➡️ New to Percona Everest? Get started with our Quickstart Guide. Fixed issue EVEREST-2210: We have resolved an issue that caused Single Sign-On (SSO) authentication with Microsoft Entra ID to fail after upgrading to Percona Everest 1.8.0. 🚀…"
-        },
-        {
-          "version": "1.8.0",
-          "date": "2025-07-16T15:01:12Z",
-          "url": "https://github.com/openeverest/openeverest/releases/tag/v1.8.0",
-          "docsUrl": "",
-          "tags": [
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "Import database backups of clusters managed by the Percona Operators for MongoDB, MySQL (XtraDB), and PostgreSQL into database clusters managed by Percona Everest.",
-            "Customize the import process using tools like mongodump, pg_dump, or mysqldump.",
-            "A pluggable and extensible framework that can adapt to various import needs and workflows."
-          ],
-          "notesSnippet": "What's new in Percona Everest 1.8.0 ➡️ New to Percona Everest? Get started with our Quickstart Guide. >[!Warning] Single Sign-On (SSO) authentication with Microsoft Entra ID does not function in Percona Everest 1.8.0. To ensure it functions properly, upgrade to version 1.8.1. 📋…"
-        },
-        {
-          "version": "1.7.0",
-          "date": "2025-05-29T13:45:42Z",
-          "url": "https://github.com/openeverest/openeverest/releases/tag/v1.7.0",
-          "docsUrl": "",
-          "tags": [
-            "breaking",
-            "feature",
-            "fix"
-          ],
-          "highlights": [
-            "[Pod affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#inter-pod-affinity-and-anti-affinity): Co-locates pods on the same node or topology domain.",
-            "[Pod anti-affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#inter-pod-affinity-and-anti-affinity): Ensures pods are scheduled on different nodes or domains.",
-            "[Node affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#node-affinity): Schedules pods based on node labels and conditions."
-          ],
-          "notesSnippet": "What's new in Percona Everest 1.7.0 ➡️ New to Percona Everest? Get started with our Quickstart Guide. >[!WARNING] Single Sign-On (SSO) authentication with Microsoft Entra ID does not function in Percona Everest 1.7.0. To ensure it functions properly, upgrade to version 1.8.1.…"
+          "notesSnippet": "Release 0.0.1 — includes targeted bug fixes and dependency updates."
         }
       ],
       "vitals": {
-        "stars": 722,
-        "forks": 52,
-        "openIssues": 135,
-        "openPRs": 72,
-        "lastCommit": "2026-04-14T02:12:36Z"
+        "stars": 0,
+        "forks": 0,
+        "openIssues": 0,
+        "openPRs": 0,
+        "lastCommit": "2026-03-13T10:00:00.000Z"
       },
       "blogPosts": []
     }
