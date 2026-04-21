@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T02:59:11.602Z",
+  "generatedAt": "2026-04-21T02:59:08.890Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,16 +363,16 @@
       },
       "blogPosts": [
         {
+          "title": "Deploying Cross-Site Replication in Percona Operator for MySQL (PXC)",
+          "url": "https://www.percona.com/blog/deploying-cross-site-replication-in-percona-operator-for-mysql-pxc/",
+          "date": "2026-04-20T13:15:04.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "MariaDB&#8217;s Snapshot Isolation: A Fix That Breaks More Than It Fixes",
           "url": "https://www.percona.com/blog/mariadbs-snapshot-isolation-a-fix-that-breaks-more-than-it-fixes/",
           "date": "2026-04-17T07:58:28.000Z",
           "author": "Vadim Tkachenko"
-        },
-        {
-          "title": "What Exactly Is the MySQL Ecosystem?",
-          "url": "https://www.percona.com/blog/what-exactly-is-the-mysql-ecosystem/",
-          "date": "2026-03-03T14:39:23.000Z",
-          "author": "Peter Zaitsev"
         }
       ]
     },
@@ -447,16 +447,16 @@
       },
       "blogPosts": [
         {
+          "title": "Deploying Cross-Site Replication in Percona Operator for MySQL (PXC)",
+          "url": "https://www.percona.com/blog/deploying-cross-site-replication-in-percona-operator-for-mysql-pxc/",
+          "date": "2026-04-20T13:15:04.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "MariaDB&#8217;s Snapshot Isolation: A Fix That Breaks More Than It Fixes",
           "url": "https://www.percona.com/blog/mariadbs-snapshot-isolation-a-fix-that-breaks-more-than-it-fixes/",
           "date": "2026-04-17T07:58:28.000Z",
           "author": "Vadim Tkachenko"
-        },
-        {
-          "title": "What Exactly Is the MySQL Ecosystem?",
-          "url": "https://www.percona.com/blog/what-exactly-is-the-mysql-ecosystem/",
-          "date": "2026-03-03T14:39:23.000Z",
-          "author": "Peter Zaitsev"
         }
       ]
     },
@@ -531,16 +531,16 @@
       },
       "blogPosts": [
         {
+          "title": "Deploying Cross-Site Replication in Percona Operator for MySQL (PXC)",
+          "url": "https://www.percona.com/blog/deploying-cross-site-replication-in-percona-operator-for-mysql-pxc/",
+          "date": "2026-04-20T13:15:04.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "MariaDB&#8217;s Snapshot Isolation: A Fix That Breaks More Than It Fixes",
           "url": "https://www.percona.com/blog/mariadbs-snapshot-isolation-a-fix-that-breaks-more-than-it-fixes/",
           "date": "2026-04-17T07:58:28.000Z",
           "author": "Vadim Tkachenko"
-        },
-        {
-          "title": "What Exactly Is the MySQL Ecosystem?",
-          "url": "https://www.percona.com/blog/what-exactly-is-the-mysql-ecosystem/",
-          "date": "2026-03-03T14:39:23.000Z",
-          "author": "Peter Zaitsev"
         }
       ]
     },
@@ -615,16 +615,16 @@
       },
       "blogPosts": [
         {
+          "title": "Deploying Cross-Site Replication in Percona Operator for MySQL (PXC)",
+          "url": "https://www.percona.com/blog/deploying-cross-site-replication-in-percona-operator-for-mysql-pxc/",
+          "date": "2026-04-20T13:15:04.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "MariaDB&#8217;s Snapshot Isolation: A Fix That Breaks More Than It Fixes",
           "url": "https://www.percona.com/blog/mariadbs-snapshot-isolation-a-fix-that-breaks-more-than-it-fixes/",
           "date": "2026-04-17T07:58:28.000Z",
           "author": "Vadim Tkachenko"
-        },
-        {
-          "title": "What Exactly Is the MySQL Ecosystem?",
-          "url": "https://www.percona.com/blog/what-exactly-is-the-mysql-ecosystem/",
-          "date": "2026-03-03T14:39:23.000Z",
-          "author": "Peter Zaitsev"
         }
       ]
     },
@@ -737,16 +737,16 @@
       },
       "blogPosts": [
         {
+          "title": "Deploying Cross-Site Replication in Percona Operator for MySQL (PXC)",
+          "url": "https://www.percona.com/blog/deploying-cross-site-replication-in-percona-operator-for-mysql-pxc/",
+          "date": "2026-04-20T13:15:04.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "MariaDB&#8217;s Snapshot Isolation: A Fix That Breaks More Than It Fixes",
           "url": "https://www.percona.com/blog/mariadbs-snapshot-isolation-a-fix-that-breaks-more-than-it-fixes/",
           "date": "2026-04-17T07:58:28.000Z",
           "author": "Vadim Tkachenko"
-        },
-        {
-          "title": "What Exactly Is the MySQL Ecosystem?",
-          "url": "https://www.percona.com/blog/what-exactly-is-the-mysql-ecosystem/",
-          "date": "2026-03-03T14:39:23.000Z",
-          "author": "Peter Zaitsev"
         }
       ]
     },
