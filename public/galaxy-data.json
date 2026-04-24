@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T02:59:01.160Z",
+  "generatedAt": "2026-04-24T02:59:06.813Z",
   "products": [
     {
       "id": "psmdb",
@@ -790,15 +790,15 @@
       },
       "blogPosts": [
         {
+          "title": "Scaling Your Cache: A Step-by-Step Guide to Setting Up Valkey Replication",
+          "url": "https://www.percona.com/blog/scaling-your-cache-a-step-by-step-guide-to-setting-up-valkey-replication/",
+          "date": "2026-04-23T16:46:27.000Z",
+          "author": "Arunjith Aravindan"
+        },
+        {
           "title": "Rate Limiting Strategies with Valkey/Redis",
           "url": "https://www.percona.com/blog/rate-limiting-strategies-with-valkey-redis/",
           "date": "2026-03-18T19:32:14.000Z",
-          "author": "Martin Visser"
-        },
-        {
-          "title": "Valkey and Redis Sorted Sets: Leaderboards and Beyond",
-          "url": "https://www.percona.com/blog/valkey-and-redis-sorted-sets-leaderboards-and-beyond/",
-          "date": "2026-03-06T15:19:07.000Z",
           "author": "Martin Visser"
         }
       ]
