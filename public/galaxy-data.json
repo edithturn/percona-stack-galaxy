@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T02:59:06.813Z",
+  "generatedAt": "2026-04-25T02:58:26.702Z",
   "products": [
     {
       "id": "psmdb",
@@ -790,16 +790,16 @@
       },
       "blogPosts": [
         {
+          "title": "Achieving High Availability with Valkey Sentinel",
+          "url": "https://www.percona.com/blog/achieving-high-availability-with-valkey-sentinel/",
+          "date": "2026-04-24T04:03:16.000Z",
+          "author": "Arunjith Aravindan"
+        },
+        {
           "title": "Scaling Your Cache: A Step-by-Step Guide to Setting Up Valkey Replication",
           "url": "https://www.percona.com/blog/scaling-your-cache-a-step-by-step-guide-to-setting-up-valkey-replication/",
           "date": "2026-04-23T16:46:27.000Z",
           "author": "Arunjith Aravindan"
-        },
-        {
-          "title": "Rate Limiting Strategies with Valkey/Redis",
-          "url": "https://www.percona.com/blog/rate-limiting-strategies-with-valkey-redis/",
-          "date": "2026-03-18T19:32:14.000Z",
-          "author": "Martin Visser"
         }
       ]
     },
