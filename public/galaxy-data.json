@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T02:59:56.302Z",
+  "generatedAt": "2026-05-01T02:59:45.569Z",
   "products": [
     {
       "id": "psmdb",
@@ -790,15 +790,15 @@
       },
       "blogPosts": [
         {
+          "title": "Managing Valkey Cluster in Kubernetes",
+          "url": "https://www.percona.com/blog/managing-valkey-cluster-in-kubernetes/",
+          "date": "2026-04-30T23:05:39.000Z",
+          "author": "Matthew Boehm"
+        },
+        {
           "title": "Achieving High Availability with Valkey Sentinel",
           "url": "https://www.percona.com/blog/achieving-high-availability-with-valkey-sentinel/",
           "date": "2026-04-24T04:03:16.000Z",
-          "author": "Arunjith Aravindan"
-        },
-        {
-          "title": "Scaling Your Cache: A Step-by-Step Guide to Setting Up Valkey Replication",
-          "url": "https://www.percona.com/blog/scaling-your-cache-a-step-by-step-guide-to-setting-up-valkey-replication/",
-          "date": "2026-04-23T16:46:27.000Z",
           "author": "Arunjith Aravindan"
         }
       ]
