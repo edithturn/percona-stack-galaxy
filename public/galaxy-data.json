@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T02:58:57.850Z",
+  "generatedAt": "2026-05-06T03:01:15.514Z",
   "products": [
     {
       "id": "psmdb",
@@ -25,15 +25,15 @@
       },
       "blogPosts": [
         {
+          "title": "PSMDB Sandbox: A Browser-Based UI for Deploying MongoDB with Terraform and Ansible",
+          "url": "https://www.percona.com/blog/psmdb-sandbox-a-browser-based-ui-for-deploying-mongodb-with-terraform-and-ansible/",
+          "date": "2026-05-05T17:12:09.000Z",
+          "author": "Ivan Groenewold"
+        },
+        {
           "title": "From Feature Request to Release: How Community Feedback Shaped PBM&#8217;s Alibaba Cloud Integration",
           "url": "https://www.percona.com/blog/from-feature-request-to-release-how-community-feedback-shaped-pbms-alibaba-cloud-integration/",
           "date": "2026-01-22T13:10:47.000Z",
-          "author": "Radoslaw Szulgo"
-        },
-        {
-          "title": "Announcing Percona ClusterSync for MongoDB: The Open Source Trail to Freedom",
-          "url": "https://www.percona.com/blog/announcing-percona-clustersync-for-mongodb-the-open-source-trail-to-freedom/",
-          "date": "2026-01-15T13:36:31.000Z",
           "author": "Radoslaw Szulgo"
         }
       ]
@@ -109,15 +109,15 @@
       },
       "blogPosts": [
         {
+          "title": "PSMDB Sandbox: A Browser-Based UI for Deploying MongoDB with Terraform and Ansible",
+          "url": "https://www.percona.com/blog/psmdb-sandbox-a-browser-based-ui-for-deploying-mongodb-with-terraform-and-ansible/",
+          "date": "2026-05-05T17:12:09.000Z",
+          "author": "Ivan Groenewold"
+        },
+        {
           "title": "From Feature Request to Release: How Community Feedback Shaped PBM&#8217;s Alibaba Cloud Integration",
           "url": "https://www.percona.com/blog/from-feature-request-to-release-how-community-feedback-shaped-pbms-alibaba-cloud-integration/",
           "date": "2026-01-22T13:10:47.000Z",
-          "author": "Radoslaw Szulgo"
-        },
-        {
-          "title": "Announcing Percona ClusterSync for MongoDB: The Open Source Trail to Freedom",
-          "url": "https://www.percona.com/blog/announcing-percona-clustersync-for-mongodb-the-open-source-trail-to-freedom/",
-          "date": "2026-01-15T13:36:31.000Z",
           "author": "Radoslaw Szulgo"
         }
       ]
