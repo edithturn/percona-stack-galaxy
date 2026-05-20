@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T03:00:05.299Z",
+  "generatedAt": "2026-05-20T03:00:09.345Z",
   "products": [
     {
       "id": "psmdb",
@@ -194,16 +194,16 @@
       },
       "blogPosts": [
         {
-          "title": "Importance of Tuning Checkpoint in PostgreSQL",
-          "url": "https://www.percona.com/blog/importance-of-tuning-checkpoint-in-postgresql/",
-          "date": "2026-02-02T15:04:30.000Z",
-          "author": "Jobin Augustine"
+          "title": "Not All Open Source Is Equal: Choosing a PostgreSQL Operator for Kubernetes in 2026",
+          "url": "https://www.percona.com/blog/not-all-open-source-is-equal-choosing-postgresql-operator-kubernetes-2026/",
+          "date": "2026-05-19T17:12:07.000Z",
+          "author": "Slava Sarzhan"
         },
         {
-          "title": "Databases, Data Lakes, And Encryption",
-          "url": "https://www.percona.com/blog/databases-data-lakes-and-encryption/",
-          "date": "2026-01-28T16:15:52.000Z",
-          "author": "Robert Bernier"
+          "title": "Keeping pgBackRest Open, Healthy, and Community Driven",
+          "url": "https://www.percona.com/blog/keeping-pgbackrest-open-healthy-and-community-driven/",
+          "date": "2026-05-19T13:08:25.000Z",
+          "author": "Jan Wieremjewicz"
         }
       ]
     },
@@ -278,16 +278,16 @@
       },
       "blogPosts": [
         {
-          "title": "Importance of Tuning Checkpoint in PostgreSQL",
-          "url": "https://www.percona.com/blog/importance-of-tuning-checkpoint-in-postgresql/",
-          "date": "2026-02-02T15:04:30.000Z",
-          "author": "Jobin Augustine"
+          "title": "Not All Open Source Is Equal: Choosing a PostgreSQL Operator for Kubernetes in 2026",
+          "url": "https://www.percona.com/blog/not-all-open-source-is-equal-choosing-postgresql-operator-kubernetes-2026/",
+          "date": "2026-05-19T17:12:07.000Z",
+          "author": "Slava Sarzhan"
         },
         {
-          "title": "Databases, Data Lakes, And Encryption",
-          "url": "https://www.percona.com/blog/databases-data-lakes-and-encryption/",
-          "date": "2026-01-28T16:15:52.000Z",
-          "author": "Robert Bernier"
+          "title": "Keeping pgBackRest Open, Healthy, and Community Driven",
+          "url": "https://www.percona.com/blog/keeping-pgbackrest-open-healthy-and-community-driven/",
+          "date": "2026-05-19T13:08:25.000Z",
+          "author": "Jan Wieremjewicz"
         }
       ]
     },
@@ -790,16 +790,16 @@
       },
       "blogPosts": [
         {
+          "title": "Manually Migrate Hash Slots in a Valkey/Redis Cluster",
+          "url": "https://www.percona.com/blog/manually-migrate-hash-slots-in-a-valkey-redis-cluster/",
+          "date": "2026-05-20T02:45:07.000Z",
+          "author": "Hieu Nguyen"
+        },
+        {
           "title": "Managing Valkey Cluster in Kubernetes",
           "url": "https://www.percona.com/blog/managing-valkey-cluster-in-kubernetes/",
           "date": "2026-04-30T23:05:39.000Z",
           "author": "Matthew Boehm"
-        },
-        {
-          "title": "Achieving High Availability with Valkey Sentinel",
-          "url": "https://www.percona.com/blog/achieving-high-availability-with-valkey-sentinel/",
-          "date": "2026-04-24T04:03:16.000Z",
-          "author": "Arunjith Aravindan"
         }
       ]
     },
