@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T03:00:09.345Z",
+  "generatedAt": "2026-05-21T03:00:24.823Z",
   "products": [
     {
       "id": "psmdb",
@@ -25,16 +25,16 @@
       },
       "blogPosts": [
         {
+          "title": "CVE-2026-8053: &#8220;We don&#8217;t use time-series&#8221; is not a mitigation",
+          "url": "https://www.percona.com/blog/cve-2026-8053-we-dont-use-time-series-is-not-a-mitigation/",
+          "date": "2026-05-20T15:13:41.000Z",
+          "author": "Radoslaw Szulgo"
+        },
+        {
           "title": "PSMDB Sandbox: A Browser-Based UI for Deploying MongoDB with Terraform and Ansible",
           "url": "https://www.percona.com/blog/psmdb-sandbox-a-browser-based-ui-for-deploying-mongodb-with-terraform-and-ansible/",
           "date": "2026-05-05T17:12:09.000Z",
           "author": "Ivan Groenewold"
-        },
-        {
-          "title": "From Feature Request to Release: How Community Feedback Shaped PBM&#8217;s Alibaba Cloud Integration",
-          "url": "https://www.percona.com/blog/from-feature-request-to-release-how-community-feedback-shaped-pbms-alibaba-cloud-integration/",
-          "date": "2026-01-22T13:10:47.000Z",
-          "author": "Radoslaw Szulgo"
         }
       ]
     },
@@ -109,16 +109,16 @@
       },
       "blogPosts": [
         {
+          "title": "CVE-2026-8053: &#8220;We don&#8217;t use time-series&#8221; is not a mitigation",
+          "url": "https://www.percona.com/blog/cve-2026-8053-we-dont-use-time-series-is-not-a-mitigation/",
+          "date": "2026-05-20T15:13:41.000Z",
+          "author": "Radoslaw Szulgo"
+        },
+        {
           "title": "PSMDB Sandbox: A Browser-Based UI for Deploying MongoDB with Terraform and Ansible",
           "url": "https://www.percona.com/blog/psmdb-sandbox-a-browser-based-ui-for-deploying-mongodb-with-terraform-and-ansible/",
           "date": "2026-05-05T17:12:09.000Z",
           "author": "Ivan Groenewold"
-        },
-        {
-          "title": "From Feature Request to Release: How Community Feedback Shaped PBM&#8217;s Alibaba Cloud Integration",
-          "url": "https://www.percona.com/blog/from-feature-request-to-release-how-community-feedback-shaped-pbms-alibaba-cloud-integration/",
-          "date": "2026-01-22T13:10:47.000Z",
-          "author": "Radoslaw Szulgo"
         }
       ]
     },
