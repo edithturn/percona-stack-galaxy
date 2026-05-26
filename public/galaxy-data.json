@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T03:00:37.529Z",
+  "generatedAt": "2026-05-26T03:00:07.223Z",
   "products": [
     {
       "id": "psmdb",
@@ -194,16 +194,16 @@
       },
       "blogPosts": [
         {
+          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Standby Cluster Method",
+          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-standby-cluster/",
+          "date": "2026-05-25T07:49:01.000Z",
+          "author": "Slava Sarzhan"
+        },
+        {
           "title": "Not All Open Source Is Equal: Choosing a PostgreSQL Operator for Kubernetes in 2026",
           "url": "https://www.percona.com/blog/not-all-open-source-is-equal-choosing-postgresql-operator-kubernetes-2026/",
           "date": "2026-05-19T17:12:07.000Z",
           "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Keeping pgBackRest Open, Healthy, and Community Driven",
-          "url": "https://www.percona.com/blog/keeping-pgbackrest-open-healthy-and-community-driven/",
-          "date": "2026-05-19T13:08:25.000Z",
-          "author": "Jan Wieremjewicz"
         }
       ]
     },
@@ -278,16 +278,16 @@
       },
       "blogPosts": [
         {
+          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Standby Cluster Method",
+          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-standby-cluster/",
+          "date": "2026-05-25T07:49:01.000Z",
+          "author": "Slava Sarzhan"
+        },
+        {
           "title": "Not All Open Source Is Equal: Choosing a PostgreSQL Operator for Kubernetes in 2026",
           "url": "https://www.percona.com/blog/not-all-open-source-is-equal-choosing-postgresql-operator-kubernetes-2026/",
           "date": "2026-05-19T17:12:07.000Z",
           "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Keeping pgBackRest Open, Healthy, and Community Driven",
-          "url": "https://www.percona.com/blog/keeping-pgbackrest-open-healthy-and-community-driven/",
-          "date": "2026-05-19T13:08:25.000Z",
-          "author": "Jan Wieremjewicz"
         }
       ]
     },
