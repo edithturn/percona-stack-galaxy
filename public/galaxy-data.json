@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T03:00:18.255Z",
+  "generatedAt": "2026-05-28T03:00:07.874Z",
   "products": [
     {
       "id": "psmdb",
@@ -194,15 +194,15 @@
       },
       "blogPosts": [
         {
-          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Standby Cluster Method",
-          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-standby-cluster/",
-          "date": "2026-05-25T07:49:01.000Z",
+          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Backup-Restore and PV Reuse",
+          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-backup-restore-pv-reuse/",
+          "date": "2026-05-27T12:02:55.000Z",
           "author": "Slava Sarzhan"
         },
         {
-          "title": "Not All Open Source Is Equal: Choosing a PostgreSQL Operator for Kubernetes in 2026",
-          "url": "https://www.percona.com/blog/not-all-open-source-is-equal-choosing-postgresql-operator-kubernetes-2026/",
-          "date": "2026-05-19T17:12:07.000Z",
+          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Standby Cluster Method",
+          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-standby-cluster/",
+          "date": "2026-05-25T07:49:01.000Z",
           "author": "Slava Sarzhan"
         }
       ]
@@ -278,15 +278,15 @@
       },
       "blogPosts": [
         {
-          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Standby Cluster Method",
-          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-standby-cluster/",
-          "date": "2026-05-25T07:49:01.000Z",
+          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Backup-Restore and PV Reuse",
+          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-backup-restore-pv-reuse/",
+          "date": "2026-05-27T12:02:55.000Z",
           "author": "Slava Sarzhan"
         },
         {
-          "title": "Not All Open Source Is Equal: Choosing a PostgreSQL Operator for Kubernetes in 2026",
-          "url": "https://www.percona.com/blog/not-all-open-source-is-equal-choosing-postgresql-operator-kubernetes-2026/",
-          "date": "2026-05-19T17:12:07.000Z",
+          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Standby Cluster Method",
+          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-standby-cluster/",
+          "date": "2026-05-25T07:49:01.000Z",
           "author": "Slava Sarzhan"
         }
       ]
