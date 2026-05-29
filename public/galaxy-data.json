@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T03:00:07.874Z",
+  "generatedAt": "2026-05-29T03:00:27.382Z",
   "products": [
     {
       "id": "psmdb",
@@ -194,15 +194,15 @@
       },
       "blogPosts": [
         {
-          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Backup-Restore and PV Reuse",
-          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-backup-restore-pv-reuse/",
-          "date": "2026-05-27T12:02:55.000Z",
+          "title": "Percona Operator for PostgreSQL 3.0.0: Hard Fork, OLM Scoping, Major Upgrades",
+          "url": "https://www.percona.com/blog/percona-operator-for-postgresql-3-0-0-hard-fork-olm-scoping-major-upgrades/",
+          "date": "2026-05-28T13:29:03.000Z",
           "author": "Slava Sarzhan"
         },
         {
-          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Standby Cluster Method",
-          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-standby-cluster/",
-          "date": "2026-05-25T07:49:01.000Z",
+          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Backup-Restore and PV Reuse",
+          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-backup-restore-pv-reuse/",
+          "date": "2026-05-27T12:02:55.000Z",
           "author": "Slava Sarzhan"
         }
       ]
@@ -278,15 +278,15 @@
       },
       "blogPosts": [
         {
-          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Backup-Restore and PV Reuse",
-          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-backup-restore-pv-reuse/",
-          "date": "2026-05-27T12:02:55.000Z",
+          "title": "Percona Operator for PostgreSQL 3.0.0: Hard Fork, OLM Scoping, Major Upgrades",
+          "url": "https://www.percona.com/blog/percona-operator-for-postgresql-3-0-0-hard-fork-olm-scoping-major-upgrades/",
+          "date": "2026-05-28T13:29:03.000Z",
           "author": "Slava Sarzhan"
         },
         {
-          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Standby Cluster Method",
-          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-standby-cluster/",
-          "date": "2026-05-25T07:49:01.000Z",
+          "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Backup-Restore and PV Reuse",
+          "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-backup-restore-pv-reuse/",
+          "date": "2026-05-27T12:02:55.000Z",
           "author": "Slava Sarzhan"
         }
       ]
