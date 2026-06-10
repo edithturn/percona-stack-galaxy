@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T03:00:10.943Z",
+  "generatedAt": "2026-06-10T03:00:34.034Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,16 +363,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
+          "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
+          "date": "2026-06-09T10:25:46.000Z",
+          "author": "Slava Sarzhan"
+        },
+        {
           "title": "Percona Operator for MySQL 1.1.0: PITR, Incremental Backups, and Compression",
           "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-1-0-pitr-incremental-backups-compression/",
           "date": "2026-04-21T13:21:35.000Z",
           "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Deploying Cross-Site Replication in Percona Operator for MySQL (PXC)",
-          "url": "https://www.percona.com/blog/deploying-cross-site-replication-in-percona-operator-for-mysql-pxc/",
-          "date": "2026-04-20T13:15:04.000Z",
-          "author": "Anil Joshi"
         }
       ]
     },
@@ -447,16 +447,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
+          "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
+          "date": "2026-06-09T10:25:46.000Z",
+          "author": "Slava Sarzhan"
+        },
+        {
           "title": "Percona Operator for MySQL 1.1.0: PITR, Incremental Backups, and Compression",
           "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-1-0-pitr-incremental-backups-compression/",
           "date": "2026-04-21T13:21:35.000Z",
           "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Deploying Cross-Site Replication in Percona Operator for MySQL (PXC)",
-          "url": "https://www.percona.com/blog/deploying-cross-site-replication-in-percona-operator-for-mysql-pxc/",
-          "date": "2026-04-20T13:15:04.000Z",
-          "author": "Anil Joshi"
         }
       ]
     },
@@ -531,16 +531,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
+          "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
+          "date": "2026-06-09T10:25:46.000Z",
+          "author": "Slava Sarzhan"
+        },
+        {
           "title": "Percona Operator for MySQL 1.1.0: PITR, Incremental Backups, and Compression",
           "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-1-0-pitr-incremental-backups-compression/",
           "date": "2026-04-21T13:21:35.000Z",
           "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Deploying Cross-Site Replication in Percona Operator for MySQL (PXC)",
-          "url": "https://www.percona.com/blog/deploying-cross-site-replication-in-percona-operator-for-mysql-pxc/",
-          "date": "2026-04-20T13:15:04.000Z",
-          "author": "Anil Joshi"
         }
       ]
     },
@@ -615,16 +615,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
+          "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
+          "date": "2026-06-09T10:25:46.000Z",
+          "author": "Slava Sarzhan"
+        },
+        {
           "title": "Percona Operator for MySQL 1.1.0: PITR, Incremental Backups, and Compression",
           "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-1-0-pitr-incremental-backups-compression/",
           "date": "2026-04-21T13:21:35.000Z",
           "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Deploying Cross-Site Replication in Percona Operator for MySQL (PXC)",
-          "url": "https://www.percona.com/blog/deploying-cross-site-replication-in-percona-operator-for-mysql-pxc/",
-          "date": "2026-04-20T13:15:04.000Z",
-          "author": "Anil Joshi"
         }
       ]
     },
@@ -737,16 +737,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
+          "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
+          "date": "2026-06-09T10:25:46.000Z",
+          "author": "Slava Sarzhan"
+        },
+        {
           "title": "Percona Operator for MySQL 1.1.0: PITR, Incremental Backups, and Compression",
           "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-1-0-pitr-incremental-backups-compression/",
           "date": "2026-04-21T13:21:35.000Z",
           "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Deploying Cross-Site Replication in Percona Operator for MySQL (PXC)",
-          "url": "https://www.percona.com/blog/deploying-cross-site-replication-in-percona-operator-for-mysql-pxc/",
-          "date": "2026-04-20T13:15:04.000Z",
-          "author": "Anil Joshi"
         }
       ]
     },
