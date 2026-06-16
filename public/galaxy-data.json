@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T03:01:14.659Z",
+  "generatedAt": "2026-06-16T03:01:17.902Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,15 +363,15 @@
       },
       "blogPosts": [
         {
+          "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
+          "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
+          "date": "2026-06-15T06:57:24.000Z",
+          "author": "Marco Tusa"
+        },
+        {
           "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
           "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
           "date": "2026-06-09T10:25:46.000Z",
-          "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Percona Operator for MySQL 1.1.0: PITR, Incremental Backups, and Compression",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-1-0-pitr-incremental-backups-compression/",
-          "date": "2026-04-21T13:21:35.000Z",
           "author": "Slava Sarzhan"
         }
       ]
@@ -447,15 +447,15 @@
       },
       "blogPosts": [
         {
+          "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
+          "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
+          "date": "2026-06-15T06:57:24.000Z",
+          "author": "Marco Tusa"
+        },
+        {
           "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
           "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
           "date": "2026-06-09T10:25:46.000Z",
-          "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Percona Operator for MySQL 1.1.0: PITR, Incremental Backups, and Compression",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-1-0-pitr-incremental-backups-compression/",
-          "date": "2026-04-21T13:21:35.000Z",
           "author": "Slava Sarzhan"
         }
       ]
@@ -531,15 +531,15 @@
       },
       "blogPosts": [
         {
+          "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
+          "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
+          "date": "2026-06-15T06:57:24.000Z",
+          "author": "Marco Tusa"
+        },
+        {
           "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
           "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
           "date": "2026-06-09T10:25:46.000Z",
-          "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Percona Operator for MySQL 1.1.0: PITR, Incremental Backups, and Compression",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-1-0-pitr-incremental-backups-compression/",
-          "date": "2026-04-21T13:21:35.000Z",
           "author": "Slava Sarzhan"
         }
       ]
@@ -615,15 +615,15 @@
       },
       "blogPosts": [
         {
+          "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
+          "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
+          "date": "2026-06-15T06:57:24.000Z",
+          "author": "Marco Tusa"
+        },
+        {
           "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
           "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
           "date": "2026-06-09T10:25:46.000Z",
-          "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Percona Operator for MySQL 1.1.0: PITR, Incremental Backups, and Compression",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-1-0-pitr-incremental-backups-compression/",
-          "date": "2026-04-21T13:21:35.000Z",
           "author": "Slava Sarzhan"
         }
       ]
@@ -737,15 +737,15 @@
       },
       "blogPosts": [
         {
+          "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
+          "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
+          "date": "2026-06-15T06:57:24.000Z",
+          "author": "Marco Tusa"
+        },
+        {
           "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
           "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
           "date": "2026-06-09T10:25:46.000Z",
-          "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Percona Operator for MySQL 1.1.0: PITR, Incremental Backups, and Compression",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-1-0-pitr-incremental-backups-compression/",
-          "date": "2026-04-21T13:21:35.000Z",
           "author": "Slava Sarzhan"
         }
       ]
