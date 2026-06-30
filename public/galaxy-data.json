@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T03:00:39.842Z",
+  "generatedAt": "2026-06-30T03:00:20.542Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,16 +363,16 @@
       },
       "blogPosts": [
         {
+          "title": "Skipping Percona Server for MySQL 8.4.9 and 9.7.0",
+          "url": "https://www.percona.com/blog/percona-server-mysql-8-4-9-9-7-0-skipped/",
+          "date": "2026-06-29T15:19:11.000Z",
+          "author": "Dennis Kittrell"
+        },
+        {
           "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
           "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
           "date": "2026-06-15T06:57:24.000Z",
           "author": "Marco Tusa"
-        },
-        {
-          "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
-          "date": "2026-06-09T10:25:46.000Z",
-          "author": "Slava Sarzhan"
         }
       ]
     },
@@ -447,16 +447,16 @@
       },
       "blogPosts": [
         {
+          "title": "Skipping Percona Server for MySQL 8.4.9 and 9.7.0",
+          "url": "https://www.percona.com/blog/percona-server-mysql-8-4-9-9-7-0-skipped/",
+          "date": "2026-06-29T15:19:11.000Z",
+          "author": "Dennis Kittrell"
+        },
+        {
           "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
           "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
           "date": "2026-06-15T06:57:24.000Z",
           "author": "Marco Tusa"
-        },
-        {
-          "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
-          "date": "2026-06-09T10:25:46.000Z",
-          "author": "Slava Sarzhan"
         }
       ]
     },
@@ -531,16 +531,16 @@
       },
       "blogPosts": [
         {
+          "title": "Skipping Percona Server for MySQL 8.4.9 and 9.7.0",
+          "url": "https://www.percona.com/blog/percona-server-mysql-8-4-9-9-7-0-skipped/",
+          "date": "2026-06-29T15:19:11.000Z",
+          "author": "Dennis Kittrell"
+        },
+        {
           "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
           "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
           "date": "2026-06-15T06:57:24.000Z",
           "author": "Marco Tusa"
-        },
-        {
-          "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
-          "date": "2026-06-09T10:25:46.000Z",
-          "author": "Slava Sarzhan"
         }
       ]
     },
@@ -615,16 +615,16 @@
       },
       "blogPosts": [
         {
+          "title": "Skipping Percona Server for MySQL 8.4.9 and 9.7.0",
+          "url": "https://www.percona.com/blog/percona-server-mysql-8-4-9-9-7-0-skipped/",
+          "date": "2026-06-29T15:19:11.000Z",
+          "author": "Dennis Kittrell"
+        },
+        {
           "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
           "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
           "date": "2026-06-15T06:57:24.000Z",
           "author": "Marco Tusa"
-        },
-        {
-          "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
-          "date": "2026-06-09T10:25:46.000Z",
-          "author": "Slava Sarzhan"
         }
       ]
     },
@@ -737,16 +737,16 @@
       },
       "blogPosts": [
         {
+          "title": "Skipping Percona Server for MySQL 8.4.9 and 9.7.0",
+          "url": "https://www.percona.com/blog/percona-server-mysql-8-4-9-9-7-0-skipped/",
+          "date": "2026-06-29T15:19:11.000Z",
+          "author": "Dennis Kittrell"
+        },
+        {
           "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
           "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
           "date": "2026-06-15T06:57:24.000Z",
           "author": "Marco Tusa"
-        },
-        {
-          "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
-          "date": "2026-06-09T10:25:46.000Z",
-          "author": "Slava Sarzhan"
         }
       ]
     },
