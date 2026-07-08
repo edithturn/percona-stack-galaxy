@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T05:55:46.764Z",
+  "generatedAt": "2026-07-08T04:54:59.760Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,16 +363,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona Operator for MySQL 1.2.0: Cross-Site Replication, Encrypted Backups, and Automatic Storage Scaling",
+          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-2-0-cross-site-replication-encrypted-backups-storage-autoscaling/",
+          "date": "2026-07-07T13:19:26.000Z",
+          "author": "Slava Sarzhan"
+        },
+        {
           "title": "Skipping Percona Server for MySQL 8.4.9 and 9.7.0",
           "url": "https://www.percona.com/blog/percona-server-mysql-8-4-9-9-7-0-skipped/",
           "date": "2026-06-29T15:19:11.000Z",
           "author": "Dennis Kittrell"
-        },
-        {
-          "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
-          "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
-          "date": "2026-06-15T06:57:24.000Z",
-          "author": "Marco Tusa"
         }
       ]
     },
@@ -447,16 +447,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona Operator for MySQL 1.2.0: Cross-Site Replication, Encrypted Backups, and Automatic Storage Scaling",
+          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-2-0-cross-site-replication-encrypted-backups-storage-autoscaling/",
+          "date": "2026-07-07T13:19:26.000Z",
+          "author": "Slava Sarzhan"
+        },
+        {
           "title": "Skipping Percona Server for MySQL 8.4.9 and 9.7.0",
           "url": "https://www.percona.com/blog/percona-server-mysql-8-4-9-9-7-0-skipped/",
           "date": "2026-06-29T15:19:11.000Z",
           "author": "Dennis Kittrell"
-        },
-        {
-          "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
-          "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
-          "date": "2026-06-15T06:57:24.000Z",
-          "author": "Marco Tusa"
         }
       ]
     },
@@ -531,16 +531,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona Operator for MySQL 1.2.0: Cross-Site Replication, Encrypted Backups, and Automatic Storage Scaling",
+          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-2-0-cross-site-replication-encrypted-backups-storage-autoscaling/",
+          "date": "2026-07-07T13:19:26.000Z",
+          "author": "Slava Sarzhan"
+        },
+        {
           "title": "Skipping Percona Server for MySQL 8.4.9 and 9.7.0",
           "url": "https://www.percona.com/blog/percona-server-mysql-8-4-9-9-7-0-skipped/",
           "date": "2026-06-29T15:19:11.000Z",
           "author": "Dennis Kittrell"
-        },
-        {
-          "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
-          "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
-          "date": "2026-06-15T06:57:24.000Z",
-          "author": "Marco Tusa"
         }
       ]
     },
@@ -615,16 +615,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona Operator for MySQL 1.2.0: Cross-Site Replication, Encrypted Backups, and Automatic Storage Scaling",
+          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-2-0-cross-site-replication-encrypted-backups-storage-autoscaling/",
+          "date": "2026-07-07T13:19:26.000Z",
+          "author": "Slava Sarzhan"
+        },
+        {
           "title": "Skipping Percona Server for MySQL 8.4.9 and 9.7.0",
           "url": "https://www.percona.com/blog/percona-server-mysql-8-4-9-9-7-0-skipped/",
           "date": "2026-06-29T15:19:11.000Z",
           "author": "Dennis Kittrell"
-        },
-        {
-          "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
-          "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
-          "date": "2026-06-15T06:57:24.000Z",
-          "author": "Marco Tusa"
         }
       ]
     },
@@ -737,16 +737,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona Operator for MySQL 1.2.0: Cross-Site Replication, Encrypted Backups, and Automatic Storage Scaling",
+          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-2-0-cross-site-replication-encrypted-backups-storage-autoscaling/",
+          "date": "2026-07-07T13:19:26.000Z",
+          "author": "Slava Sarzhan"
+        },
+        {
           "title": "Skipping Percona Server for MySQL 8.4.9 and 9.7.0",
           "url": "https://www.percona.com/blog/percona-server-mysql-8-4-9-9-7-0-skipped/",
           "date": "2026-06-29T15:19:11.000Z",
           "author": "Dennis Kittrell"
-        },
-        {
-          "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
-          "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
-          "date": "2026-06-15T06:57:24.000Z",
-          "author": "Marco Tusa"
         }
       ]
     },
