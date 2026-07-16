@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T04:36:45.461Z",
+  "generatedAt": "2026-07-16T04:46:57.173Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,16 +363,16 @@
       },
       "blogPosts": [
         {
+          "title": "Inside MySQL 9.7 LTS Features",
+          "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
+          "date": "2026-07-15T05:00:23.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "Running DuckDB as a MySQL 9.7 storage engine",
           "url": "https://www.percona.com/blog/running-duckdb-as-a-mysql-9-7-storage-engine/",
           "date": "2026-07-10T13:38:16.000Z",
           "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "Percona Operator for MySQL 1.2.0: Cross-Site Replication, Encrypted Backups, and Automatic Storage Scaling",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-2-0-cross-site-replication-encrypted-backups-storage-autoscaling/",
-          "date": "2026-07-07T13:19:26.000Z",
-          "author": "Slava Sarzhan"
         }
       ]
     },
@@ -447,16 +447,16 @@
       },
       "blogPosts": [
         {
+          "title": "Inside MySQL 9.7 LTS Features",
+          "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
+          "date": "2026-07-15T05:00:23.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "Running DuckDB as a MySQL 9.7 storage engine",
           "url": "https://www.percona.com/blog/running-duckdb-as-a-mysql-9-7-storage-engine/",
           "date": "2026-07-10T13:38:16.000Z",
           "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "Percona Operator for MySQL 1.2.0: Cross-Site Replication, Encrypted Backups, and Automatic Storage Scaling",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-2-0-cross-site-replication-encrypted-backups-storage-autoscaling/",
-          "date": "2026-07-07T13:19:26.000Z",
-          "author": "Slava Sarzhan"
         }
       ]
     },
@@ -531,16 +531,16 @@
       },
       "blogPosts": [
         {
+          "title": "Inside MySQL 9.7 LTS Features",
+          "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
+          "date": "2026-07-15T05:00:23.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "Running DuckDB as a MySQL 9.7 storage engine",
           "url": "https://www.percona.com/blog/running-duckdb-as-a-mysql-9-7-storage-engine/",
           "date": "2026-07-10T13:38:16.000Z",
           "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "Percona Operator for MySQL 1.2.0: Cross-Site Replication, Encrypted Backups, and Automatic Storage Scaling",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-2-0-cross-site-replication-encrypted-backups-storage-autoscaling/",
-          "date": "2026-07-07T13:19:26.000Z",
-          "author": "Slava Sarzhan"
         }
       ]
     },
@@ -615,16 +615,16 @@
       },
       "blogPosts": [
         {
+          "title": "Inside MySQL 9.7 LTS Features",
+          "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
+          "date": "2026-07-15T05:00:23.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "Running DuckDB as a MySQL 9.7 storage engine",
           "url": "https://www.percona.com/blog/running-duckdb-as-a-mysql-9-7-storage-engine/",
           "date": "2026-07-10T13:38:16.000Z",
           "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "Percona Operator for MySQL 1.2.0: Cross-Site Replication, Encrypted Backups, and Automatic Storage Scaling",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-2-0-cross-site-replication-encrypted-backups-storage-autoscaling/",
-          "date": "2026-07-07T13:19:26.000Z",
-          "author": "Slava Sarzhan"
         }
       ]
     },
@@ -737,16 +737,16 @@
       },
       "blogPosts": [
         {
+          "title": "Inside MySQL 9.7 LTS Features",
+          "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
+          "date": "2026-07-15T05:00:23.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "Running DuckDB as a MySQL 9.7 storage engine",
           "url": "https://www.percona.com/blog/running-duckdb-as-a-mysql-9-7-storage-engine/",
           "date": "2026-07-10T13:38:16.000Z",
           "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "Percona Operator for MySQL 1.2.0: Cross-Site Replication, Encrypted Backups, and Automatic Storage Scaling",
-          "url": "https://www.percona.com/blog/percona-operator-for-mysql-1-2-0-cross-site-replication-encrypted-backups-storage-autoscaling/",
-          "date": "2026-07-07T13:19:26.000Z",
-          "author": "Slava Sarzhan"
         }
       ]
     },
