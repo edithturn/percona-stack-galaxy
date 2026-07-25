@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T04:56:32.915Z",
+  "generatedAt": "2026-07-25T04:52:34.892Z",
   "products": [
     {
       "id": "psmdb",
@@ -25,16 +25,16 @@
       },
       "blogPosts": [
         {
+          "title": "Alert on CVEs in Your Percona Tools for MongoDB on Day One",
+          "url": "https://www.percona.com/blog/alert-on-cves-in-your-percona-tools-for-mongodb-on-day-one/",
+          "date": "2026-07-24T13:15:49.000Z",
+          "author": "Oleksandr Miroshnychenko"
+        },
+        {
           "title": "Percona Operator for MongoDB 1.23.0: ClusterSync Migration, Vector Search, and PVC Snapshot Backups",
           "url": "https://www.percona.com/blog/percona-operator-for-mongodb-1-23-0-clustersync-vector-search-pvc-snapshot-backups/",
           "date": "2026-07-23T19:55:51.000Z",
           "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Security advisory: CVE-2026-9740 and CVE-2026-11933 in Percona Server for MongoDB",
-          "url": "https://www.percona.com/blog/security-advisory-cve-2026-9740-and-cve-2026-11933-in-percona-server-for-mongodb/",
-          "date": "2026-06-17T14:24:02.000Z",
-          "author": "Radoslaw Szulgo"
         }
       ]
     },
@@ -109,16 +109,16 @@
       },
       "blogPosts": [
         {
+          "title": "Alert on CVEs in Your Percona Tools for MongoDB on Day One",
+          "url": "https://www.percona.com/blog/alert-on-cves-in-your-percona-tools-for-mongodb-on-day-one/",
+          "date": "2026-07-24T13:15:49.000Z",
+          "author": "Oleksandr Miroshnychenko"
+        },
+        {
           "title": "Percona Operator for MongoDB 1.23.0: ClusterSync Migration, Vector Search, and PVC Snapshot Backups",
           "url": "https://www.percona.com/blog/percona-operator-for-mongodb-1-23-0-clustersync-vector-search-pvc-snapshot-backups/",
           "date": "2026-07-23T19:55:51.000Z",
           "author": "Slava Sarzhan"
-        },
-        {
-          "title": "Security advisory: CVE-2026-9740 and CVE-2026-11933 in Percona Server for MongoDB",
-          "url": "https://www.percona.com/blog/security-advisory-cve-2026-9740-and-cve-2026-11933-in-percona-server-for-mongodb/",
-          "date": "2026-06-17T14:24:02.000Z",
-          "author": "Radoslaw Szulgo"
         }
       ]
     },
