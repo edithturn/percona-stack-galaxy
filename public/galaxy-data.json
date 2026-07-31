@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T04:43:12.812Z",
+  "generatedAt": "2026-07-31T05:20:58.384Z",
   "products": [
     {
       "id": "psmdb",
@@ -25,16 +25,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona Server for MongoDB 8.3 Technical Preview Is Now Available",
+          "url": "https://www.percona.com/blog/percona-server-for-mongodb-8-3-technical-preview-is-now-available/",
+          "date": "2026-07-30T17:36:14.000Z",
+          "author": "Radoslaw Szulgo"
+        },
+        {
           "title": "Alert on CVEs in Your Percona Tools for MongoDB on Day One",
           "url": "https://www.percona.com/blog/alert-on-cves-in-your-percona-tools-for-mongodb-on-day-one/",
           "date": "2026-07-24T13:15:49.000Z",
           "author": "Oleksandr Miroshnychenko"
-        },
-        {
-          "title": "Percona Operator for MongoDB 1.23.0: ClusterSync Migration, Vector Search, and PVC Snapshot Backups",
-          "url": "https://www.percona.com/blog/percona-operator-for-mongodb-1-23-0-clustersync-vector-search-pvc-snapshot-backups/",
-          "date": "2026-07-23T19:55:51.000Z",
-          "author": "Slava Sarzhan"
         }
       ]
     },
@@ -109,16 +109,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona Server for MongoDB 8.3 Technical Preview Is Now Available",
+          "url": "https://www.percona.com/blog/percona-server-for-mongodb-8-3-technical-preview-is-now-available/",
+          "date": "2026-07-30T17:36:14.000Z",
+          "author": "Radoslaw Szulgo"
+        },
+        {
           "title": "Alert on CVEs in Your Percona Tools for MongoDB on Day One",
           "url": "https://www.percona.com/blog/alert-on-cves-in-your-percona-tools-for-mongodb-on-day-one/",
           "date": "2026-07-24T13:15:49.000Z",
           "author": "Oleksandr Miroshnychenko"
-        },
-        {
-          "title": "Percona Operator for MongoDB 1.23.0: ClusterSync Migration, Vector Search, and PVC Snapshot Backups",
-          "url": "https://www.percona.com/blog/percona-operator-for-mongodb-1-23-0-clustersync-vector-search-pvc-snapshot-backups/",
-          "date": "2026-07-23T19:55:51.000Z",
-          "author": "Slava Sarzhan"
         }
       ]
     },
