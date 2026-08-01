@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T05:20:58.384Z",
+  "generatedAt": "2026-08-01T05:13:45.241Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,16 +363,16 @@
       },
       "blogPosts": [
         {
+          "title": "Stored Procedures memory consumption in Percona Server for MySQL",
+          "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
+          "date": "2026-07-31T11:50:51.000Z",
+          "author": "Bogdan Degtyariov"
+        },
+        {
           "title": "Inside MySQL 9.7 LTS Features",
           "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
           "date": "2026-07-15T05:00:23.000Z",
           "author": "Anil Joshi"
-        },
-        {
-          "title": "Running DuckDB as a MySQL 9.7 storage engine",
-          "url": "https://www.percona.com/blog/running-duckdb-as-a-mysql-9-7-storage-engine/",
-          "date": "2026-07-10T13:38:16.000Z",
-          "author": "Evgeniy Patlan"
         }
       ]
     },
@@ -447,16 +447,16 @@
       },
       "blogPosts": [
         {
+          "title": "Stored Procedures memory consumption in Percona Server for MySQL",
+          "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
+          "date": "2026-07-31T11:50:51.000Z",
+          "author": "Bogdan Degtyariov"
+        },
+        {
           "title": "Inside MySQL 9.7 LTS Features",
           "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
           "date": "2026-07-15T05:00:23.000Z",
           "author": "Anil Joshi"
-        },
-        {
-          "title": "Running DuckDB as a MySQL 9.7 storage engine",
-          "url": "https://www.percona.com/blog/running-duckdb-as-a-mysql-9-7-storage-engine/",
-          "date": "2026-07-10T13:38:16.000Z",
-          "author": "Evgeniy Patlan"
         }
       ]
     },
@@ -531,16 +531,16 @@
       },
       "blogPosts": [
         {
+          "title": "Stored Procedures memory consumption in Percona Server for MySQL",
+          "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
+          "date": "2026-07-31T11:50:51.000Z",
+          "author": "Bogdan Degtyariov"
+        },
+        {
           "title": "Inside MySQL 9.7 LTS Features",
           "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
           "date": "2026-07-15T05:00:23.000Z",
           "author": "Anil Joshi"
-        },
-        {
-          "title": "Running DuckDB as a MySQL 9.7 storage engine",
-          "url": "https://www.percona.com/blog/running-duckdb-as-a-mysql-9-7-storage-engine/",
-          "date": "2026-07-10T13:38:16.000Z",
-          "author": "Evgeniy Patlan"
         }
       ]
     },
@@ -615,16 +615,16 @@
       },
       "blogPosts": [
         {
+          "title": "Stored Procedures memory consumption in Percona Server for MySQL",
+          "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
+          "date": "2026-07-31T11:50:51.000Z",
+          "author": "Bogdan Degtyariov"
+        },
+        {
           "title": "Inside MySQL 9.7 LTS Features",
           "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
           "date": "2026-07-15T05:00:23.000Z",
           "author": "Anil Joshi"
-        },
-        {
-          "title": "Running DuckDB as a MySQL 9.7 storage engine",
-          "url": "https://www.percona.com/blog/running-duckdb-as-a-mysql-9-7-storage-engine/",
-          "date": "2026-07-10T13:38:16.000Z",
-          "author": "Evgeniy Patlan"
         }
       ]
     },
@@ -737,16 +737,16 @@
       },
       "blogPosts": [
         {
+          "title": "Stored Procedures memory consumption in Percona Server for MySQL",
+          "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
+          "date": "2026-07-31T11:50:51.000Z",
+          "author": "Bogdan Degtyariov"
+        },
+        {
           "title": "Inside MySQL 9.7 LTS Features",
           "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
           "date": "2026-07-15T05:00:23.000Z",
           "author": "Anil Joshi"
-        },
-        {
-          "title": "Running DuckDB as a MySQL 9.7 storage engine",
-          "url": "https://www.percona.com/blog/running-duckdb-as-a-mysql-9-7-storage-engine/",
-          "date": "2026-07-10T13:38:16.000Z",
-          "author": "Evgeniy Patlan"
         }
       ]
     },
