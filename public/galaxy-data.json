@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T04:16:30.924Z",
+  "generatedAt": "2026-08-08T03:14:22.941Z",
   "products": [
     {
       "id": "psmdb",
@@ -25,16 +25,16 @@
       },
       "blogPosts": [
         {
+          "title": "The open way of Percona Search for MongoDB",
+          "url": "https://www.percona.com/blog/the-open-way-of-percona-search-for-mongodb/",
+          "date": "2026-08-07T14:55:06.000Z",
+          "author": "Radoslaw Szulgo"
+        },
+        {
           "title": "Percona Server for MongoDB 8.3 Technical Preview Is Now Available",
           "url": "https://www.percona.com/blog/percona-server-for-mongodb-8-3-technical-preview-is-now-available/",
           "date": "2026-07-30T17:36:14.000Z",
           "author": "Radoslaw Szulgo"
-        },
-        {
-          "title": "Alert on CVEs in Your Percona Tools for MongoDB on Day One",
-          "url": "https://www.percona.com/blog/alert-on-cves-in-your-percona-tools-for-mongodb-on-day-one/",
-          "date": "2026-07-24T13:15:49.000Z",
-          "author": "Oleksandr Miroshnychenko"
         }
       ]
     },
@@ -109,16 +109,16 @@
       },
       "blogPosts": [
         {
+          "title": "The open way of Percona Search for MongoDB",
+          "url": "https://www.percona.com/blog/the-open-way-of-percona-search-for-mongodb/",
+          "date": "2026-08-07T14:55:06.000Z",
+          "author": "Radoslaw Szulgo"
+        },
+        {
           "title": "Percona Server for MongoDB 8.3 Technical Preview Is Now Available",
           "url": "https://www.percona.com/blog/percona-server-for-mongodb-8-3-technical-preview-is-now-available/",
           "date": "2026-07-30T17:36:14.000Z",
           "author": "Radoslaw Szulgo"
-        },
-        {
-          "title": "Alert on CVEs in Your Percona Tools for MongoDB on Day One",
-          "url": "https://www.percona.com/blog/alert-on-cves-in-your-percona-tools-for-mongodb-on-day-one/",
-          "date": "2026-07-24T13:15:49.000Z",
-          "author": "Oleksandr Miroshnychenko"
         }
       ]
     },
@@ -363,16 +363,16 @@
       },
       "blogPosts": [
         {
+          "title": "The DuckDB MySQL engine at 500 GB",
+          "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
+          "date": "2026-08-07T12:09:29.000Z",
+          "author": "Evgeniy Patlan"
+        },
+        {
           "title": "Stored Procedures memory consumption in Percona Server for MySQL",
           "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
           "date": "2026-07-31T11:50:51.000Z",
           "author": "Bogdan Degtyariov"
-        },
-        {
-          "title": "Inside MySQL 9.7 LTS Features",
-          "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
-          "date": "2026-07-15T05:00:23.000Z",
-          "author": "Anil Joshi"
         }
       ]
     },
@@ -447,16 +447,16 @@
       },
       "blogPosts": [
         {
+          "title": "The DuckDB MySQL engine at 500 GB",
+          "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
+          "date": "2026-08-07T12:09:29.000Z",
+          "author": "Evgeniy Patlan"
+        },
+        {
           "title": "Stored Procedures memory consumption in Percona Server for MySQL",
           "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
           "date": "2026-07-31T11:50:51.000Z",
           "author": "Bogdan Degtyariov"
-        },
-        {
-          "title": "Inside MySQL 9.7 LTS Features",
-          "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
-          "date": "2026-07-15T05:00:23.000Z",
-          "author": "Anil Joshi"
         }
       ]
     },
@@ -531,16 +531,16 @@
       },
       "blogPosts": [
         {
+          "title": "The DuckDB MySQL engine at 500 GB",
+          "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
+          "date": "2026-08-07T12:09:29.000Z",
+          "author": "Evgeniy Patlan"
+        },
+        {
           "title": "Stored Procedures memory consumption in Percona Server for MySQL",
           "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
           "date": "2026-07-31T11:50:51.000Z",
           "author": "Bogdan Degtyariov"
-        },
-        {
-          "title": "Inside MySQL 9.7 LTS Features",
-          "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
-          "date": "2026-07-15T05:00:23.000Z",
-          "author": "Anil Joshi"
         }
       ]
     },
@@ -615,16 +615,16 @@
       },
       "blogPosts": [
         {
+          "title": "The DuckDB MySQL engine at 500 GB",
+          "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
+          "date": "2026-08-07T12:09:29.000Z",
+          "author": "Evgeniy Patlan"
+        },
+        {
           "title": "Stored Procedures memory consumption in Percona Server for MySQL",
           "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
           "date": "2026-07-31T11:50:51.000Z",
           "author": "Bogdan Degtyariov"
-        },
-        {
-          "title": "Inside MySQL 9.7 LTS Features",
-          "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
-          "date": "2026-07-15T05:00:23.000Z",
-          "author": "Anil Joshi"
         }
       ]
     },
@@ -737,16 +737,16 @@
       },
       "blogPosts": [
         {
+          "title": "The DuckDB MySQL engine at 500 GB",
+          "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
+          "date": "2026-08-07T12:09:29.000Z",
+          "author": "Evgeniy Patlan"
+        },
+        {
           "title": "Stored Procedures memory consumption in Percona Server for MySQL",
           "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
           "date": "2026-07-31T11:50:51.000Z",
           "author": "Bogdan Degtyariov"
-        },
-        {
-          "title": "Inside MySQL 9.7 LTS Features",
-          "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
-          "date": "2026-07-15T05:00:23.000Z",
-          "author": "Anil Joshi"
         }
       ]
     },
