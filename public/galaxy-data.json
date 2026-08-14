@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T02:50:13.436Z",
+  "generatedAt": "2026-08-14T02:49:55.142Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,16 +363,16 @@
       },
       "blogPosts": [
         {
+          "title": "Replicating from InnoDB into a DuckDB storage engine",
+          "url": "https://www.percona.com/blog/replicating-from-innodb-into-a-duckdb-storage-engine/",
+          "date": "2026-08-13T17:23:27.000Z",
+          "author": "Evgeniy Patlan"
+        },
+        {
           "title": "The DuckDB MySQL engine at 500 GB",
           "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
           "date": "2026-08-07T12:09:29.000Z",
           "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "Stored Procedures memory consumption in Percona Server for MySQL",
-          "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
-          "date": "2026-07-31T11:50:51.000Z",
-          "author": "Bogdan Degtyariov"
         }
       ]
     },
@@ -447,16 +447,16 @@
       },
       "blogPosts": [
         {
+          "title": "Replicating from InnoDB into a DuckDB storage engine",
+          "url": "https://www.percona.com/blog/replicating-from-innodb-into-a-duckdb-storage-engine/",
+          "date": "2026-08-13T17:23:27.000Z",
+          "author": "Evgeniy Patlan"
+        },
+        {
           "title": "The DuckDB MySQL engine at 500 GB",
           "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
           "date": "2026-08-07T12:09:29.000Z",
           "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "Stored Procedures memory consumption in Percona Server for MySQL",
-          "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
-          "date": "2026-07-31T11:50:51.000Z",
-          "author": "Bogdan Degtyariov"
         }
       ]
     },
@@ -531,16 +531,16 @@
       },
       "blogPosts": [
         {
+          "title": "Replicating from InnoDB into a DuckDB storage engine",
+          "url": "https://www.percona.com/blog/replicating-from-innodb-into-a-duckdb-storage-engine/",
+          "date": "2026-08-13T17:23:27.000Z",
+          "author": "Evgeniy Patlan"
+        },
+        {
           "title": "The DuckDB MySQL engine at 500 GB",
           "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
           "date": "2026-08-07T12:09:29.000Z",
           "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "Stored Procedures memory consumption in Percona Server for MySQL",
-          "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
-          "date": "2026-07-31T11:50:51.000Z",
-          "author": "Bogdan Degtyariov"
         }
       ]
     },
@@ -615,16 +615,16 @@
       },
       "blogPosts": [
         {
+          "title": "Replicating from InnoDB into a DuckDB storage engine",
+          "url": "https://www.percona.com/blog/replicating-from-innodb-into-a-duckdb-storage-engine/",
+          "date": "2026-08-13T17:23:27.000Z",
+          "author": "Evgeniy Patlan"
+        },
+        {
           "title": "The DuckDB MySQL engine at 500 GB",
           "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
           "date": "2026-08-07T12:09:29.000Z",
           "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "Stored Procedures memory consumption in Percona Server for MySQL",
-          "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
-          "date": "2026-07-31T11:50:51.000Z",
-          "author": "Bogdan Degtyariov"
         }
       ]
     },
@@ -737,16 +737,16 @@
       },
       "blogPosts": [
         {
+          "title": "Replicating from InnoDB into a DuckDB storage engine",
+          "url": "https://www.percona.com/blog/replicating-from-innodb-into-a-duckdb-storage-engine/",
+          "date": "2026-08-13T17:23:27.000Z",
+          "author": "Evgeniy Patlan"
+        },
+        {
           "title": "The DuckDB MySQL engine at 500 GB",
           "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
           "date": "2026-08-07T12:09:29.000Z",
           "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "Stored Procedures memory consumption in Percona Server for MySQL",
-          "url": "https://www.percona.com/blog/stored-procedures-memory-consumption-in-percona-server-for-mysql/",
-          "date": "2026-07-31T11:50:51.000Z",
-          "author": "Bogdan Degtyariov"
         }
       ]
     },
