@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T02:22:58.083Z",
+  "generatedAt": "2026-08-26T02:27:41.226Z",
   "products": [
     {
       "id": "psmdb",
@@ -25,15 +25,15 @@
       },
       "blogPosts": [
         {
+          "title": "Software Bill of Materials in Percona Server for MongoDB",
+          "url": "https://www.percona.com/blog/software-bill-of-materials-in-percona-server-for-mongodb/",
+          "date": "2026-08-25T15:25:47.000Z",
+          "author": "Konstantin Trushin"
+        },
+        {
           "title": "Percona for MongoDB: RHEL 10, Its Derivatives, and Debian 13 &#8211; On Both x86_64 and ARM",
           "url": "https://www.percona.com/blog/percona-for-mongodb-rhel-10-its-derivatives-and-debian-13-on-both-x86_64-and-arm/",
           "date": "2026-08-11T12:15:41.000Z",
-          "author": "Radoslaw Szulgo"
-        },
-        {
-          "title": "The open way of Percona Search for MongoDB",
-          "url": "https://www.percona.com/blog/the-open-way-of-percona-search-for-mongodb/",
-          "date": "2026-08-07T14:55:06.000Z",
           "author": "Radoslaw Szulgo"
         }
       ]
@@ -109,15 +109,15 @@
       },
       "blogPosts": [
         {
+          "title": "Software Bill of Materials in Percona Server for MongoDB",
+          "url": "https://www.percona.com/blog/software-bill-of-materials-in-percona-server-for-mongodb/",
+          "date": "2026-08-25T15:25:47.000Z",
+          "author": "Konstantin Trushin"
+        },
+        {
           "title": "Percona for MongoDB: RHEL 10, Its Derivatives, and Debian 13 &#8211; On Both x86_64 and ARM",
           "url": "https://www.percona.com/blog/percona-for-mongodb-rhel-10-its-derivatives-and-debian-13-on-both-x86_64-and-arm/",
           "date": "2026-08-11T12:15:41.000Z",
-          "author": "Radoslaw Szulgo"
-        },
-        {
-          "title": "The open way of Percona Search for MongoDB",
-          "url": "https://www.percona.com/blog/the-open-way-of-percona-search-for-mongodb/",
-          "date": "2026-08-07T14:55:06.000Z",
           "author": "Radoslaw Szulgo"
         }
       ]
