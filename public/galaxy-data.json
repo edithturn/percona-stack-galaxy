@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T02:12:41.648Z",
+  "generatedAt": "2026-09-03T02:07:44.643Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,15 +363,15 @@
       },
       "blogPosts": [
         {
+          "title": "OpenID Connect Authentication for MySQL, Now Fully Open Source",
+          "url": "https://www.percona.com/blog/oidc-authentication-for-percona-mysql/",
+          "date": "2026-09-02T08:56:26.000Z",
+          "author": "Michał Jankowski"
+        },
+        {
           "title": "Replicating from InnoDB into a DuckDB storage engine",
           "url": "https://www.percona.com/blog/replicating-from-innodb-into-a-duckdb-storage-engine/",
           "date": "2026-08-13T17:23:27.000Z",
-          "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "The DuckDB MySQL engine at 500 GB",
-          "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
-          "date": "2026-08-07T12:09:29.000Z",
           "author": "Evgeniy Patlan"
         }
       ]
@@ -447,15 +447,15 @@
       },
       "blogPosts": [
         {
+          "title": "OpenID Connect Authentication for MySQL, Now Fully Open Source",
+          "url": "https://www.percona.com/blog/oidc-authentication-for-percona-mysql/",
+          "date": "2026-09-02T08:56:26.000Z",
+          "author": "Michał Jankowski"
+        },
+        {
           "title": "Replicating from InnoDB into a DuckDB storage engine",
           "url": "https://www.percona.com/blog/replicating-from-innodb-into-a-duckdb-storage-engine/",
           "date": "2026-08-13T17:23:27.000Z",
-          "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "The DuckDB MySQL engine at 500 GB",
-          "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
-          "date": "2026-08-07T12:09:29.000Z",
           "author": "Evgeniy Patlan"
         }
       ]
@@ -531,15 +531,15 @@
       },
       "blogPosts": [
         {
+          "title": "OpenID Connect Authentication for MySQL, Now Fully Open Source",
+          "url": "https://www.percona.com/blog/oidc-authentication-for-percona-mysql/",
+          "date": "2026-09-02T08:56:26.000Z",
+          "author": "Michał Jankowski"
+        },
+        {
           "title": "Replicating from InnoDB into a DuckDB storage engine",
           "url": "https://www.percona.com/blog/replicating-from-innodb-into-a-duckdb-storage-engine/",
           "date": "2026-08-13T17:23:27.000Z",
-          "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "The DuckDB MySQL engine at 500 GB",
-          "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
-          "date": "2026-08-07T12:09:29.000Z",
           "author": "Evgeniy Patlan"
         }
       ]
@@ -615,15 +615,15 @@
       },
       "blogPosts": [
         {
+          "title": "OpenID Connect Authentication for MySQL, Now Fully Open Source",
+          "url": "https://www.percona.com/blog/oidc-authentication-for-percona-mysql/",
+          "date": "2026-09-02T08:56:26.000Z",
+          "author": "Michał Jankowski"
+        },
+        {
           "title": "Replicating from InnoDB into a DuckDB storage engine",
           "url": "https://www.percona.com/blog/replicating-from-innodb-into-a-duckdb-storage-engine/",
           "date": "2026-08-13T17:23:27.000Z",
-          "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "The DuckDB MySQL engine at 500 GB",
-          "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
-          "date": "2026-08-07T12:09:29.000Z",
           "author": "Evgeniy Patlan"
         }
       ]
@@ -737,15 +737,15 @@
       },
       "blogPosts": [
         {
+          "title": "OpenID Connect Authentication for MySQL, Now Fully Open Source",
+          "url": "https://www.percona.com/blog/oidc-authentication-for-percona-mysql/",
+          "date": "2026-09-02T08:56:26.000Z",
+          "author": "Michał Jankowski"
+        },
+        {
           "title": "Replicating from InnoDB into a DuckDB storage engine",
           "url": "https://www.percona.com/blog/replicating-from-innodb-into-a-duckdb-storage-engine/",
           "date": "2026-08-13T17:23:27.000Z",
-          "author": "Evgeniy Patlan"
-        },
-        {
-          "title": "The DuckDB MySQL engine at 500 GB",
-          "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
-          "date": "2026-08-07T12:09:29.000Z",
           "author": "Evgeniy Patlan"
         }
       ]
