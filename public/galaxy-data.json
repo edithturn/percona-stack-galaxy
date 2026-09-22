@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T02:05:35.620Z",
+  "generatedAt": "2026-09-22T02:02:05.510Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,16 +363,16 @@
       },
       "blogPosts": [
         {
+          "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
+          "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
+          "date": "2026-09-21T09:57:06.000Z",
+          "author": "Catalin Besleaga"
+        },
+        {
           "title": "Too many GCache Page Files in MySQL Data Directory",
           "url": "https://www.percona.com/blog/too-many-gcache-page-files-in-mysql-data-directory/",
           "date": "2026-09-17T05:29:14.000Z",
           "author": "Kedar Vaijanapurkar"
-        },
-        {
-          "title": "OpenID Connect Authentication for MySQL, Now Fully Open Source",
-          "url": "https://www.percona.com/blog/oidc-authentication-for-percona-mysql/",
-          "date": "2026-09-02T08:56:26.000Z",
-          "author": "Michał Jankowski"
         }
       ]
     },
@@ -447,16 +447,16 @@
       },
       "blogPosts": [
         {
+          "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
+          "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
+          "date": "2026-09-21T09:57:06.000Z",
+          "author": "Catalin Besleaga"
+        },
+        {
           "title": "Too many GCache Page Files in MySQL Data Directory",
           "url": "https://www.percona.com/blog/too-many-gcache-page-files-in-mysql-data-directory/",
           "date": "2026-09-17T05:29:14.000Z",
           "author": "Kedar Vaijanapurkar"
-        },
-        {
-          "title": "OpenID Connect Authentication for MySQL, Now Fully Open Source",
-          "url": "https://www.percona.com/blog/oidc-authentication-for-percona-mysql/",
-          "date": "2026-09-02T08:56:26.000Z",
-          "author": "Michał Jankowski"
         }
       ]
     },
@@ -531,16 +531,16 @@
       },
       "blogPosts": [
         {
+          "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
+          "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
+          "date": "2026-09-21T09:57:06.000Z",
+          "author": "Catalin Besleaga"
+        },
+        {
           "title": "Too many GCache Page Files in MySQL Data Directory",
           "url": "https://www.percona.com/blog/too-many-gcache-page-files-in-mysql-data-directory/",
           "date": "2026-09-17T05:29:14.000Z",
           "author": "Kedar Vaijanapurkar"
-        },
-        {
-          "title": "OpenID Connect Authentication for MySQL, Now Fully Open Source",
-          "url": "https://www.percona.com/blog/oidc-authentication-for-percona-mysql/",
-          "date": "2026-09-02T08:56:26.000Z",
-          "author": "Michał Jankowski"
         }
       ]
     },
@@ -615,16 +615,16 @@
       },
       "blogPosts": [
         {
+          "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
+          "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
+          "date": "2026-09-21T09:57:06.000Z",
+          "author": "Catalin Besleaga"
+        },
+        {
           "title": "Too many GCache Page Files in MySQL Data Directory",
           "url": "https://www.percona.com/blog/too-many-gcache-page-files-in-mysql-data-directory/",
           "date": "2026-09-17T05:29:14.000Z",
           "author": "Kedar Vaijanapurkar"
-        },
-        {
-          "title": "OpenID Connect Authentication for MySQL, Now Fully Open Source",
-          "url": "https://www.percona.com/blog/oidc-authentication-for-percona-mysql/",
-          "date": "2026-09-02T08:56:26.000Z",
-          "author": "Michał Jankowski"
         }
       ]
     },
@@ -737,16 +737,16 @@
       },
       "blogPosts": [
         {
+          "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
+          "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
+          "date": "2026-09-21T09:57:06.000Z",
+          "author": "Catalin Besleaga"
+        },
+        {
           "title": "Too many GCache Page Files in MySQL Data Directory",
           "url": "https://www.percona.com/blog/too-many-gcache-page-files-in-mysql-data-directory/",
           "date": "2026-09-17T05:29:14.000Z",
           "author": "Kedar Vaijanapurkar"
-        },
-        {
-          "title": "OpenID Connect Authentication for MySQL, Now Fully Open Source",
-          "url": "https://www.percona.com/blog/oidc-authentication-for-percona-mysql/",
-          "date": "2026-09-02T08:56:26.000Z",
-          "author": "Michał Jankowski"
         }
       ]
     },
