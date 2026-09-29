@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T02:10:02.604Z",
+  "generatedAt": "2026-09-29T02:06:48.164Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,16 +363,16 @@
       },
       "blogPosts": [
         {
+          "title": "When pt-online-schema-change &#8220;where&#8221; Meets Galera: Understanding Chunk Auto-Resize and Flow Control",
+          "url": "https://www.percona.com/blog/when-pt-online-schema-change-where-meets-galera-understanding-chunk-auto-resize-and-flow-control/",
+          "date": "2026-09-28T13:56:53.000Z",
+          "author": "Corrado Pandiani"
+        },
+        {
           "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
           "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
           "date": "2026-09-21T09:57:06.000Z",
           "author": "Catalin Besleaga"
-        },
-        {
-          "title": "Too many GCache Page Files in MySQL Data Directory",
-          "url": "https://www.percona.com/blog/too-many-gcache-page-files-in-mysql-data-directory/",
-          "date": "2026-09-17T05:29:14.000Z",
-          "author": "Kedar Vaijanapurkar"
         }
       ]
     },
@@ -447,16 +447,16 @@
       },
       "blogPosts": [
         {
+          "title": "When pt-online-schema-change &#8220;where&#8221; Meets Galera: Understanding Chunk Auto-Resize and Flow Control",
+          "url": "https://www.percona.com/blog/when-pt-online-schema-change-where-meets-galera-understanding-chunk-auto-resize-and-flow-control/",
+          "date": "2026-09-28T13:56:53.000Z",
+          "author": "Corrado Pandiani"
+        },
+        {
           "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
           "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
           "date": "2026-09-21T09:57:06.000Z",
           "author": "Catalin Besleaga"
-        },
-        {
-          "title": "Too many GCache Page Files in MySQL Data Directory",
-          "url": "https://www.percona.com/blog/too-many-gcache-page-files-in-mysql-data-directory/",
-          "date": "2026-09-17T05:29:14.000Z",
-          "author": "Kedar Vaijanapurkar"
         }
       ]
     },
@@ -531,16 +531,16 @@
       },
       "blogPosts": [
         {
+          "title": "When pt-online-schema-change &#8220;where&#8221; Meets Galera: Understanding Chunk Auto-Resize and Flow Control",
+          "url": "https://www.percona.com/blog/when-pt-online-schema-change-where-meets-galera-understanding-chunk-auto-resize-and-flow-control/",
+          "date": "2026-09-28T13:56:53.000Z",
+          "author": "Corrado Pandiani"
+        },
+        {
           "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
           "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
           "date": "2026-09-21T09:57:06.000Z",
           "author": "Catalin Besleaga"
-        },
-        {
-          "title": "Too many GCache Page Files in MySQL Data Directory",
-          "url": "https://www.percona.com/blog/too-many-gcache-page-files-in-mysql-data-directory/",
-          "date": "2026-09-17T05:29:14.000Z",
-          "author": "Kedar Vaijanapurkar"
         }
       ]
     },
@@ -615,16 +615,16 @@
       },
       "blogPosts": [
         {
+          "title": "When pt-online-schema-change &#8220;where&#8221; Meets Galera: Understanding Chunk Auto-Resize and Flow Control",
+          "url": "https://www.percona.com/blog/when-pt-online-schema-change-where-meets-galera-understanding-chunk-auto-resize-and-flow-control/",
+          "date": "2026-09-28T13:56:53.000Z",
+          "author": "Corrado Pandiani"
+        },
+        {
           "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
           "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
           "date": "2026-09-21T09:57:06.000Z",
           "author": "Catalin Besleaga"
-        },
-        {
-          "title": "Too many GCache Page Files in MySQL Data Directory",
-          "url": "https://www.percona.com/blog/too-many-gcache-page-files-in-mysql-data-directory/",
-          "date": "2026-09-17T05:29:14.000Z",
-          "author": "Kedar Vaijanapurkar"
         }
       ]
     },
@@ -737,16 +737,16 @@
       },
       "blogPosts": [
         {
+          "title": "When pt-online-schema-change &#8220;where&#8221; Meets Galera: Understanding Chunk Auto-Resize and Flow Control",
+          "url": "https://www.percona.com/blog/when-pt-online-schema-change-where-meets-galera-understanding-chunk-auto-resize-and-flow-control/",
+          "date": "2026-09-28T13:56:53.000Z",
+          "author": "Corrado Pandiani"
+        },
+        {
           "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
           "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
           "date": "2026-09-21T09:57:06.000Z",
           "author": "Catalin Besleaga"
-        },
-        {
-          "title": "Too many GCache Page Files in MySQL Data Directory",
-          "url": "https://www.percona.com/blog/too-many-gcache-page-files-in-mysql-data-directory/",
-          "date": "2026-09-17T05:29:14.000Z",
-          "author": "Kedar Vaijanapurkar"
         }
       ]
     },
