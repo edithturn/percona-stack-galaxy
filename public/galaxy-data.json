@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T02:09:17.380Z",
+  "generatedAt": "2026-10-01T02:13:49.299Z",
   "products": [
     {
       "id": "psmdb",
@@ -25,16 +25,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona ClusterSync for MongoDB Goes Highly Available: Active-Standby Failover",
+          "url": "https://www.percona.com/blog/percona-clustersync-for-mongodb-goes-highly-available-active-standby-failover/",
+          "date": "2026-09-30T17:13:49.000Z",
+          "author": "Adnan Supic"
+        },
+        {
           "title": "Rotating Expiring X.509 Certificates in Percona Server for MongoDB with Minimal Service Interruption",
           "url": "https://www.percona.com/blog/rotating-expiring-x-509-certificates-in-percona-server-for-mongodb-with-minimal-service-interruption/",
           "date": "2026-08-31T11:48:11.000Z",
           "author": "Ivan Groenewold"
-        },
-        {
-          "title": "Software Bill of Materials in Percona Server for MongoDB",
-          "url": "https://www.percona.com/blog/software-bill-of-materials-in-percona-server-for-mongodb/",
-          "date": "2026-08-25T15:25:47.000Z",
-          "author": "Konstantin Trushin"
         }
       ]
     },
@@ -109,16 +109,16 @@
       },
       "blogPosts": [
         {
+          "title": "Percona ClusterSync for MongoDB Goes Highly Available: Active-Standby Failover",
+          "url": "https://www.percona.com/blog/percona-clustersync-for-mongodb-goes-highly-available-active-standby-failover/",
+          "date": "2026-09-30T17:13:49.000Z",
+          "author": "Adnan Supic"
+        },
+        {
           "title": "Rotating Expiring X.509 Certificates in Percona Server for MongoDB with Minimal Service Interruption",
           "url": "https://www.percona.com/blog/rotating-expiring-x-509-certificates-in-percona-server-for-mongodb-with-minimal-service-interruption/",
           "date": "2026-08-31T11:48:11.000Z",
           "author": "Ivan Groenewold"
-        },
-        {
-          "title": "Software Bill of Materials in Percona Server for MongoDB",
-          "url": "https://www.percona.com/blog/software-bill-of-materials-in-percona-server-for-mongodb/",
-          "date": "2026-08-25T15:25:47.000Z",
-          "author": "Konstantin Trushin"
         }
       ]
     },
