@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T02:12:00.619Z",
+  "generatedAt": "2026-10-08T02:12:08.440Z",
   "products": [
     {
       "id": "psmdb",
@@ -31,10 +31,10 @@
           "author": "Radoslaw Szulgo"
         },
         {
-          "title": "Tuning Percona ClusterSync for MongoDB Performance",
-          "url": "https://www.percona.com/blog/tuning-percona-clustersync-for-mongodb-performance/",
-          "date": "2026-10-01T16:36:43.000Z",
-          "author": "Ivan Groenewold"
+          "title": "What Is Running on My MongoDB Right Now? Real-Time Analytics in PMM",
+          "url": "https://www.percona.com/blog/what-is-running-on-my-mongodb-right-now-real-time-analytics-in-pmm/",
+          "date": "2026-10-06T12:51:43.000Z",
+          "author": "Tibor Korocz"
         }
       ]
     },
@@ -115,10 +115,10 @@
           "author": "Radoslaw Szulgo"
         },
         {
-          "title": "Tuning Percona ClusterSync for MongoDB Performance",
-          "url": "https://www.percona.com/blog/tuning-percona-clustersync-for-mongodb-performance/",
-          "date": "2026-10-01T16:36:43.000Z",
-          "author": "Ivan Groenewold"
+          "title": "What Is Running on My MongoDB Right Now? Real-Time Analytics in PMM",
+          "url": "https://www.percona.com/blog/what-is-running-on-my-mongodb-right-now-real-time-analytics-in-pmm/",
+          "date": "2026-10-06T12:51:43.000Z",
+          "author": "Tibor Korocz"
         }
       ]
     },
@@ -700,16 +700,16 @@
       },
       "blogPosts": [
         {
+          "title": "What Is Running on My MongoDB Right Now? Real-Time Analytics in PMM",
+          "url": "https://www.percona.com/blog/what-is-running-on-my-mongodb-right-now-real-time-analytics-in-pmm/",
+          "date": "2026-10-06T12:51:43.000Z",
+          "author": "Tibor Korocz"
+        },
+        {
           "title": "Security Advisory: CVE  Impacting Percona Monitoring and Management (PMM)",
           "url": "https://www.percona.com/blog/security-advisory-cve-affecting-percona-monitoring-and-management-pmm-2/",
           "date": "2025-07-31T20:34:21.000Z",
           "author": "Liz Warner"
-        },
-        {
-          "title": "How to Extend Percona Monitoring and Management to Add Logging Functionality",
-          "url": "https://www.percona.com/blog/how-to-extend-percona-monitoring-and-management-to-add-logging-functionality/",
-          "date": "2025-04-16T13:10:05.000Z",
-          "author": "Alexander Demidoff"
         }
       ]
     },
