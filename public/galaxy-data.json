@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T02:12:49.372Z",
+  "generatedAt": "2026-10-10T02:11:02.817Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,16 +363,16 @@
       },
       "blogPosts": [
         {
-          "title": "When pt-online-schema-change &#8220;where&#8221; Meets Galera: Understanding Chunk Auto-Resize and Flow Control",
-          "url": "https://www.percona.com/blog/when-pt-online-schema-change-where-meets-galera-understanding-chunk-auto-resize-and-flow-control/",
-          "date": "2026-09-28T13:56:53.000Z",
-          "author": "Corrado Pandiani"
+          "title": "PGO or not PGO this is the dilemma. Step 3",
+          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
+          "date": "2026-10-09T11:47:55.000Z",
+          "author": "Marco Tusa"
         },
         {
-          "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
-          "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
-          "date": "2026-09-21T09:57:06.000Z",
-          "author": "Catalin Besleaga"
+          "title": "PGO or not PGO this is the dilemma. Step 2",
+          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-2/",
+          "date": "2026-10-09T11:47:32.000Z",
+          "author": "Marco Tusa"
         }
       ]
     },
@@ -447,16 +447,16 @@
       },
       "blogPosts": [
         {
-          "title": "When pt-online-schema-change &#8220;where&#8221; Meets Galera: Understanding Chunk Auto-Resize and Flow Control",
-          "url": "https://www.percona.com/blog/when-pt-online-schema-change-where-meets-galera-understanding-chunk-auto-resize-and-flow-control/",
-          "date": "2026-09-28T13:56:53.000Z",
-          "author": "Corrado Pandiani"
+          "title": "PGO or not PGO this is the dilemma. Step 3",
+          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
+          "date": "2026-10-09T11:47:55.000Z",
+          "author": "Marco Tusa"
         },
         {
-          "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
-          "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
-          "date": "2026-09-21T09:57:06.000Z",
-          "author": "Catalin Besleaga"
+          "title": "PGO or not PGO this is the dilemma. Step 2",
+          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-2/",
+          "date": "2026-10-09T11:47:32.000Z",
+          "author": "Marco Tusa"
         }
       ]
     },
@@ -531,16 +531,16 @@
       },
       "blogPosts": [
         {
-          "title": "When pt-online-schema-change &#8220;where&#8221; Meets Galera: Understanding Chunk Auto-Resize and Flow Control",
-          "url": "https://www.percona.com/blog/when-pt-online-schema-change-where-meets-galera-understanding-chunk-auto-resize-and-flow-control/",
-          "date": "2026-09-28T13:56:53.000Z",
-          "author": "Corrado Pandiani"
+          "title": "PGO or not PGO this is the dilemma. Step 3",
+          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
+          "date": "2026-10-09T11:47:55.000Z",
+          "author": "Marco Tusa"
         },
         {
-          "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
-          "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
-          "date": "2026-09-21T09:57:06.000Z",
-          "author": "Catalin Besleaga"
+          "title": "PGO or not PGO this is the dilemma. Step 2",
+          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-2/",
+          "date": "2026-10-09T11:47:32.000Z",
+          "author": "Marco Tusa"
         }
       ]
     },
@@ -615,16 +615,16 @@
       },
       "blogPosts": [
         {
-          "title": "When pt-online-schema-change &#8220;where&#8221; Meets Galera: Understanding Chunk Auto-Resize and Flow Control",
-          "url": "https://www.percona.com/blog/when-pt-online-schema-change-where-meets-galera-understanding-chunk-auto-resize-and-flow-control/",
-          "date": "2026-09-28T13:56:53.000Z",
-          "author": "Corrado Pandiani"
+          "title": "PGO or not PGO this is the dilemma. Step 3",
+          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
+          "date": "2026-10-09T11:47:55.000Z",
+          "author": "Marco Tusa"
         },
         {
-          "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
-          "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
-          "date": "2026-09-21T09:57:06.000Z",
-          "author": "Catalin Besleaga"
+          "title": "PGO or not PGO this is the dilemma. Step 2",
+          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-2/",
+          "date": "2026-10-09T11:47:32.000Z",
+          "author": "Marco Tusa"
         }
       ]
     },
@@ -737,16 +737,16 @@
       },
       "blogPosts": [
         {
-          "title": "When pt-online-schema-change &#8220;where&#8221; Meets Galera: Understanding Chunk Auto-Resize and Flow Control",
-          "url": "https://www.percona.com/blog/when-pt-online-schema-change-where-meets-galera-understanding-chunk-auto-resize-and-flow-control/",
-          "date": "2026-09-28T13:56:53.000Z",
-          "author": "Corrado Pandiani"
+          "title": "PGO or not PGO this is the dilemma. Step 3",
+          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
+          "date": "2026-10-09T11:47:55.000Z",
+          "author": "Marco Tusa"
         },
         {
-          "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
-          "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
-          "date": "2026-09-21T09:57:06.000Z",
-          "author": "Catalin Besleaga"
+          "title": "PGO or not PGO this is the dilemma. Step 2",
+          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-2/",
+          "date": "2026-10-09T11:47:32.000Z",
+          "author": "Marco Tusa"
         }
       ]
     },
