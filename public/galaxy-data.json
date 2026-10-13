@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T02:18:39.957Z",
+  "generatedAt": "2026-10-13T02:15:40.596Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,15 +363,15 @@
       },
       "blogPosts": [
         {
+          "title": "Meet MySQL 26.7: A New Versioning Era Begins",
+          "url": "https://www.percona.com/blog/meet-mysql-26-7-a-new-versioning-era-begins/",
+          "date": "2026-10-12T04:05:49.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "PGO or not PGO this is the dilemma. Step 3",
           "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
           "date": "2026-10-09T11:47:55.000Z",
-          "author": "Marco Tusa"
-        },
-        {
-          "title": "PGO or not PGO this is the dilemma. Step 2",
-          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-2/",
-          "date": "2026-10-09T11:47:32.000Z",
           "author": "Marco Tusa"
         }
       ]
@@ -447,15 +447,15 @@
       },
       "blogPosts": [
         {
+          "title": "Meet MySQL 26.7: A New Versioning Era Begins",
+          "url": "https://www.percona.com/blog/meet-mysql-26-7-a-new-versioning-era-begins/",
+          "date": "2026-10-12T04:05:49.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "PGO or not PGO this is the dilemma. Step 3",
           "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
           "date": "2026-10-09T11:47:55.000Z",
-          "author": "Marco Tusa"
-        },
-        {
-          "title": "PGO or not PGO this is the dilemma. Step 2",
-          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-2/",
-          "date": "2026-10-09T11:47:32.000Z",
           "author": "Marco Tusa"
         }
       ]
@@ -531,15 +531,15 @@
       },
       "blogPosts": [
         {
+          "title": "Meet MySQL 26.7: A New Versioning Era Begins",
+          "url": "https://www.percona.com/blog/meet-mysql-26-7-a-new-versioning-era-begins/",
+          "date": "2026-10-12T04:05:49.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "PGO or not PGO this is the dilemma. Step 3",
           "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
           "date": "2026-10-09T11:47:55.000Z",
-          "author": "Marco Tusa"
-        },
-        {
-          "title": "PGO or not PGO this is the dilemma. Step 2",
-          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-2/",
-          "date": "2026-10-09T11:47:32.000Z",
           "author": "Marco Tusa"
         }
       ]
@@ -615,15 +615,15 @@
       },
       "blogPosts": [
         {
+          "title": "Meet MySQL 26.7: A New Versioning Era Begins",
+          "url": "https://www.percona.com/blog/meet-mysql-26-7-a-new-versioning-era-begins/",
+          "date": "2026-10-12T04:05:49.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "PGO or not PGO this is the dilemma. Step 3",
           "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
           "date": "2026-10-09T11:47:55.000Z",
-          "author": "Marco Tusa"
-        },
-        {
-          "title": "PGO or not PGO this is the dilemma. Step 2",
-          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-2/",
-          "date": "2026-10-09T11:47:32.000Z",
           "author": "Marco Tusa"
         }
       ]
@@ -737,15 +737,15 @@
       },
       "blogPosts": [
         {
+          "title": "Meet MySQL 26.7: A New Versioning Era Begins",
+          "url": "https://www.percona.com/blog/meet-mysql-26-7-a-new-versioning-era-begins/",
+          "date": "2026-10-12T04:05:49.000Z",
+          "author": "Anil Joshi"
+        },
+        {
           "title": "PGO or not PGO this is the dilemma. Step 3",
           "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
           "date": "2026-10-09T11:47:55.000Z",
-          "author": "Marco Tusa"
-        },
-        {
-          "title": "PGO or not PGO this is the dilemma. Step 2",
-          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-2/",
-          "date": "2026-10-09T11:47:32.000Z",
           "author": "Marco Tusa"
         }
       ]
