@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T02:02:17.239Z",
+  "generatedAt": "2026-10-16T02:02:05.188Z",
   "products": [
     {
       "id": "psmdb",
@@ -363,16 +363,16 @@
       },
       "blogPosts": [
         {
+          "title": "JavaScript in MySQL: Extending SQL, Not Moving the Application",
+          "url": "https://www.percona.com/blog/javascript-in-mysql-extending-sql-not-moving-the-application/",
+          "date": "2026-10-15T15:12:30.000Z",
+          "author": "Marco Tusa"
+        },
+        {
           "title": "Meet MySQL 26.7: A New Versioning Era Begins",
           "url": "https://www.percona.com/blog/meet-mysql-26-7-a-new-versioning-era-begins/",
           "date": "2026-10-12T04:05:49.000Z",
           "author": "Anil Joshi"
-        },
-        {
-          "title": "PGO or not PGO this is the dilemma. Step 3",
-          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
-          "date": "2026-10-09T11:47:55.000Z",
-          "author": "Marco Tusa"
         }
       ]
     },
@@ -447,16 +447,16 @@
       },
       "blogPosts": [
         {
+          "title": "JavaScript in MySQL: Extending SQL, Not Moving the Application",
+          "url": "https://www.percona.com/blog/javascript-in-mysql-extending-sql-not-moving-the-application/",
+          "date": "2026-10-15T15:12:30.000Z",
+          "author": "Marco Tusa"
+        },
+        {
           "title": "Meet MySQL 26.7: A New Versioning Era Begins",
           "url": "https://www.percona.com/blog/meet-mysql-26-7-a-new-versioning-era-begins/",
           "date": "2026-10-12T04:05:49.000Z",
           "author": "Anil Joshi"
-        },
-        {
-          "title": "PGO or not PGO this is the dilemma. Step 3",
-          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
-          "date": "2026-10-09T11:47:55.000Z",
-          "author": "Marco Tusa"
         }
       ]
     },
@@ -531,16 +531,16 @@
       },
       "blogPosts": [
         {
+          "title": "JavaScript in MySQL: Extending SQL, Not Moving the Application",
+          "url": "https://www.percona.com/blog/javascript-in-mysql-extending-sql-not-moving-the-application/",
+          "date": "2026-10-15T15:12:30.000Z",
+          "author": "Marco Tusa"
+        },
+        {
           "title": "Meet MySQL 26.7: A New Versioning Era Begins",
           "url": "https://www.percona.com/blog/meet-mysql-26-7-a-new-versioning-era-begins/",
           "date": "2026-10-12T04:05:49.000Z",
           "author": "Anil Joshi"
-        },
-        {
-          "title": "PGO or not PGO this is the dilemma. Step 3",
-          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
-          "date": "2026-10-09T11:47:55.000Z",
-          "author": "Marco Tusa"
         }
       ]
     },
@@ -615,16 +615,16 @@
       },
       "blogPosts": [
         {
+          "title": "JavaScript in MySQL: Extending SQL, Not Moving the Application",
+          "url": "https://www.percona.com/blog/javascript-in-mysql-extending-sql-not-moving-the-application/",
+          "date": "2026-10-15T15:12:30.000Z",
+          "author": "Marco Tusa"
+        },
+        {
           "title": "Meet MySQL 26.7: A New Versioning Era Begins",
           "url": "https://www.percona.com/blog/meet-mysql-26-7-a-new-versioning-era-begins/",
           "date": "2026-10-12T04:05:49.000Z",
           "author": "Anil Joshi"
-        },
-        {
-          "title": "PGO or not PGO this is the dilemma. Step 3",
-          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
-          "date": "2026-10-09T11:47:55.000Z",
-          "author": "Marco Tusa"
         }
       ]
     },
@@ -737,16 +737,16 @@
       },
       "blogPosts": [
         {
+          "title": "JavaScript in MySQL: Extending SQL, Not Moving the Application",
+          "url": "https://www.percona.com/blog/javascript-in-mysql-extending-sql-not-moving-the-application/",
+          "date": "2026-10-15T15:12:30.000Z",
+          "author": "Marco Tusa"
+        },
+        {
           "title": "Meet MySQL 26.7: A New Versioning Era Begins",
           "url": "https://www.percona.com/blog/meet-mysql-26-7-a-new-versioning-era-begins/",
           "date": "2026-10-12T04:05:49.000Z",
           "author": "Anil Joshi"
-        },
-        {
-          "title": "PGO or not PGO this is the dilemma. Step 3",
-          "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-3/",
-          "date": "2026-10-09T11:47:55.000Z",
-          "author": "Marco Tusa"
         }
       ]
     },
