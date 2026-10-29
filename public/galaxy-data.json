@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T02:01:26.902Z",
+  "generatedAt": "2026-10-29T02:01:33.886Z",
   "products": [
     {
       "id": "psmdb",
@@ -25,16 +25,16 @@
       },
       "blogPosts": [
         {
+          "title": "Why you should stop using ARBITERS in MongoDB",
+          "url": "https://www.percona.com/blog/why-you-should-stop-using-arbiters-in-mongodb/",
+          "date": "2026-10-28T22:07:29.000Z",
+          "author": "Jean da Silva"
+        },
+        {
           "title": "Percona ClusterSync for MongoDB 1.0.0 is Generally Available",
           "url": "https://www.percona.com/blog/percona-clustersync-for-mongodb-1-0-0-is-generally-available/",
           "date": "2026-10-06T14:16:14.000Z",
           "author": "Radoslaw Szulgo"
-        },
-        {
-          "title": "What Is Running on My MongoDB Right Now? Real-Time Analytics in PMM",
-          "url": "https://www.percona.com/blog/what-is-running-on-my-mongodb-right-now-real-time-analytics-in-pmm/",
-          "date": "2026-10-06T12:51:43.000Z",
-          "author": "Tibor Korocz"
         }
       ]
     },
@@ -109,16 +109,16 @@
       },
       "blogPosts": [
         {
+          "title": "Why you should stop using ARBITERS in MongoDB",
+          "url": "https://www.percona.com/blog/why-you-should-stop-using-arbiters-in-mongodb/",
+          "date": "2026-10-28T22:07:29.000Z",
+          "author": "Jean da Silva"
+        },
+        {
           "title": "Percona ClusterSync for MongoDB 1.0.0 is Generally Available",
           "url": "https://www.percona.com/blog/percona-clustersync-for-mongodb-1-0-0-is-generally-available/",
           "date": "2026-10-06T14:16:14.000Z",
           "author": "Radoslaw Szulgo"
-        },
-        {
-          "title": "What Is Running on My MongoDB Right Now? Real-Time Analytics in PMM",
-          "url": "https://www.percona.com/blog/what-is-running-on-my-mongodb-right-now-real-time-analytics-in-pmm/",
-          "date": "2026-10-06T12:51:43.000Z",
-          "author": "Tibor Korocz"
         }
       ]
     },
