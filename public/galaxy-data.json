@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T02:01:27.678Z",
+  "generatedAt": "2026-10-31T02:01:34.254Z",
   "products": [
     {
       "id": "psmdb",
@@ -25,16 +25,16 @@
       },
       "blogPosts": [
         {
+          "title": "What&#8217;s New in PSMDB Sandbox: Six Months of Updates",
+          "url": "https://www.percona.com/blog/whats-new-in-psmdb-sandbox-six-months-of-updates/",
+          "date": "2026-10-30T11:14:05.000Z",
+          "author": "Ivan Groenewold"
+        },
+        {
           "title": "PLGM Has Grown Up: A New UI and Many More Features",
           "url": "https://www.percona.com/blog/plgm-has-grown-up-a-new-ui-and-many-more-features/",
           "date": "2026-10-29T14:57:09.000Z",
           "author": "Daniel Almeida"
-        },
-        {
-          "title": "Why you should stop using ARBITERS in MongoDB",
-          "url": "https://www.percona.com/blog/why-you-should-stop-using-arbiters-in-mongodb/",
-          "date": "2026-10-28T22:07:29.000Z",
-          "author": "Jean da Silva"
         }
       ]
     },
@@ -109,16 +109,16 @@
       },
       "blogPosts": [
         {
+          "title": "What&#8217;s New in PSMDB Sandbox: Six Months of Updates",
+          "url": "https://www.percona.com/blog/whats-new-in-psmdb-sandbox-six-months-of-updates/",
+          "date": "2026-10-30T11:14:05.000Z",
+          "author": "Ivan Groenewold"
+        },
+        {
           "title": "PLGM Has Grown Up: A New UI and Many More Features",
           "url": "https://www.percona.com/blog/plgm-has-grown-up-a-new-ui-and-many-more-features/",
           "date": "2026-10-29T14:57:09.000Z",
           "author": "Daniel Almeida"
-        },
-        {
-          "title": "Why you should stop using ARBITERS in MongoDB",
-          "url": "https://www.percona.com/blog/why-you-should-stop-using-arbiters-in-mongodb/",
-          "date": "2026-10-28T22:07:29.000Z",
-          "author": "Jean da Silva"
         }
       ]
     },
@@ -700,16 +700,16 @@
       },
       "blogPosts": [
         {
+          "title": "What&#8217;s New in PSMDB Sandbox: Six Months of Updates",
+          "url": "https://www.percona.com/blog/whats-new-in-psmdb-sandbox-six-months-of-updates/",
+          "date": "2026-10-30T11:14:05.000Z",
+          "author": "Ivan Groenewold"
+        },
+        {
           "title": "What Is Running on My MongoDB Right Now? Real-Time Analytics in PMM",
           "url": "https://www.percona.com/blog/what-is-running-on-my-mongodb-right-now-real-time-analytics-in-pmm/",
           "date": "2026-10-06T12:51:43.000Z",
           "author": "Tibor Korocz"
-        },
-        {
-          "title": "Security Advisory: CVE  Impacting Percona Monitoring and Management (PMM)",
-          "url": "https://www.percona.com/blog/security-advisory-cve-affecting-percona-monitoring-and-management-pmm-2/",
-          "date": "2025-07-31T20:34:21.000Z",
-          "author": "Liz Warner"
         }
       ]
     },
