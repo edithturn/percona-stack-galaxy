@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T02:01:06.529Z",
+  "generatedAt": "2026-11-13T02:01:28.901Z",
   "products": [
     {
       "id": "psmdb",
@@ -25,16 +25,16 @@
       },
       "blogPosts": [
         {
+          "title": "So, now you need to upgrade your MongoDB cluster&#8230;",
+          "url": "https://www.percona.com/blog/mongodb-upgrade-roadmap/",
+          "date": "2026-11-12T19:57:57.000Z",
+          "author": "Zelmar Michelini"
+        },
+        {
           "title": "MongoDB 9.0 vs. 8.0 vs. 8.3: A Quick First Look at Performance",
           "url": "https://www.percona.com/blog/mongodb-9-0-vs-8-0-vs-8-3-a-quick-first-look-at-performance/",
           "date": "2026-11-06T10:36:47.000Z",
           "author": "Ivan Groenewold"
-        },
-        {
-          "title": "General Availability of Percona Search for MongoDB",
-          "url": "https://www.percona.com/blog/general-availability-of-percona-search-for-mongodb/",
-          "date": "2026-11-03T18:48:06.000Z",
-          "author": "Radoslaw Szulgo"
         }
       ]
     },
@@ -109,16 +109,16 @@
       },
       "blogPosts": [
         {
+          "title": "So, now you need to upgrade your MongoDB cluster&#8230;",
+          "url": "https://www.percona.com/blog/mongodb-upgrade-roadmap/",
+          "date": "2026-11-12T19:57:57.000Z",
+          "author": "Zelmar Michelini"
+        },
+        {
           "title": "MongoDB 9.0 vs. 8.0 vs. 8.3: A Quick First Look at Performance",
           "url": "https://www.percona.com/blog/mongodb-9-0-vs-8-0-vs-8-3-a-quick-first-look-at-performance/",
           "date": "2026-11-06T10:36:47.000Z",
           "author": "Ivan Groenewold"
-        },
-        {
-          "title": "General Availability of Percona Search for MongoDB",
-          "url": "https://www.percona.com/blog/general-availability-of-percona-search-for-mongodb/",
-          "date": "2026-11-03T18:48:06.000Z",
-          "author": "Radoslaw Szulgo"
         }
       ]
     },
