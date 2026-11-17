@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T02:01:38.226Z",
+  "generatedAt": "2026-11-17T02:01:32.131Z",
   "products": [
     {
       "id": "psmdb",
@@ -790,16 +790,16 @@
       },
       "blogPosts": [
         {
+          "title": "Inside Kvrocks",
+          "url": "https://www.percona.com/blog/inside-kvrocks/",
+          "date": "2026-11-16T21:49:34.000Z",
+          "author": "Martin Visser"
+        },
+        {
           "title": "Manually Migrate Hash Slots in a Valkey/Redis Cluster",
           "url": "https://www.percona.com/blog/manually-migrate-hash-slots-in-a-valkey-redis-cluster/",
           "date": "2026-05-20T02:45:07.000Z",
           "author": "Hieu Nguyen"
-        },
-        {
-          "title": "Managing Valkey Cluster in Kubernetes",
-          "url": "https://www.percona.com/blog/managing-valkey-cluster-in-kubernetes/",
-          "date": "2026-04-30T23:05:39.000Z",
-          "author": "Matthew Boehm"
         }
       ]
     },
